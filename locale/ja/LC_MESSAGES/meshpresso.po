@@ -1,0 +1,467 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020
+# This file is distributed under the same license as the CoFEA Initiative package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CoFEA Initiative\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-14 15:00+0000\n"
+"PO-Revision-Date: 2021-05-14 14:56+0000\n"
+"Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/120662/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../CoFEA/docs/meshpresso/api.rst:2
+msgid "Meshpresso module"
+msgstr ""
+
+#: ../../CoFEA/docs/meshpresso/api.rst:4
+msgid ""
+"The following section contains a documentation of the Meshpresso module "
+"implementation."
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Mesh:1
+msgid ""
+"Mesh is the most general class used to import, store and export mesh data. "
+"the idea is to initialise the constructor, then import mesh from db file. "
+"finally, the mesh can be exported to an external format. for example"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Mesh:13
+msgid "name of imported model"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Mesh:0
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Mesh:0
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Mesh:0
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.PartMesh:0
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.PartMesh:0
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.PartMesh:0
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.PartMesh:0
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.PartMesh:0
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.PartMesh:0
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.PartMesh:0
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Element:0
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Element:0
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Element:0
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Node:0
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Node:0
+msgid "type"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Mesh:15
+msgid "string"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Mesh:19
+msgid "list of imported parts"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Mesh:21
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.PartMesh:19
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Element:20
+msgid "list"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Mesh:25
+msgid ""
+"the dictionary contains parts, but those have renumbered        node and "
+"element labels, so that the labels are not        repeating"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Mesh:27
+msgid "dictionary"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.Mesh.export_to_calculix:1
+msgid "function to export mesh to calculix format"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.Mesh.export_to_calculix:0
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.Mesh.export_to_unv_format:0
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.Mesh.import_from_abaqus_cae:0
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.Mesh.import_from_db_file:0
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.Mesh.save_to_db_file:0
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.PartMesh.from_abaqus_cae:0
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.PartMesh.get_elements_from_label_list:0
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.PartMesh.get_nodes_from_label_list:0
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.PartMesh.reorder_nodes_in_el_definition:0
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.PartMesh.set_element_type_format:0
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.Element.change_label:0
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.Node.change_label:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.Mesh.export_to_calculix:3
+msgid "name of the file to export mesh (eg 'calculix.inp')"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.Mesh.export_to_unv_format:1
+msgid "function to export to unv format"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.Mesh.export_to_unv_format:3
+msgid "name of the file to export mesh (eg 'salome.unv')"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.Mesh.get_calculix_surf_definition:1
+msgid "function converts surfaces into format appropriate for calculix."
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.Mesh.get_calculix_surf_definition:0
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.Mesh.import_from_abaqus_cae:0
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.Mesh.import_from_db_file:0
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.Mesh.renumber_mesh:0
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.Mesh.set_salome_surf_definition:0
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.PartMesh.from_abaqus_cae:0
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.PartMesh.get_elements_by_type:0
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.PartMesh.get_elements_from_label_list:0
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.PartMesh.get_nodes_from_label_list:0
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.Element.get_node_labels:0
+msgid "Returns"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.Mesh.get_calculix_surf_definition:4
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.Mesh.set_salome_surf_definition:4
+msgid ""
+"dictionary with surface name as keys and dictionary surface definition as "
+"value"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.Mesh.get_calculix_surf_definition:0
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.Mesh.import_from_abaqus_cae:0
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.Mesh.import_from_db_file:0
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.Mesh.renumber_mesh:0
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.Mesh.set_salome_surf_definition:0
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.PartMesh.from_abaqus_cae:0
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.PartMesh.get_elements_by_type:0
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.PartMesh.get_elements_from_label_list:0
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.PartMesh.get_nodes_from_label_list:0
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.Element.get_node_labels:0
+msgid "Return type"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.Mesh.import_from_abaqus_cae:1
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.Mesh.import_from_db_file:1
+msgid "function to initiate the mesh object"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.Mesh.import_from_abaqus_cae:3
+msgid "name of the abaqus model"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.Mesh.import_from_abaqus_cae:5
+msgid "list of abaqus parts to export mesh from"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.Mesh.import_from_abaqus_cae:8
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.Mesh.import_from_db_file:6
+msgid "object containing model mesh definition"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.Mesh.import_from_db_file:3
+msgid "path to the db file"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.Mesh.renumber_mesh:1
+msgid ""
+"function computes mesh at assembly level from list of part objects. the "
+"returned dictionary contains parts with renumbered nodes and elements"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.Mesh.renumber_mesh:5
+msgid "dictionary of parts"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.Mesh.save_to_db_file:1
+msgid "function to save model data to db file"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.Mesh.save_to_db_file:3
+msgid "name of the file that will be used to store data"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.Mesh.set_salome_surf_definition:1
+msgid "function converts surfaces into format appropriate for salome."
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.PartMesh:1
+msgid "PartMesh is an object used to store mesh properties for a given part."
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.PartMesh:5
+msgid "name of the part"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.PartMesh:7
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Element:8
+msgid "str"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.PartMesh:11
+msgid "list of the node objects"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.PartMesh:13
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.PartMesh.get_nodes_from_label_list:6
+msgid "list of node objects"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.PartMesh:17
+msgid "list of the element objects"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.PartMesh:23
+msgid "dictionary of elements grouped by element type"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.PartMesh:25
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.PartMesh:31
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.PartMesh:37
+msgid "defaultdict(list)"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.PartMesh:29
+msgid "dictionary of element sets grouped by element set name"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.PartMesh:35
+msgid "dictionary of node sets grouped by node set name"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.PartMesh:41
+msgid ""
+"dictionary of surfaces {surf_name: {'nodes': n_set, 'elements': el_set, "
+"'sides': string}, by default None"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.PartMesh:45
+msgid "defaultdict(list), optional"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.PartMesh.from_abaqus_cae:1
+msgid "function to initiate object from abaqus part."
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.PartMesh.from_abaqus_cae:3
+msgid "abaqus part object"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.PartMesh.from_abaqus_cae:6
+msgid "object containing part mesh definition"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.PartMesh.get_elements_by_type:1
+msgid ""
+"function used to create a dictionary of elements with element types used as "
+"keys"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.PartMesh.get_elements_by_type:4
+msgid "dictionary of elements with elementtypes used as keys"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.PartMesh.get_elements_from_label_list:1
+msgid "function to retreive the elements from list of elements labels."
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.PartMesh.get_elements_from_label_list:4
+msgid "list of integers referring to element labels"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.PartMesh.get_elements_from_label_list:7
+msgid "list of element objects"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.PartMesh.get_nodes_from_label_list:1
+msgid "function to retrieve the nodes from list of node labels"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.PartMesh.get_nodes_from_label_list:3
+msgid "list of integers describing node labes"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.PartMesh.reorder_nodes_in_el_definition:1
+msgid ""
+"function used to reoder nodes. by default the node order is the same as in "
+"abaqus."
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.PartMesh.reorder_nodes_in_el_definition:4
+msgid "format of mesh to be converted to"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.PartMesh.set_element_type_format:1
+msgid ""
+"function to change element types in dictionary elements_by_type (for example"
+" from c3_d20_r to 116)"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.PartMesh.set_element_type_format:4
+msgid "new format (eg 'UNV')"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Element:1
+msgid ""
+"class used to store information about elements, theirs type, label and "
+"connection to nodes"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Element:6
+msgid "element type (eg C3D4)"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Element:12
+msgid "element number"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Element:14
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Node:7
+msgid "int"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Element:18
+msgid "list of nodes that element is based on"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.Element.change_label:1
+msgid "a function to change element label"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.Element.change_label:3
+msgid "new element number"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.Element.get_node_labels:1
+msgid "function returns labels of nodes which building the element"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.Element.get_node_labels:3
+msgid "list of integers describing node labels"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Node:1
+msgid "used to create node objects from external data"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Node:5
+msgid "node number"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Node:11
+msgid "node coordinates"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Node:13
+msgid "tuple"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.Node.change_label:1
+msgid "a function to change node label"
+msgstr ""
+
+#: ../../CoFEA/meshpresso/meshpresso.pydocstring of
+#: meshpresso.Node.change_label:3
+msgid "new node number"
+msgstr ""
+
+#: ../../CoFEA/docs/meshpresso/index.md:1
+msgid "Meshpresso Mesh Converter"
+msgstr ""
+
+#: ../../CoFEA/docs/meshpresso/index.md:3
+msgid ""
+"The idea behind of Python Meshpresso module is to allow converting models "
+"data between different simulation environments. The Meshpresso module is "
+"written in a way that allows to either create a mesh from scratch or import "
+"it from different source. Here is the example how to prepare a mesh which is"
+" then exported to Calculix input deck. It can also be exported to .db file "
+"from which it can be imported back."
+msgstr ""
+
+#: ../../CoFEA/docs/meshpresso/index.md:62
+msgid ""
+"In order to load the mesh from db file, the following function can be used:"
+msgstr ""
+
+#: ../../CoFEA/docs/meshpresso/index.md:69
+msgid "Documentation of module implementation can be found in the link below:"
+msgstr ""

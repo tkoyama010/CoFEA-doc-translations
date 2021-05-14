@@ -1,0 +1,365 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020
+# This file is distributed under the same license as the CoFEA Initiative package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CoFEA Initiative \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-14 15:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../CoFEA/docs/fea_software/calculix.md:1
+msgid "Calculix"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:2
+#: ../../CoFEA/docs/fea_software/code_aster.md:2
+#: ../../CoFEA/docs/fea_software/elmer.md:2
+msgid "Table of Contents"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:7
+#: ../../CoFEA/docs/fea_software/elmer.md:8
+msgid "Setup and compilation from source"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:8
+msgid "To use Calculix in multithreading mode it is needed to compile from source. In order to do so it is necessary to compile ARPACK and SPOOLES library and install the required tools. The code which is presented here is already changed and ready for compilation. Please read the original documentation first from [here](http://www.dhondt.de/ccx_2.17.README.INSTALL)."
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:10
+msgid "Tools"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:11
+msgid "Install the required tools for Calculix:"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:12
+msgid "gfortran"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:13
+msgid "make"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:14
+msgid "f2c"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:15
+msgid "liblapack3"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:16
+msgid "liblapack-dev"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:17
+msgid "libexodusii-dev"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:18
+msgid "libgl1-mesa-dev"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:19
+msgid "libglu1-mesa-dev"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:20
+msgid "libxi-dev"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:21
+msgid "libxmu-dev"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:22
+msgid "gcc"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:24
+#: ../../CoFEA/docs/fea_software/code_aster.md:48
+msgid "using your package manager. For Ubuntu and Debian-oriented system the command should be like:"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:29
+msgid "SPOOLES"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:31
+msgid "SPOOLES library should be obtained from this [site](http://www.netlib.org/linalg/spooles/spooles.2.2.tgz) using wget command."
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:37
+msgid "After downloading the file, it is mandatory to create folder SPOOLES.2.2. Move the archive there and unpack it. It can be done with the following commands:"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:45
+msgid "Change directory to SPOOLES.2.2 with cd:"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:51
+msgid "Then  uncomment 14 line and comment line 15 in Make.inc file with your text editor. It can be done by:"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:56
+msgid "The file after changes should look like:"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:62
+msgid "Now the files are ready for compilation. Use:"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:67
+msgid "Then it is needed to compile the MT library. It is done with following commands:"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:73
+msgid "ARPACK"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:75
+msgid "Next step is to compile ARPACK library. It is needed to download 2 seperate archives. Obtain it from [here](https://www.caam.rice.edu/software/ARPACK/SRC/arpack96.tar.gz) and [here](https://www.caam.rice.edu/software/ARPACK/SRC/patch.tar.gz)."
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:83
+msgid "Then unpack files with tar commands"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:90
+msgid "In `ARPACK/ARmake.inc` change:"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:91
+msgid "`home = $(HOME)/ARPACK` to your ARPACK directory"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:92
+msgid "`PLAT = SUN4` to `PLAT = linux`"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:93
+msgid "`FC = f77` to `FC = gfortran`"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:94
+msgid "`FFLAGS = -O -cg89` to `FFLAGS = -O2`"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:95
+msgid "`MAKE = /bin/make` to `MAKE = make`"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:96
+msgid "`SHELL = /bin/sh` to `SHELL = shell`"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:97
+msgid "In `ARPACK/UTIL/second.f` change: `EXTERNAL ETIME` to `*EXTERNAL ETIME`"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:99
+msgid "Then mowe to ARPACK directory and run:"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:104
+msgid "Calculix compilation"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:106
+msgid "Obtain Calculix [source code](http://www.dhondt.de/ccx_2.17.src.tar.bz2) using wget to your Calculix directory."
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:111
+msgid "To unpack archieve use:"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:116
+msgid "In order to compile Calculix in multithreading mode it is needed to change the Makefile from singlethread to multithread one. It can be simply done by:"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:123
+msgid "In `Makefile` change:"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:124
+msgid "`CC=cc` to `CC=gcc`"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:125
+msgid "in 15 line   `../../../ARPACK/libarpack_INTEL.a \\` to `../../../ARPACK/libarpack_linux.a \\`"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:127
+msgid "Then it is possible to compile Calculix with:"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:132
+msgid "Happy meshing!"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:134
+msgid "Interesting projects with CalculiX"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:136
+msgid "[CAE](https://github.com/calculix/cae) is a software package mainly consisting of CalculiX GraphiX, CrunchiX and keyword editor."
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:138
+msgid "[unv2ccx](https://github.com/calculix/unv2ccx) is a mesh converter that allows to convert Salome UNV file into CalculiX INP file."
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:140
+msgid "[ccx2paraview](https://github.com/calculix/ccx2paraview) is a Calculix results converter which creates a Paraview compatible file."
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/calculix.md:142
+msgid "[pycalculix](https://github.com/spacether/pycalculix) is a Python 3 library to automate and build finite element analysis (FEA) models in Calculix."
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/code_aster.md:1
+msgid "Salome / Code_Aster"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/code_aster.md:7
+msgid "Salome-Meca 2020 installation in Ubuntu 20.04"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/code_aster.md:9
+msgid "The following manual describes how to install the latest version of Salome-Meca environment."
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/code_aster.md:31
+msgid "Code_Aster compilation under Ubuntu 18.04"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/code_aster.md:32
+msgid "To use Code_aster in multithreading mode on UBUNTU 18.04 it is needed to compile from source. In order to do so it is necessary to install required dependencies tools. The source code of Code_aster can be obtained from this repository or [link](https://www.code-aster.org/spip.php?rubrique21)."
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/code_aster.md:34
+msgid "Prerequisities"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/code_aster.md:35
+msgid "Install the required tools for Code_aster:"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/code_aster.md:36
+msgid "gcc, g++, gfortran,"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/code_aster.md:37
+msgid "cmake,"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/code_aster.md:38
+msgid "python3,"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/code_aster.md:39
+msgid "python3-dev,"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/code_aster.md:40
+msgid "python3-numpy,"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/code_aster.md:41
+msgid "tk,"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/code_aster.md:42
+msgid "bison,,"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/code_aster.md:43
+msgid "flex,"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/code_aster.md:44
+msgid "liblapack-dev, libblas-dev ou libopenblas-dev,"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/code_aster.md:45
+msgid "libboost-python-dev (+ libboost-numpy-dev on ubuntu, boost-devel on centos),"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/code_aster.md:46
+msgid "zlib (named zlib1g-dev sur debian/ubuntu)."
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/code_aster.md:53
+msgid "Compilation"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/code_aster.md:55
+msgid "In order to compile Code_aster please download the source code to the installation directory."
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/code_aster.md:61
+msgid "After downloading the file, please unpack it using the following commands:"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/code_aster.md:67
+msgid "To compile the code. please use command:"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/code_aster.md:72
+msgid "To be able to use Code_aster and ASTK in every directory on your system you need to add line to .bashrc file"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/code_aster.md:79
+msgid "Sometimes this operation need root privileges so add sudo at the beginnings of the commands."
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/code_aster.md:81
+msgid "How to use ASTK with Code_aster"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/code_aster.md:83
+msgid "Change your directory to the simulation directory. In this directory there should be solver input file (*.comm) and mesh file  Create two dummy files result.rmed (there will be the results of the simulation) and error.mess (logfile of the solver) and .astk file for ASTK enviroment. Use touch command:"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/code_aster.md:91
+msgid "Type the"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/code_aster.md:96
+msgid "in the terminal. The ASTK Window should appear with the job progress window."
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/code_aster.md:105
+msgid "In the Base path select your working directory, then add *.comm file, mesh file, *.rmed and *.mess to run the simulation with the blue, open folder icon. To start the simulation press run."
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/elmer.md:1
+msgid "Elmer"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/elmer.md:9
+msgid "Instalation process of ElmerGUI is straightforward. It is needed to add Elmer sources and then just download the package. To do so please use following commands:"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/elmer.md:18
+msgid "How  to use ElmerGUI with Benchmarks"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/elmer.md:20
+msgid "Please start ElmerGUI with:"
+msgstr ""
+
+#: ../../CoFEA/docs/fea_software/elmer.md:25
+msgid "Please load .unv mesh with Open File icon, then generate .sif file (Ctrl+G) and save the project. Then replace the generated .sif and .xml files with ones uploaded on CoFEA github. Start ElmerGUI and click import project and navigate to the project directory and click open. The benchmarking files should import without troubles."
+msgstr ""

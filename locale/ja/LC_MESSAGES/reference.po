@@ -1,0 +1,658 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020
+# This file is distributed under the same license as the CoFEA Initiative package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CoFEA Initiative\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-14 15:00+0000\n"
+"PO-Revision-Date: 2021-05-14 14:56+0000\n"
+"Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/120662/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../CoFEA/docs/reference/about_us.md:1
+msgid "CoFEA Team"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/about_us.md:3
+msgid "Authors"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/about_us.md:5
+msgid ""
+"[Slaw Polanski](https://www.linkedin.com/in/slawomirpolanski/) - originator "
+"of CoFEA initiative and simulation engineer. In CoFEA team he is responsible"
+" for supervision of the project and technical expertise."
+msgstr ""
+
+#: ../../CoFEA/docs/reference/about_us.md:7
+msgid ""
+"[Maciej Dudek](https://www.linkedin.com/in/dudek-maciej/) - mechanical "
+"engineering student who is passionate about FEA and Linux. His main "
+"responsibilities are conducting the FEA simulations and postprocessing "
+"results with Python."
+msgstr ""
+
+#: ../../CoFEA/docs/reference/about_us.md:9
+msgid "You can also contact us on cofea.project(at)gmail.com"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/about_us.md:13
+msgid "Contributors"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/about_us.md:15
+msgid "Filip Janczak"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/about_us.md:16
+msgid "Gabriel Dante Lima Chaves"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog.md:1
+msgid "CoFEA Blog"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog.md:3
+msgid "This page will be replaced by ABlog."
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2020-12-10.md:5
+msgid ""
+"Engineering simulations without limits. The origin of CoFEA Initiative ☕"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2020-12-10.md:7
+msgid ""
+"Although the numerical simulations have been available for engineers for "
+"more than 50 years, I don't feel they are as popular as they deserve to be. "
+"Some software vendors want to 'democratize' the simulation by simplifying "
+"its usage. It might be a way to make simulations more popular, but I am not "
+"sure if the term 'democratization' is the right word. As far as I remember "
+"the economic status should not matter in a real democracy, but it does "
+"matter in the proposed type of democratization. It is very likely that more "
+"engineers would use simulations if they weren't that expensive. There is "
+"also another flip side of this approach... How much the developers can "
+"simplify the usage of software before it becomes a black-box solution? I bet"
+" some people would even argue that any software which is not open-source is "
+"essentially a black-box, but I am not that strict with the rules."
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2020-12-10.md:9
+msgid ""
+"I must admit I have been thinking for some time on how to introduce computer"
+" simulations in more companies. It seems to be a highly complex problem with"
+" a non-unique solution. That is why I feel like any contribution will help, "
+"so I would like to present my own initiative. Since the beginning of "
+"November, I have been working on my new after-hours project which I called "
+"CoFEA (Collaboration + Finite Element Analysis). CoFEA is an initiative that"
+" aims to bring open-source simulation software closer to the engineering "
+"industry problems. The goals of this initiative is to:"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2020-12-10.md:11
+msgid "raise awareness of the available open-source simulation software"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2020-12-10.md:12
+msgid ""
+"increase confidence in using this software by testing it with benchmarks and"
+" real-life problems"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2020-12-10.md:13
+msgid "develop Python tools and scripts to make usage easier and simpler"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2020-12-10.md:14
+msgid ""
+"gather information on how to set up the simulation environment correctly"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2020-12-10.md:16
+msgid ""
+"I truly believe it is possible to use free tools to solve a lot of "
+"engineering problems. Probably not as many as with the commercial software, "
+"but still plenty of them. The main issue with the open-source software "
+"though is that the know-how is spread over the whole internet. Sometimes it "
+"is even hard to find out how to run a code properly. That is why it is "
+"important to gather all the knowledge in one place for those who seek it."
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2020-12-10.md:18
+msgid ""
+"Furthermore, knowing how to run a simulation is not equal to having "
+"confidence in its results. The database of benchmarks allows not only to "
+"check if the software gives a correct answer but also to find out which code"
+" is the most appropriate to use."
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2020-12-10.md:20
+msgid ""
+"Another pitfall of the open-source software is the lack of compatibility "
+"between the codes. Some codes are great for mesh generation, some have great"
+" solvers and some have great post-processing capabilities. I haven't found "
+"open-source software which meets all these conditions. This obstacle is "
+"another goal of the CoFEA Initiative - to create a Python library which "
+"converts simulation data into format possible to use in multiple codes."
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2020-12-10.md:22
+msgid ""
+"All of these tasks have been tackled since the origin of the project. "
+"Fortunately, I was not alone in this journey - with the great help of Maciej"
+" Dudek I was able to do more than I was initially aiming for. We chose the "
+"tuning fork model for the first benchmark in the CoFEA database. Despite the"
+" model simplicity, the study clearly shows that the fine mesh needs be used "
+"to be able to pick the frequency of 440 Hz. We have tested it in Calculix, "
+"Code Aster and Elmer - all give the same correct answer!"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2020-12-10.md:24
+msgid ""
+"We have also managed to set up the Paraview Glance server. This remarkable "
+"solution will enable us to show the simulation results directly on the web. "
+"At the moment, it is used only to show the tuning fork geometry and let the "
+"user play with it, but it has enormous potential when it gets to show what "
+"can be done with the open-source software. Click on this link to see exactly"
+" how it works!"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2020-12-10.md:26
+msgid ""
+"The CoFEA Initiative is built in a way that everyone can contribute. The "
+"Python code and the whole website is available on GitHub. Any modification "
+"made on GitHub invokes automatic compilation of HTML website on ReadTheDocs "
+"server using Sphinx and in this way, everyone can feel that is a part of "
+"this initiative."
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2020-12-10.md:28
+msgid "So how to contribute? There are plenty of ways:"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2020-12-10.md:29
+msgid ""
+"if you know how to use simulation software then you can help to make models"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2020-12-10.md:30
+msgid ""
+"if you possess programming skills then you can help to develop CoFEA mesh "
+"converter"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2020-12-10.md:31
+msgid "if you are good at writing then you can help to develop the website"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2020-12-10.md:32
+msgid ""
+"if you don’t think you have anything from the above, but you are eager to "
+"help just let me know! Either contact me on LinkedIn or send an email to "
+"cofea.project(at)gmail.com"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2020-12-10.md:34
+msgid ""
+"Finally, if you have any old FE input decks which were validated and you can"
+" share them, let me know! We will give them another life by checking them in"
+" the open-source software."
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2020-12-10.md:36
+msgid "Let's make this initiative valuable for all of us!"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2020-12-10.md:38
+msgid ""
+"[Follow the CoFEA Initiative on "
+"Twitter](https://twitter.com/CoFEAinitiative)"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2021-04-01.md:5
+msgid "April 2021"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2021-04-01.md:7
+msgid ""
+"Few months have passed since the last update from CoFEA Initiative, but it "
+"does not mean nothing has been done. Quite contrary! We tested five models, "
+"improved the website and connected some dots to establish a simulation "
+"workflow based on available open-source software."
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2021-04-01.md:9
+msgid "**Simulation workflow**"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2021-04-01.md:10
+msgid ""
+"The following section describes the simulation workflow that we followed "
+"when building the models."
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2021-04-01.md:12
+msgid "FE simulation workflow based on non-commercial software"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2021-04-01.md:20
+msgid "Salome vs Salome-Meca"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2021-04-01.md:22
+msgid ""
+"At first, it is worth clarifying the Salome package distribution: Salome and"
+" Salome-Meca. Actually, there is only one minor difference between these "
+"two. The \"ordinary\" Salome comes with many useful modules such as Shaper, "
+"GEOM, Mesh and ParaVIS (modified Paraview for Salome and Code_Aster), where "
+"Salome-Meca has an additional one called Aster_Study (pre-processor for "
+"Code_Aster) and contains the pre-compiled Code_Aster solver (this version "
+"supports only single-threaded calculations)."
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2021-04-01.md:24
+msgid "Shaper module"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2021-04-01.md:26
+msgid ""
+"Shaper is by now the newest module in the Salome package. It supports "
+"parametric modelling with the use of sketches extrusions, revolutions and "
+"also boolean operations. If you are familiar with any 3D CAD software you "
+"should not have any troubles with making models. The software might not be "
+"as robust as SolidWorks, NX and the rest of the crew but hey, it is only one"
+" year old and totally for free. Once you make your part in the Shaper "
+"module, remember to export it to the GEOM module. Otherwise, you will not be"
+" able to create groups for meshing."
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2021-04-01.md:28
+msgid "Creation of hemisphere using Shaper"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2021-04-01.md:36
+msgid "GEOM module"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2021-04-01.md:38
+msgid ""
+"GEOM is an ancestor of previously discussed Shaper. It provides versatile "
+"functionalities for the creation, visualisation and modification of "
+"geometric CAD models. In our workflow, we use it for group generations from "
+"CAD geometry which later can be transformed into groups of elements or "
+"nodes."
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2021-04-01.md:40
+msgid "Mesh module"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2021-04-01.md:42
+msgid ""
+"The goal of this module is simply to create the mesh based on geometrical "
+"models created in the GEOM module (or imported from the Shaper). It supports"
+" tri/tet and quad/hex meshes and enables the creation of node and element "
+"sets."
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2021-04-01.md:44
+msgid ""
+"The meshes created in Salome are not compatible with CalculiX. While the "
+"exported UNV file can be converted into an INP file with the "
+"[UNV2CCX](https://github.com/calculix/unv2ccx) converter, a different "
+"problem related to mesh data may occur. For example, every line in the UNV "
+"file is treated as a beam element in the INP file. A similar problem occurs "
+"for the 2D geometric features. To avoid having unnecessary element types in "
+"the INP file, one needs to delete them first in Salome and then export the "
+"UNV file. The procedure to do so is the following:"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2021-04-01.md:45
+msgid ""
+"create the groups on mesh with \"Create Groups from Geometry\" (the "
+"previously created groups in GEOM are used here),"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2021-04-01.md:46
+msgid "delete undesired entities with \"Delete Groups with Contents\"."
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2021-04-01.md:50
+msgid "Example of the meshed hemisphere"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2021-04-01.md:59
+msgid "unv2ccx converter"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2021-04-01.md:61
+msgid ""
+"The use of an unv2ccx converter is pretty straightforward. Just export your "
+"mesh to .unv format and then type the command:"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2021-04-01.md:67
+msgid ""
+"and voila, your mesh should be converted. Unfortunately, the converter "
+"doesn't support choosing the elements during conversion therefore sometimes "
+"element type need to be edited manually in the converted .inp file."
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2021-04-01.md:69
+msgid "ccx2paraview"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2021-04-01.md:71
+msgid "To convert .frd results to vtk just type this command:"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2021-04-01.md:76
+msgid "ElmerGrid"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2021-04-01.md:78
+msgid ""
+"ElmerGrid is generally a robust converter which supports the various format "
+"of meshes, but it has some drawbacks. The rule of thumb is to avoid using "
+"node sets as ElmerGUI doesn't support it. It is also worth considering every"
+" mesh as a standalone case (for example one mesh will convert without any "
+"additional flags and the same mesh with quad elements would need a couple of"
+" them). Before the conversion process please read the manual and get "
+"familiar with these flags: -boundorder, -removelowdim, -removeunused, "
+"-bulkorder, -autoclean. They could greatly help you with successful mesh "
+"conversion. The .unv mesh is converted with the following command:"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2021-04-01.md:83
+msgid "**Benchmark conclusions**"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2021-04-01.md:85
+msgid ""
+"Five simulation benchmarks modelled in Salome / Code_Aster, Calculix and "
+"Elmer gave us some insight into what these codes can do. It is definitely "
+"the case that we only scratched the surface, but the simple tests let us "
+"also find out how user-friendly a particular software is."
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2021-04-01.md:87
+msgid "User feeling"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2021-04-01.md:88
+msgid ""
+"If user-friendliness is of interests then we have been quite positively "
+"surprised. The latest version of Salome-Meca is definitely one of the "
+"greatest environments which are available for free. Rumour has it that the "
+"French language has been a bit problematic for user to feel sure that they "
+"know what they do. The version available since 2019 has been translated into"
+" English quite well ('well' in non-native standards). A model can be built "
+"in it from scratch, meshed, solved and post-process. For users who know what"
+" to look for it will not take long to find the right tool. The others will "
+"not find the learning curve very steep as well."
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2021-04-01.md:90
+msgid ""
+"As presented in the simulation workflow chart, we used a mix of Salome-Meca,"
+" PrePoMax and Calculix Advanced Environment to build models for Calculix. It"
+" is very easy to build a final model in PrePoMax / CAE having already "
+"prepared mesh. It is worth saying that it wasn't that easy a few years ago "
+"when these apps did not exist. Of course, they have some glitches, like for "
+"example, the latest version of PrePoMax doesn't allow to assign section in "
+"some situations... but at the end of the day they are quite handy and that's"
+" why it is worth checking them."
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2021-04-01.md:92
+msgid ""
+"Elmer was the third code we were testing. The GUI looks very simple, but "
+"don't judge the book by the cover. It actually contains the most important "
+"options which allow to set up solver, material, loads etc. Then a user can "
+"add some options manually either using keyword editor or directly through "
+"the text editor. What is worth saying is that Elmer does not always "
+"correctly imported the UNV file exported from Salome (90% of cases were "
+"fine). If it could import node sets into the GUI then that would be very "
+"useful. Apart from that, it seems to us that the code has very strong "
+"capabilities if someone is interested in multiphysics simulation."
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2021-04-01.md:94
+msgid "Software accuracy"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2021-04-01.md:95
+msgid ""
+"The most important conclusion about the results is that the free software "
+"can do a very good job. We achieved the target solutions in all of the "
+"tested cases. It can also be seen that in most cases for the same mesh the "
+"results are very similar. We think that it might be due to a similar element"
+" implementation. For models with such a small DOF number, it was "
+"unreasonable to perform a performance comparison, but there are plans to "
+"perform such tests in the future. It is also worth noting that we tried to "
+"make all the meshes as close as possible to the patterns recommended by "
+"NAFEMS."
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2021-04-01.md:97
+msgid ""
+"It has been already proven that a correct solution for the tuning fork "
+"benchmark can be obtained using Calculix, Code_Aster and Elmer. With this "
+"update, we added result from a test performed using MoFEM code. This Finite "
+"Element implementation uses some high-order element shape functions and they"
+" allow to achieve quite spectacular results even with coarser mesh. We would"
+" like to thank [Lukasz Kaczmarczyk](https://twitter.com/LukaszKaczmarcz) for"
+" running the eigenvalue analysis for this scenario."
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2021-04-01.md:99
+msgid "Tuning fork simulation performed in MoFEM"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2021-04-01.md:108
+msgid ""
+"The outcome from the thick plate under pressure case is that it is easy to "
+"achieve correct results for a linear model driven by pressure load. The "
+"target solution was achieved with both tetrahedral and hexahedral elements."
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2021-04-01.md:110
+msgid ""
+"In Cook's membrane benchmark, the semi-incompressible material was tested. "
+"Two values of Poisson's value were examined for the linear material model "
+"with low Young's modulus value. It turned out that it might not be feasible "
+"to use the linear type of elements to obtain a decent solution. A solution "
+"closed to the target value was obtained with quadratic type elements."
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2021-04-01.md:112
+msgid ""
+"With the elliptic membrane under pressure model, the aim was to test the "
+"response from a study with the plane stress elements. The benchmark "
+"convinced us that it is fairly simple to set up a 2D model and achieve the "
+"correct solution."
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2021-04-01.md:114
+msgid ""
+"It can be said that the last model of the hemispherical shell point load "
+"model was the most cumbersome to examine. The tests with Code_Aster were "
+"quite straightforward, but it took a while to troubleshoot the response in "
+"both, Calculix and Elmer. The final conclusion from the tests with Calculix "
+"is that the shell implementation does not allow to achieve the correct "
+"solution. It seems to us that the symmetry boundary condition has a "
+"significant impact on the accuracy of results. The correct solution was "
+"achieved with solid elements, which proved our setup to be correct, but "
+"usage of those elements was not the point of the study. Setting up symmetry "
+"condition for shell elements in Elmer required some tests and the target "
+"value was eventually achieved, but for the model with very fine mesh only. "
+"The NAFEMS mesh setup does not allow to obtain a decent response, but it "
+"should also be noted that the shell implementation in Elmer is still in its'"
+" early phase of development. We would like to also say thank you to all "
+"people at the Elmer forum who helped us to debug the model."
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2021-04-01.md:159
+msgid "Additional notes"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/blog/2021-04-01.md:161
+msgid ""
+"It is also worth noting that the work hasn't been done only on the "
+"simulation side. As shown above, we have managed to implement the "
+"[ipygany]() extension into our website. This extension let us present "
+"interactive plots exported directly from Paraview. Also, we have expanded "
+"our Contribution Guide which now describes how to compile the CoFEA docs "
+"locally and how to contribute to the initiative."
+msgstr ""
+
+#: ../../CoFEA/docs/reference/contributor_guide.md:1
+msgid "Contributor Guide"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/contributor_guide.md:3
+msgid ""
+"Here is a quick introduction on how to start contributing to the CoFEA "
+"Initiative. At first, you can acknowledge yourself with the rules we try to "
+"follow:"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/contributor_guide.md:4
+msgid ""
+"if you are not familiar with programming, compilation etc, we recommend "
+"using Ubuntu 18.0 (or any Debian based Linux) as your main environment. We "
+"tend to use this distribution and all guidelines presented in this docs have"
+" been validated with this OS."
+msgstr ""
+
+#: ../../CoFEA/docs/reference/contributor_guide.md:5
+msgid ""
+"we use GitHub website as a place to store the code, docs and everything "
+"else. As a result of that, if you would like to contribute to CoFEA you "
+"should have an account on this platform to be able to fork the [CoFEA "
+"repository](https://github.com/spolanski/CoFEA), add your changes and send a"
+" modified version back. That also implies that you ought to have basic "
+"understanding of *git* version control system and the nomenclature used on "
+"GitHub (such as pull request, fork etc.)"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/contributor_guide.md:6
+msgid ""
+"while it would be nice to use Python 3.x only, some FE codes (for example "
+"Salome) are still using Python version 2.7. Due to that, all scripts which "
+"are developed should be developed in a way that is more or less compatible "
+"with 2.x and 3.x versions."
+msgstr ""
+
+#: ../../CoFEA/docs/reference/contributor_guide.md:7
+msgid ""
+"All the tasks we are currently working on are presented in the [CoFEA Github"
+" issues](https://github.com/spolanski/CoFEA/issues)"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/contributor_guide.md:8
+msgid ""
+"While still not in place, please use snake_case for naming instead of "
+"camelCase rule or any different"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/contributor_guide.md:10
+msgid "Documentation contribution"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/contributor_guide.md:12
+msgid ""
+"Your journey as a contributor should start with getting the copy CoFEA docs "
+"onto your hard-drive. It is actually very simple to recreate the website "
+"locally. You can do it by running folowing commands from terminal:"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/contributor_guide.md:37
+msgid ""
+"That's it! if you follow the steps above, you will compile the website "
+"locally. Then you can modify the files and send them back to the CoFEA "
+"github using git push command. We are looking forward to your contribution!"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/contributor_guide.md:39
+msgid ""
+"Looking for a task to do? Check [CoFEA documentation "
+"issue](https://github.com/spolanski/CoFEA/issues/27). It contains several "
+"things that we would like to implement. Pick one and [create a Github "
+"issue](https://github.com/spolanski/CoFEA/issues/new/choose), so everyone "
+"knows that someone is working on it. After that send a pull request and your"
+" work will be merged soon."
+msgstr ""
+
+#: ../../CoFEA/docs/reference/contributor_guide.md:43
+msgid "FE work contribution"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/contributor_guide.md:45
+msgid ""
+"Once the documentation works, you can set up the simulation environment. The"
+" CoFEA workflow currently used by contributors is following:"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/contributor_guide.md:46
+msgid "Salome_Meca 2019.3 is used to build/import geometries and meshes"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/contributor_guide.md:47
+msgid "Established model is tested in Code_Aster"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/contributor_guide.md:48
+msgid ""
+"Meshes are converted into format appropriate to run study in Calculix and "
+"Elmer"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/contributor_guide.md:49
+msgid ""
+"Optionally, the same setup is tested in different codes which are also free "
+"and open-source."
+msgstr ""
+
+#: ../../CoFEA/docs/reference/contributor_guide.md:51
+msgid ""
+"The best way way to contribute is to install Salome_Meca with Code_Aster, "
+"Calculix and Elmer, so that you could build your own models and contribute "
+"to the CoFEA initiative."
+msgstr ""
+
+#: ../../CoFEA/docs/reference/contributor_guide.md:53
+msgid ""
+"Looking for a task to do? Check [FEA work "
+"issue](https://github.com/spolanski/CoFEA/issues/51). It contains several "
+"examples that we would like to test. Pick one and [create a Github "
+"issue](https://github.com/spolanski/CoFEA/issues/new/choose), so everyone "
+"knows that someone is working on it. After that send a pull request and your"
+" work will be merged soon."
+msgstr ""
+
+#: ../../CoFEA/docs/reference/contributor_guide.md:57
+msgid ""
+"If you are an FE code developer and you would like to submit your own "
+"example or show results for already existing benchmark, feel free to add "
+"your contribution to the Benchmarks folder and send pull request."
+msgstr ""
+
+#: ../../CoFEA/docs/reference/contributor_guide.md:62
+msgid "Python scripts contribution"
+msgstr ""
+
+#: ../../CoFEA/docs/reference/contributor_guide.md:64
+msgid ""
+"At the moment, the most work is done on the [Meshpresso Mesh "
+"Converter](../meshpresso/index.md). More information on how to contribute "
+"will be provided soon."
+msgstr ""
