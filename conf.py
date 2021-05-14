@@ -16,6 +16,7 @@ from sphinx.util.pycompat import execfile_
 import shutil
 import sys
 
+shutil.rmtree("benchmarks", ignore_errors=True)
 shutil.copytree("CoFEA/docs/benchmarks", "benchmarks")
 BASEDIR = os.path.dirname(os.path.abspath(__file__))
 
