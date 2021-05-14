@@ -27,5 +27,5 @@ gettext_compact = False
 sys.path.insert(0, os.path.abspath("CoFEA/meshpresso"))
 
 def setup(app):
-    app.srcdir = os.path.join(BASEDIR, "CoFEA/doc/")
+    app.srcdir = os.path.join(BASEDIR, "CoFEA/docs/")
     app.confdir = app.srcdir
