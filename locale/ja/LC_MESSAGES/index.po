@@ -52,53 +52,56 @@ msgid ""
 "that others could use them with joy and confidence. The following steps will"
 " be undertaken to achieve this goal:"
 msgstr ""
+"CoFEAは、実際の工学的問題を解決するために,オープンソースシミュレーションソフトウェアの応用を普及させることを目的としたイニシアティブです。CoFEAそのものがエンジニアリングマインドを動かす魔法の飲み物のように聞こえますが、それは"
+" *協力* と *有限要素解析* "
+"という言葉の組み合わせです。このプロジェクトの目的は、エンジニアたちがオープンソースのシミュレーションコードの経験と知識を交換し、他の人たちが喜んで自信を持ってそれらを使うことができる環境を作ることです。この目標を達成するため、以下のステップを実施します。"
 
 #: ../../CoFEA/docs/index.md:12
 msgid ""
 "numbers of benchmark and real-life problems will be analysed to increase "
 "confidence in using open-source software,"
-msgstr ""
+msgstr "オープンソースソフトウェアの信頼性を高めるために、たくさんのベンチマーク問題と実問題が解析されます。"
 
 #: ../../CoFEA/docs/index.md:13
 msgid ""
 "information on how to set up the simulation environment correctly will be "
 "gathered in one place, so anyone could set it up,"
-msgstr ""
+msgstr "シミュレーション環境を正しく設定する方法に関する情報が1箇所に集められますので、誰でも設定できます。"
 
 #: ../../CoFEA/docs/index.md:14
 msgid ""
 "a simulation workflow enhanced by scripts & tools will be established to "
 "make usage of open-source tools easier,"
-msgstr ""
+msgstr "スクリプトとツールによって拡張されたシミュレーションワークフローが確立され、オープンソースツールの使用が容易になります。"
 
 #: ../../CoFEA/docs/index.md:15
 msgid ""
 "message about the open-source software will be spread all over the internet "
 "to help the community grows."
-msgstr ""
+msgstr "オープンソース・ソフトウェアに関するメッセージがインターネット上に広がり、コミュニティーの成長を助けるでしょう。"
 
 #: ../../CoFEA/docs/index.md:17
 msgid "How to contribute?"
-msgstr ""
+msgstr "貢献の方法"
 
 #: ../../CoFEA/docs/index.md:19
 msgid "There are plenty of ways on how you could contribute:"
-msgstr ""
+msgstr "あなたが貢献できる方法はたくさんあります:"
 
 #: ../../CoFEA/docs/index.md:21
 msgid ""
 "if you know how to use simulation software then you can help to make models"
-msgstr ""
+msgstr "シミュレーションソフトの使い方を知っていればモデルの作成を手伝うことができます"
 
 #: ../../CoFEA/docs/index.md:22
 msgid "if you are good at writing then you can help writing the docs"
-msgstr ""
+msgstr "もしあなたが文章を書くのが得意なら、文書を書くのを手伝うことができます"
 
 #: ../../CoFEA/docs/index.md:23
 msgid ""
 "finally, if you don't think you have anything from the above, but you are "
 "eager to learn just let us know!"
-msgstr ""
+msgstr "最後に、あなたが上の何も持っていないと思っているが、熱心に学びたいと思っているなら、私たちに知らせてください!"
 
 #: ../../CoFEA/docs/index.md:26
 msgid ""
@@ -106,22 +109,24 @@ msgid ""
 "could share them - do let us know! We will give them another life by "
 "checking them once again in the open-source software."
 msgstr ""
+"実験的に検証された古いFEAモデルがある場合は、それらを共有できます - 知らせて! "
+"オープンソースソフトウェアでもう一度チェックすることで、彼らに新たな命を与えます。"
 
 #: ../../CoFEA/docs/index.md:30
 msgid ""
 "For more details on how to contribute, please look into [Contributor "
 "Guide](reference/contributor_guide)."
-msgstr ""
+msgstr "貢献方法の詳細については、 [共同作成者ガイド](reference/contributor_guide) をご覧ください。"
 
 #: ../../CoFEA/docs/index.md:34
 msgid "Contact"
-msgstr ""
+msgstr "お問い合わせ"
 
 #: ../../CoFEA/docs/index.md:35
 msgid ""
 "If you would like to have a chat then you can send an email to "
 "cofea.project(at)gmail.com."
-msgstr ""
+msgstr "チャットをしたい場合は、cofea.project(at)gmail.comにメールを送ることができます。"
 
 #: ../../CoFEA/docs/index.md:37
 msgid ""
@@ -129,10 +134,12 @@ msgid ""
 "[LinkedIn](https://www.linkedin.com/company/cofea-initiative) and "
 "[Twitter](https://twitter.com/_CoFEA_)."
 msgstr ""
+"[LinkedIn](https://www.linkedin.com/company/cofea-initiative) や "
+"[Twitter](https://twitter.com/_CoFEA_) などのソーシャルメディアにも掲載されています。"
 
 #: ../../CoFEA/docs/index.md:39
 msgid "License"
-msgstr ""
+msgstr "ライセンス"
 
 #: ../../CoFEA/docs/index.md:40
 msgid ""
@@ -140,17 +147,19 @@ msgid ""
 "licencsed under Creative Commons BY-NC-SA 4.0 license. In simple terms, one "
 "can share and adapt the content under two conditions:"
 msgstr ""
+"CoFEA・イニシアティブを目的として作成された技術的コンテンツはすべて、クリエイティブ・コモンズBY-NC-"
+"SA4.0ライセンスの下でのlicencsedです。簡単に言えば、2つの条件下でコンテンツを共有し適応させることができます。"
 
 #: ../../CoFEA/docs/index.md:41
 msgid ""
 "if content is shared in any form one must give appropriate credit to CoFEA "
 "Initiative,"
-msgstr ""
+msgstr "コンテンツが何らかの形で共有される場合には、CoFEA・イニシアチブに適切なクレジットを与えなければなりません。"
 
 #: ../../CoFEA/docs/index.md:42
 msgid "one must not redistribute the content commercially."
-msgstr ""
+msgstr "コンテンツを営利目的で再配布してはなりません。"
 
 #: ../../CoFEA/docs/index.md:52
 msgid "Site contents"
-msgstr ""
+msgstr "サイトの内容"
