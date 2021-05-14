@@ -25,3 +25,9 @@ locale_dirs = [os.path.join(BASEDIR, "locale/")]
 gettext_compact = False
 
 sys.path.insert(0, os.path.abspath("CoFEA/meshpresso"))
+
+def setup(app):
+    app.srcdir = os.path.join(BASEDIR, "CoFEA/doc/")
+    app.confdir = app.srcdir
+
+    setup_original(app)
