@@ -1,0 +1,3 @@
+[submodule "CoFEA"]
+	path = CoFEA
+	url = https://github.com/spolanski/CoFEA
