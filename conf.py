@@ -29,5 +29,3 @@ sys.path.insert(0, os.path.abspath("CoFEA/meshpresso"))
 def setup(app):
     app.srcdir = os.path.join(BASEDIR, "CoFEA/doc/")
     app.confdir = app.srcdir
-
-    setup_original(app)
