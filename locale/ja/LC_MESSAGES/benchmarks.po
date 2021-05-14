@@ -49,12 +49,13 @@ msgid ""
 "in this study, the first frequency of vibration is expected to be close to "
 "440 Hz ([original study](http://pubs.sciepub.com/ajme/4/7/16/index.html))."
 msgstr ""
+"異なる有限要素コードで実行したモーダル解析の結果を比較することを目的としています。音叉ジオメトリを使用してソフトウェアのパフォーマンスを測定します。本学習で使用した音叉ジオメトリでは、振動の第1周波数は440Hz([原研究](http://pubs.sciepub.com/ajme/4/7/16/index.html))に近いと予想されます。"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/model.md:6
 msgid ""
 "This benchmark checks as well if it is possible to run a free-free modal "
 "analysis and how easy it can be performed."
-msgstr ""
+msgstr "このベンチマークでは、フリー-フリーの固有値解析を実行できるかどうか、およびその実行の容易さもチェックします。"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/model.md:8
 msgid ""
@@ -62,10 +63,13 @@ msgid ""
 "GitHub](https://github.com/spolanski/CoFEA/tree/master/benchmarks/00-Tuning-"
 "Fork)."
 msgstr ""
+"この学習で使用するシミュレーション入力ファイルは [CoFEA "
+"GitHub](https://github.com/spolanski/CoFEA/tree/master/benchmarks/00-Tuning-"
+"Fork) にあります。"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/model.md:17
 msgid "The tuning fork geometry shown above is interactive"
-msgstr ""
+msgstr "上に示した音叉ジオメトリはインタラクティブです。"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/model.md:21
 msgid "Tuning fork geometry and its' vibration modes"
