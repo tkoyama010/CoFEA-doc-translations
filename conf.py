@@ -20,12 +20,3 @@ execfile_(os.path.join(BASEDIR, "CoFEA/docs/conf.py"), globals())
 
 locale_dirs = [os.path.join(BASEDIR, "locale/")]
 gettext_compact = False
-
-setup_original = setup  # from 'CoFEA/docs/conf.py'
-
-
-def setup(app):
-    app.srcdir = os.path.join(BASEDIR, "CoFEA/docs/")
-    app.confdir = app.srcdir
-
-    setup_original(app)
