@@ -410,7 +410,7 @@ msgstr ""
 
 #: ../../CoFEA/docs/fea_software/elmer.md:1
 msgid "Elmer"
-msgstr ""
+msgstr "Elmer"
 
 #: ../../CoFEA/docs/fea_software/elmer.md:9
 msgid ""

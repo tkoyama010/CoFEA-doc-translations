@@ -73,7 +73,7 @@ msgstr "上に示した音叉ジオメトリはインタラクティブです。
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/model.md:21
 msgid "Tuning fork geometry and its' vibration modes"
-msgstr ""
+msgstr "音叉の形状とその振動モード"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/model.md:30
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/model.md:67
@@ -82,7 +82,7 @@ msgstr ""
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/model.md:68
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/model.md:67
 msgid "Material properties"
-msgstr ""
+msgstr "材料特性"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/model.md:32
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/model.md:69
@@ -91,7 +91,7 @@ msgstr ""
 msgid ""
 "The table below presents all the material properties that were used in the "
 "study. These properties aim to reproduce the behaviour of steel material."
-msgstr ""
+msgstr "下の表は、学習で使用されたすべての材料特性を示しています。これらの特性は鋼材の挙動を再現することを目的としています。"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/model.md:21
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/model.md:58
@@ -100,7 +100,7 @@ msgstr ""
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/model.md:59
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/model.md:54
 msgid "Property"
-msgstr ""
+msgstr "特性"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/model.md:21
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/model.md:58
@@ -109,7 +109,7 @@ msgstr ""
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/model.md:59
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/model.md:54
 msgid "Value"
-msgstr ""
+msgstr "値"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/model.md:21
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/model.md:58
@@ -118,23 +118,23 @@ msgstr ""
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/model.md:59
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/model.md:54
 msgid "Unit"
-msgstr ""
+msgstr "単位"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/model.md:21
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/model.md:58
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/model.md:59
 msgid "Density $\\rho$"
-msgstr ""
+msgstr "密度 $\\rho$"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/model.md:21
 msgid "$7829.0$"
-msgstr ""
+msgstr "$7829.0$"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/model.md:21
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/model.md:58
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/model.md:59
 msgid "kg/$m^{3}$"
-msgstr ""
+msgstr "kg/$m^{3}$"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/model.md:21
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/model.md:58
@@ -143,11 +143,11 @@ msgstr ""
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/model.md:59
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/model.md:54
 msgid "Young's modulus, E"
-msgstr ""
+msgstr "ヤング率, E"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/model.md:21
 msgid "$2.07 \\cdot 10^{11}$"
-msgstr ""
+msgstr "$2.07 \\cdot 10^{11}$"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/model.md:21
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/model.md:58
@@ -156,17 +156,17 @@ msgstr ""
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/model.md:59
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/model.md:54
 msgid "Pa"
-msgstr ""
+msgstr "Pa"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/model.md:21
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/model.md:56
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/model.md:54
 msgid "Poissons ratio, $\\nu$"
-msgstr ""
+msgstr "ポアソン比, $\\nu$"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/model.md:21
 msgid "0.33"
-msgstr ""
+msgstr "0.33"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/model.md:21
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/model.md:58
@@ -175,7 +175,7 @@ msgstr ""
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/model.md:59
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/model.md:54
 msgid "-"
-msgstr ""
+msgstr "-"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/model.md:40
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/model.md:77
@@ -184,13 +184,13 @@ msgstr ""
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/model.md:77
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/model.md:74
 msgid "Boundary conditions"
-msgstr ""
+msgstr "境界条件"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/model.md:42
 msgid ""
 "It is a free body modal simulation therefore there is no boundary conditions"
 " assigned to the tuning fork."
-msgstr ""
+msgstr "これは自由体モードシミュレーションであるため、音叉に境界条件が割り当てられていません。"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:1
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:1
@@ -199,7 +199,7 @@ msgstr ""
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/results.md:1
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:1
 msgid "Results"
-msgstr ""
+msgstr "結果"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:3
 msgid ""
@@ -207,12 +207,14 @@ msgid ""
 "performed for the tuning model. The animation below shows the results from "
 "the Calculix code."
 msgstr ""
+"異なる要素タイプとメッシュサイズを持つ多数のシミュレーションをチューニングモデルに対して行った。 "
+"次のアニメーションは、Calculixコードの結果を示しています。"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:5
 msgid ""
 "Tuning fork geometry and its' 1st vibration modes. Simulation performed with"
 " the MoFEM software"
-msgstr ""
+msgstr "音叉の形状とその1次振動モード。MoFEMソフトウェアによるシミュレーション"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:14
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:5
@@ -221,7 +223,7 @@ msgstr ""
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/results.md:5
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:3
 msgid "Conclusions"
-msgstr ""
+msgstr "結論"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:16
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:7
@@ -229,12 +231,12 @@ msgstr ""
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:7
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/results.md:7
 msgid "A few conclusions can be derived from the presented study:"
-msgstr ""
+msgstr "提示された研究からいくつかの結論が導かれる。"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:18
 msgid ""
 "It is possible to use open-source software and achieve correct solution."
-msgstr ""
+msgstr "オープンソースソフトウェアを使用して、正しい解を得ることが可能です。"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:19
 msgid ""
@@ -245,12 +247,14 @@ msgid ""
 "modes (this is possible with setting called 'Bande') or the model has to be "
 "constrained."
 msgstr ""
+"3つのソルバーはすべて非常に類似した応答を返しましたが、CalculexとElmerが最も簡単に設定できたように思います。それらは追加設定なしで剛体モードを選択しました。一方、Code_Asterは、非剛体モードのみを検索するように設定するか("
+" 'Bande' という設定で可能)、モデルを拘束する必要があります。"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:20
 msgid ""
 "Despite the mentioned difference in the solver setup, Code_Aster and Elmer "
 "seem to give almost the same answers."
-msgstr ""
+msgstr "前述したソルバー設定の違いにも関わらず、Code_AsterとElmerはほとんど同じ答えを出しているようです。"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:21
 msgid ""
@@ -258,18 +262,19 @@ msgid ""
 "accurate answer than the linear one. The very fine linear hexahedral mesh "
 "achieve the same order of accuracy as the coarse quadratic tetrahedral mesh."
 msgstr ""
+"音叉モデルに対して、二次形状関数は線形形状関数よりもはるかに正確な解を与えます。非常に細かい線形六面体メッシュは、粗い二次四面体メッシュと同程度の精度です。"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:23
 msgid "Codes comparison"
-msgstr ""
+msgstr "コードの比較"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:5
 msgid "Frequency"
-msgstr ""
+msgstr "周波数"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:5
 msgid "Commercial code"
-msgstr ""
+msgstr "商業コード"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:5
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:13
@@ -278,11 +283,11 @@ msgstr ""
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:66
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:4
 msgid "Calculix"
-msgstr ""
+msgstr "Calculix"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:5
 msgid "Code Aster"
-msgstr ""
+msgstr "Code Aster"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:5
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:33
@@ -313,127 +318,127 @@ msgstr ""
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:44
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/tested-codes.md:159
 msgid "Elmer"
-msgstr ""
+msgstr "Elmer"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:5
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/tested-codes.md:196
 msgid "MoFEM"
-msgstr ""
+msgstr "MoFEM"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:5
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:5
 msgid "440.33 Hz"
-msgstr ""
+msgstr "440.33 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:5
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:58
 msgid "440.05 Hz"
-msgstr ""
+msgstr "440.05 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:5
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:5
 msgid "440.91 Hz"
-msgstr ""
+msgstr "440.91 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:5
 msgid "441.0 Hz"
-msgstr ""
+msgstr "441.0 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:5
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:5
 msgid "675.80 Hz"
-msgstr ""
+msgstr "675.80 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:5
 msgid "673.51 Hz"
-msgstr ""
+msgstr "673.51 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:5
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:5
 msgid "673.57 Hz"
-msgstr ""
+msgstr "673.57 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:5
 msgid "674.4 Hz"
-msgstr ""
+msgstr "674.4 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:5
 msgid "3"
-msgstr ""
+msgstr "3"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:5
 msgid "1689.51 Hz"
-msgstr ""
+msgstr "1689.51 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:5
 msgid "1689.30 Hz"
-msgstr ""
+msgstr "1689.30 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:5
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:5
 msgid "1689.37 Hz"
-msgstr ""
+msgstr "1689.37 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:5
 msgid "1690.3 Hz"
-msgstr ""
+msgstr "1690.3 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:5
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:5
 msgid "1827.55 Hz"
-msgstr ""
+msgstr "1827.55 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:5
 msgid "1825.55 Hz"
-msgstr ""
+msgstr "1825.55 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:5
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:5
 msgid "1825.63 Hz"
-msgstr ""
+msgstr "1825.63 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:5
 msgid "1825.7 Hz"
-msgstr ""
+msgstr "1825.7 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:5
 msgid "5"
-msgstr ""
+msgstr "5"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:5
 msgid "2788.66 Hz"
-msgstr ""
+msgstr "2788.66 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:5
 msgid "2777.73 Hz"
-msgstr ""
+msgstr "2777.73 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:5
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:5
 msgid "2777.56 Hz"
-msgstr ""
+msgstr "2777.56 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:5
 msgid "2781.3 Hz"
-msgstr ""
+msgstr "2781.3 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:33
 msgid "Comparison of FE codes for the tuning fork example"
-msgstr ""
+msgstr "音叉の例に対するFEコードの比較"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:42
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:22
 msgid "Linear tetrahedral mesh"
-msgstr ""
+msgstr "線形四面体メッシュ"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:33
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:33
@@ -456,28 +461,28 @@ msgstr ""
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:22
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:44
 msgid "Solver"
-msgstr ""
+msgstr "ソルバ"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:33
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:33
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:58
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:58
 msgid "Mesh element size = 2mm"
-msgstr ""
+msgstr "メッシュ要素サイズ=2mm"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:33
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:33
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:58
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:58
 msgid "Mesh element size = 1mm"
-msgstr ""
+msgstr "メッシュ要素サイズ=1mm"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:33
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:33
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:58
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:58
 msgid "Mesh element size = 0.5mm"
-msgstr ""
+msgstr "メッシュ要素サイズ=0.5mm"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:33
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:33
@@ -500,19 +505,19 @@ msgstr ""
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/tested-codes.md:6
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/tested-codes.md:3
 msgid "CalculiX"
-msgstr ""
+msgstr "CalculiX"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:33
 msgid "564.55 Hz"
-msgstr ""
+msgstr "564.55 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:33
 msgid "490.92 Hz"
-msgstr ""
+msgstr "490.92 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:33
 msgid "455.64 Hz"
-msgstr ""
+msgstr "455.64 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:33
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:33
@@ -542,124 +547,124 @@ msgstr ""
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:44
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/tested-codes.md:71
 msgid "Code_Aster"
-msgstr ""
+msgstr "Code_Aster"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:33
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:33
 msgid "564.48 Hz"
-msgstr ""
+msgstr "564.48 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:33
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:33
 msgid "490.90 Hz"
-msgstr ""
+msgstr "490.90 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:33
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:33
 msgid "455.63 Hz"
-msgstr ""
+msgstr "455.63 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:50
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:30
 msgid "Quadratic tetrahedral mesh"
-msgstr ""
+msgstr "二次四面体メッシュ"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:33
 msgid "441.14 Hz"
-msgstr ""
+msgstr "441.14 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:33
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:33
 msgid "440.29 Hz"
-msgstr ""
+msgstr "440.29 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:33
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:33
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:33
 msgid "440.00 Hz"
-msgstr ""
+msgstr "440.00 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:33
 msgid "441.16 Hz"
-msgstr ""
+msgstr "441.16 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:33
 msgid "441.26 Hz"
-msgstr ""
+msgstr "441.26 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:33
 msgid "440.30 Hz"
-msgstr ""
+msgstr "440.30 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:58
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:38
 msgid "Graph representing results of the simulation with tetrahedral mesh"
-msgstr ""
+msgstr "四面体メッシュによるシミュレーション結果を示すグラフ"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:67
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:47
 msgid "Linear hexahedral mesh"
-msgstr ""
+msgstr "線形六面体メッシュ"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:58
 msgid "388.67 Hz"
-msgstr ""
+msgstr "388.67 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:58
 msgid "415.79 Hz"
-msgstr ""
+msgstr "415.79 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:58
 msgid "434.17 Hz"
-msgstr ""
+msgstr "434.17 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:58
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:58
 msgid "496.87 Hz"
-msgstr ""
+msgstr "496.87 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:58
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:58
 msgid "455.34 Hz"
-msgstr ""
+msgstr "455.34 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:58
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:58
 msgid "444.22 Hz"
-msgstr ""
+msgstr "444.22 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:75
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:55
 msgid "Quadratic hexahedral mesh"
-msgstr ""
+msgstr "二次六面体メッシュ"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:58
 msgid "440.57 Hz"
-msgstr ""
+msgstr "440.57 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:58
 msgid "440.34 Hz"
-msgstr ""
+msgstr "440.34 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:58
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:58
 msgid "441.10 Hz"
-msgstr ""
+msgstr "441.10 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:58
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:58
 msgid "440.49 Hz"
-msgstr ""
+msgstr "440.49 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:58
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:58
 msgid "440.09 Hz"
-msgstr ""
+msgstr "440.09 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:83
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:63
 msgid "Graph representing results of the simulation with hexahedral mesh"
-msgstr ""
+msgstr "六面体メッシュによるシミュレーション結果を示すグラフ"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/tested-codes.md:1
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/tested-codes.md:1
@@ -668,7 +673,7 @@ msgstr ""
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/tested-codes.md:1
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/tested-codes.md:1
 msgid "Tested Finite Element codes"
-msgstr ""
+msgstr "テスト済み有限要素コード"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/tested-codes.md:1
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/tested-codes.md:1
@@ -676,13 +681,13 @@ msgstr ""
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/tested-codes.md:1
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/tested-codes.md:1
 msgid "Table of Contents"
-msgstr ""
+msgstr "目次"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/tested-codes.md:8
 msgid ""
 "CalculiX supports rigid body moves out of the box. Below there is an "
 "explanation of the input file."
-msgstr ""
+msgstr "CalculiXは、剛体のボックス外への移動をサポートします。以下は入力ファイルの説明です。"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/tested-codes.md:44
 msgid ""
@@ -690,6 +695,9 @@ msgid ""
 "[GitHub](https://github.com/spolanski/CoFEA/tree/master/benchmarks/00"
 "-Tuning-Fork/MODEL_CALCULIX)!"
 msgstr ""
+"この検討で使用するシミュレーション入力ファイルは、 "
+"[GitHub](https://github.com/spolanski/CoFEA/tree/master/benchmarks/00"
+"-Tuning-Fork/MODEL_CALCULIX) にあります!"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/tested-codes.md:48
 msgid ""
@@ -698,6 +706,7 @@ msgid ""
 "certain bandwidth. Below there is an explanation of the input file of "
 "Code_Aster."
 msgstr ""
+"残念ながら、Code_Asterはほぼ0の周波数を得るための理想的なソルバではないので、BANDEオプションを使用して特定の帯域幅の周波数を計算しました。以下に、Code_Asterの入力ファイルについて説明します。"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/tested-codes.md:105
 msgid ""
@@ -705,12 +714,15 @@ msgid ""
 "[GitHub](https://github.com/spolanski/CoFEA/tree/master/benchmarks/00"
 "-Tuning-Fork/MODEL_Code_Aster)!"
 msgstr ""
+"この検討で使用するシミュレーション入力ファイルは、 "
+"[GitHub](https://github.com/spolanski/CoFEA/tree/master/benchmarks/00"
+"-Tuning-Fork/MODEL_Code_Aster) にあります!"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/tested-codes.md:109
 msgid ""
 "Elmer supports rigid body modes out of the box. Below there is an "
 "explanation of solver input file."
-msgstr ""
+msgstr "Elmerは、剛体のボックス外へのモードをサポートします。以下はソルバー入力ファイルの説明です。"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/tested-codes.md:194
 msgid ""
@@ -718,6 +730,9 @@ msgid ""
 "[GitHub](https://github.com/spolanski/CoFEA/tree/master/benchmarks/00"
 "-Tuning-Fork/MODEL_ElmerGUI)!"
 msgstr ""
+"この検討で使用するシミュレーション入力ファイルは、 "
+"[GitHub](https://github.com/spolanski/CoFEA/tree/master/benchmarks/00"
+"-Tuning-Fork/MODEL_ElmerGUI) にあります!"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/tested-codes.md:198
 msgid ""
@@ -725,6 +740,9 @@ msgid ""
 " look into the MoFEM tutorials section [VEC-1: Eigen "
 "elastic](http://mofem.eng.gla.ac.uk/mofem/html/tutorial_eigen_elastic.html)"
 msgstr ""
+"MoFEMモデルの作成方法を確認したい場合は、MoFEMチュートリアルの [VEC-1: Eigen "
+"elastic](http://mofem.eng.gla.ac.uk/mofem/html/tutorial_eigen_elastic.html) "
+"セクションを参照することをお勧めします。"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/index.md:1
 msgid "Thick plate under pressure"
