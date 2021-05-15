@@ -52,7 +52,7 @@ msgid ""
 "that others could use them with joy and confidence. The following steps will"
 " be undertaken to achieve this goal:"
 msgstr ""
-"CoFEAは、実際の工学的問題を解決するために,オープンソースシミュレーションソフトウェアの応用を普及させることを目的としたイニシアティブです。CoFEAそのものがエンジニアリングマインドを動かす魔法の飲み物のように聞こえますが、それは"
+"CoFEAは、実際の工学的問題を解決するために,オープンソースシミュレーションソフトウェアの応用を普及させることを目的とした構想です。CoFEAそのものがエンジニアリングマインドを動かす魔法の飲み物のように聞こえますが、それは"
 " *協力* と *有限要素解析* "
 "という言葉の組み合わせです。このプロジェクトの目的は、エンジニアたちがオープンソースのシミュレーションコードの経験と知識を交換し、他の人たちが喜んで自信を持ってそれらを使うことができる環境を作ることです。この目標を達成するため、以下のステップを実施します。"
 
@@ -147,14 +147,14 @@ msgid ""
 "licencsed under Creative Commons BY-NC-SA 4.0 license. In simple terms, one "
 "can share and adapt the content under two conditions:"
 msgstr ""
-"CoFEA・イニシアティブを目的として作成された技術的コンテンツはすべて、クリエイティブ・コモンズBY-NC-"
+"CoFEA構想を目的として作成された技術的コンテンツはすべて、クリエイティブ・コモンズBY-NC-"
 "SA4.0ライセンスの下でのlicencsedです。簡単に言えば、2つの条件下でコンテンツを共有し適応させることができます。"
 
 #: ../../CoFEA/docs/index.md:41
 msgid ""
 "if content is shared in any form one must give appropriate credit to CoFEA "
 "Initiative,"
-msgstr "コンテンツが何らかの形で共有される場合には、CoFEA・イニシアチブに適切なクレジットを与えなければなりません。"
+msgstr "コンテンツが何らかの形で共有される場合には、CoFEA構想に適切なクレジットを与えなければなりません。"
 
 #: ../../CoFEA/docs/index.md:42
 msgid "one must not redistribute the content commercially."

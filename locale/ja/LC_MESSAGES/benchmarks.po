@@ -49,7 +49,7 @@ msgid ""
 "in this study, the first frequency of vibration is expected to be close to "
 "440 Hz ([original study](http://pubs.sciepub.com/ajme/4/7/16/index.html))."
 msgstr ""
-"異なる有限要素コードで実行したモーダル解析の結果を比較することを目的としています。音叉ジオメトリを使用してソフトウェアのパフォーマンスを測定します。本学習で使用した音叉ジオメトリでは、振動の第1周波数は440Hz([原研究](http://pubs.sciepub.com/ajme/4/7/16/index.html))に近いと予想されます。"
+"異なる有限要素コードで実行したモーダル解析の結果を比較することを目的としています。音叉ジオメトリを使用してソフトウェアのパフォーマンスを測定します。本検討で使用した音叉ジオメトリでは、振動の第1周波数は440Hz([原研究](http://pubs.sciepub.com/ajme/4/7/16/index.html))に近いと予想されます。"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/model.md:6
 msgid ""
@@ -63,7 +63,7 @@ msgid ""
 "GitHub](https://github.com/spolanski/CoFEA/tree/master/benchmarks/00-Tuning-"
 "Fork)."
 msgstr ""
-"この学習で使用するシミュレーション入力ファイルは [CoFEA "
+"この検討で使用するシミュレーション入力ファイルは [CoFEA "
 "GitHub](https://github.com/spolanski/CoFEA/tree/master/benchmarks/00-Tuning-"
 "Fork) にあります。"
 
@@ -91,7 +91,7 @@ msgstr "材料特性"
 msgid ""
 "The table below presents all the material properties that were used in the "
 "study. These properties aim to reproduce the behaviour of steel material."
-msgstr "下の表は、学習で使用されたすべての材料特性を示しています。これらの特性は鋼材の挙動を再現することを目的としています。"
+msgstr "下の表は、検討で使用されたすべての材料特性を示しています。これらの特性は鋼材の挙動を再現することを目的としています。"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/model.md:21
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/model.md:58
@@ -746,7 +746,7 @@ msgstr ""
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/index.md:1
 msgid "Thick plate under pressure"
-msgstr ""
+msgstr "圧力下の厚板"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/model.md:4
 msgid ""
@@ -758,6 +758,11 @@ msgid ""
 "found in this "
 "[link](http://wufengyun.com:888/v6.14/books/bmk/ch04s02anf10.html)."
 msgstr ""
+"[CalculiX](http://www.calculix.de/) 、 [Code_Aster](https://code-aster.org/) "
+"、 [Elmer](http://www.elmerfem.org/blog/) "
+"有限要素コードで行った静的解析の結果の比較を目的としています。ソフトウェアのパフォーマンスを測定するために、厚板形状を使用します。この報告書に記載されているモデルは、この"
+" [link](http://wufengyun.com:888/v6.14/books/bmk/ch04s02anf10.html) "
+"の記事を基に作成されたものです。"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/model.md:6
 msgid ""
@@ -766,6 +771,9 @@ msgid ""
 " be equal to 5.38 MPa. Additionally, the benchmark allow to test how easy is"
 " to apply pressure load condition."
 msgstr ""
+"このベンチマークの目的は、点Dにおける厚板の応力 $\\sigma_{yy}$ "
+"を調べることです。この時点での対象解は5.38MPaに等しいと予想されます。 "
+"さらに、このベンチマークを使用して、圧力荷重条件を適用するのがどの程度簡単かをテストできます。"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/model.md:8
 msgid ""
@@ -773,47 +781,50 @@ msgid ""
 "[GitHub](https://github.com/spolanski/CoFEA/tree/master/benchmarks/01-LE10"
 "-Thick-Plate)!"
 msgstr ""
+"この検討で使用するシミュレーション入力ファイルは [CoFEA "
+"GitHub](https://github.com/spolanski/CoFEA/tree/master/benchmarks/01-LE10"
+"-Thick-Plate) にあります。"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/model.md:54
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/model.md:55
 msgid ""
 "The benchmark geometry shown above is interactive and shows $\\sigma_{yy}$ "
 "results in [Pa]."
-msgstr ""
+msgstr "上に示したベンチマークジオメトリはインタラクティブで $\\sigma_{yy}$ の結果を[Pa]で表示します。"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/model.md:58
 msgid "Sketch of the thick plate under pressure benchmark"
-msgstr ""
+msgstr "圧力ベンチマーク下の厚板のスケッチ"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/model.md:58
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/model.md:59
 msgid "$7800.0$"
-msgstr ""
+msgstr "$7800.0$"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/model.md:58
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/model.md:59
 msgid "$2.10 \\cdot 10^{11}$"
-msgstr ""
+msgstr "$2.10 \\cdot 10^{11}$"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/model.md:58
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/model.md:59
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/model.md:59
 msgid "Poisson's ratio, $\\nu$"
-msgstr ""
+msgstr "ポアソン比, $\\nu$"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/model.md:58
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/model.md:59
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/model.md:59
 msgid "0.3"
-msgstr ""
+msgstr "0.3"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/model.md:79
 msgid "$u_y=0$ on face DCD′C′."
-msgstr ""
+msgstr "面 DCD′C′ で $u_y=0$"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/model.md:80
 msgid "$u_x=0$ on face ABA′B′."
-msgstr ""
+msgstr "面 ABA′B′ で $u_x=0$"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/model.md:81
 msgid "$u_y=u_x=0$ on face BCB′C′."

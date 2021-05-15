@@ -71,7 +71,7 @@ msgstr ""
 #: ../../CoFEA/docs/reference/blog/2020-12-10.md:5
 msgid ""
 "Engineering simulations without limits. The origin of CoFEA Initiative ☕"
-msgstr ""
+msgstr "無制限のエンジニアリングシミュレーション。CoFEA 構想の起源 ☕"
 
 #: ../../CoFEA/docs/reference/blog/2020-12-10.md:7
 msgid ""
@@ -88,6 +88,9 @@ msgid ""
 " some people would even argue that any software which is not open-source is "
 "essentially a black-box, but I am not that strict with the rules."
 msgstr ""
+"数値シミュレーションは50年以上前からエンジニアに提供されていますが、それほど人気があるとは思えません。一部のソフトウェアベンダーは、シミュレーションの使用法を単純化することで、シミュレーションを"
+" '民主化' したいと考えています。シミュレーションをもっと普及させる方法かもしれませんが、 '民主化' という言葉が正しいのかどうかはわかりません。 "
+"私が覚えている限りでは、経済的地位は真の民主主義では重要ではありませんが、提案されている民主化のタイプでは重要です。それほど高価でなければ、もっと多くのエンジニアがシミュレーションを使うでしょう。このアプローチには別の側面もあります...ブラックボックスソリューションになる前に、開発者はソフトウェアの使用をどれだけ単純化できるでしょうか?オープンソースでないソフトウェアは基本的にブラックボックスだと主張する人もいるでしょうが、私はルールにそれほど厳しくありません。"
 
 #: ../../CoFEA/docs/reference/blog/2020-12-10.md:9
 msgid ""
@@ -100,25 +103,28 @@ msgid ""
 " aims to bring open-source simulation software closer to the engineering "
 "industry problems. The goals of this initiative is to:"
 msgstr ""
+"正直なところ、コンピュータシミュレーションをより多くの企業に導入する方法について、以前から考えていました。これは、解が一意に定まらない非常に複雑な問題のようです。そこで、どんな貢献でも役に立つと思い、自分の構想を公開したいと思いました。11月の初めから、私はCoFEA"
+" (Collaboration+Finite Element Analysis) "
+"と名付けた新しい時間外プロジェクトに取り組んでいます。CoFEAは、オープンソースのシミュレーションソフトウェアをエンジニアリング業界の問題に近づけることを目的とした構想です。この構想の目標は次のとおりです:"
 
 #: ../../CoFEA/docs/reference/blog/2020-12-10.md:11
 msgid "raise awareness of the available open-source simulation software"
-msgstr ""
+msgstr "利用可能なオープンソースシミュレーションソフトウェアの認知度を高める"
 
 #: ../../CoFEA/docs/reference/blog/2020-12-10.md:12
 msgid ""
 "increase confidence in using this software by testing it with benchmarks and"
 " real-life problems"
-msgstr ""
+msgstr "ベンチマークと実際の問題でテストすることにより、このソフトウェアの使用に対する信頼性を高める"
 
 #: ../../CoFEA/docs/reference/blog/2020-12-10.md:13
 msgid "develop Python tools and scripts to make usage easier and simpler"
-msgstr ""
+msgstr "Pythonツールとスクリプトを開発して使いやすくシンプルにする"
 
 #: ../../CoFEA/docs/reference/blog/2020-12-10.md:14
 msgid ""
 "gather information on how to set up the simulation environment correctly"
-msgstr ""
+msgstr "シミュレーション環境を正しく設定する方法"
 
 #: ../../CoFEA/docs/reference/blog/2020-12-10.md:16
 msgid ""
@@ -129,6 +135,7 @@ msgid ""
 "is even hard to find out how to run a code properly. That is why it is "
 "important to gather all the knowledge in one place for those who seek it."
 msgstr ""
+"私は、フリーツールを使って多くの工学的問題を解決することが可能だと信じています。おそらく市販のソフトウェアほど多くはないでしょうが、それでもたくさんあります。しかし、オープンソース・ソフトウェアの最大の問題は、ノウハウがインターネット全体に広がっていることです。場合によっては、コードを適切に実行する方法を見つけるのも困難です。だからこそ、知識を求める人々のために、すべての知識を一つの場所に集めることが重要なのです。"
 
 #: ../../CoFEA/docs/reference/blog/2020-12-10.md:18
 msgid ""
@@ -137,6 +144,7 @@ msgid ""
 "check if the software gives a correct answer but also to find out which code"
 " is the most appropriate to use."
 msgstr ""
+"さらに、シミュレーションの実行方法を知っていることと、結果を信頼していることは同じではありません。ベンチマークのデータベースは、ソフトウェアが正しい答えを与えるかどうかをチェックするだけでなく、どのコードが使用するのに最も適しているかを見つけることもできます。"
 
 #: ../../CoFEA/docs/reference/blog/2020-12-10.md:20
 msgid ""
@@ -147,6 +155,7 @@ msgid ""
 "another goal of the CoFEA Initiative - to create a Python library which "
 "converts simulation data into format possible to use in multiple codes."
 msgstr ""
+"オープンソースソフトウェアのもう1つの落とし穴は、コード間の互換性の欠如です。メッシュ生成に適したコードもあれば、優れたソルバを持つコードもあれば、優れた後処理機能を持つコードもあります。これらすべての条件を満たすオープンソースソフトウェアを私は見つけていません。この障害は、シミュレーションデータを複数のコードで使用できる形式に変換するPythonライブラリを作成するという、CoFEA構想のもう1つの目標です。"
 
 #: ../../CoFEA/docs/reference/blog/2020-12-10.md:22
 msgid ""
@@ -158,6 +167,9 @@ msgid ""
 "to be able to pick the frequency of 440 Hz. We have tested it in Calculix, "
 "Code Aster and Elmer - all give the same correct answer!"
 msgstr ""
+"これらの課題はすべて、プロジェクトの起源以来取り組まれてきました。幸運なことに、この旅に参加したのは私だけではありませんでした。Maciej "
+"Dudekの多大な助けによって、私は当初の目標以上のことを成し遂げることができたのです。CoFEAデータベースの最初のベンチマークとして音叉モデルを選択しました。モデルが単純であるにもかかわらず、この検討は、440Hzの周波数を選択できるように細かいメッシュを使用する必要があることを明確に示しました。Calculix、Code"
+" Aster、Elmerでテストしましたが、どれも同じで正解でした!"
 
 #: ../../CoFEA/docs/reference/blog/2020-12-10.md:24
 msgid ""
@@ -168,6 +180,8 @@ msgid ""
 "can be done with the open-source software. Click on this link to see exactly"
 " how it works!"
 msgstr ""
+"Paraview "
+"Glanceサーバもセットアップできました。この素晴らしいソルーションにより、シミュレーション結果をWeb上で直接示すことが可能になりました。現時点では、音叉の形状を示してユーザーに再生させるためだけに使用されていますが、オープンソースソフトウェアで何ができるかを示すときには、非常に大きな可能性があります。現時点では、音叉の形状を表示してユーザーに再生させるためだけに使用されていますが、オープンソースソフトウェアで何ができるかを示すときには、非常に大きな可能性があります。このリンクをクリックすると、正確に機能します!"
 
 #: ../../CoFEA/docs/reference/blog/2020-12-10.md:26
 msgid ""
@@ -177,10 +191,12 @@ msgid ""
 "server using Sphinx and in this way, everyone can feel that is a part of "
 "this initiative."
 msgstr ""
+"CoFEAイニシアティブは、誰もが貢献できるように構築されています。Pythonコードとウェブサイト全体はGitHubで公開されています。GitHubに変更を加えると、Sphinxを使ってReadTheDocsサーバ上でHTML"
+" Webサイトの自動コンパイルが起動されます。誰もがこの構想の一部だと感じることができます。"
 
 #: ../../CoFEA/docs/reference/blog/2020-12-10.md:28
 msgid "So how to contribute? There are plenty of ways:"
-msgstr ""
+msgstr "ではどう貢献するのか? さまざまな方法があります:"
 
 #: ../../CoFEA/docs/reference/blog/2020-12-10.md:29
 msgid ""
@@ -191,11 +207,11 @@ msgstr "シミュレーションソフトの使い方を知っていればモデ
 msgid ""
 "if you possess programming skills then you can help to develop CoFEA mesh "
 "converter"
-msgstr ""
+msgstr "プログラミングスキルがあれば、CoFEAメッシュコンバータの開発を支援できます。"
 
 #: ../../CoFEA/docs/reference/blog/2020-12-10.md:31
 msgid "if you are good at writing then you can help to develop the website"
-msgstr ""
+msgstr "もしあなたが文章を書くのが得意なら、ウェブサイトの開発を手伝うことができます。"
 
 #: ../../CoFEA/docs/reference/blog/2020-12-10.md:32
 msgid ""
@@ -203,6 +219,8 @@ msgid ""
 "help just let me know! Either contact me on LinkedIn or send an email to "
 "cofea.project(at)gmail.com"
 msgstr ""
+"上記のものを何も持っていないと思っても、私に知らせて欲しい! LinkedInで私に連絡するか、 cofea.project(at)gmail.com "
+"にメールを送ってください。"
 
 #: ../../CoFEA/docs/reference/blog/2020-12-10.md:34
 msgid ""
@@ -210,16 +228,17 @@ msgid ""
 " share them, let me know! We will give them another life by checking them in"
 " the open-source software."
 msgstr ""
+"最後に、検証済みの古いFE入力デッキがあり、それらを共有できる場合は、教えてください!オープンソースソフトウェアでそれらをチェックすることによって、それらに別の命を与えます。"
 
 #: ../../CoFEA/docs/reference/blog/2020-12-10.md:36
 msgid "Let's make this initiative valuable for all of us!"
-msgstr ""
+msgstr "この構想をすべての人にとって価値あるものにしましょう!"
 
 #: ../../CoFEA/docs/reference/blog/2020-12-10.md:38
 msgid ""
 "[Follow the CoFEA Initiative on "
 "Twitter](https://twitter.com/CoFEAinitiative)"
-msgstr ""
+msgstr "[TwitterでCoFEA構想をフォローする](https://twitter.com/CoFEAinitiative)"
 
 #: ../../CoFEA/docs/reference/blog/2021-04-01.md:5
 msgid "April 2021"
