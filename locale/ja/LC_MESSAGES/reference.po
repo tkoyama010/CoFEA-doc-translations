@@ -242,7 +242,7 @@ msgstr "[TwitterでCoFEA構想をフォローする](https://twitter.com/CoFEAin
 
 #: ../../CoFEA/docs/reference/blog/2021-04-01.md:5
 msgid "April 2021"
-msgstr ""
+msgstr "2021年4月"
 
 #: ../../CoFEA/docs/reference/blog/2021-04-01.md:7
 msgid ""
@@ -251,24 +251,26 @@ msgid ""
 "improved the website and connected some dots to establish a simulation "
 "workflow based on available open-source software."
 msgstr ""
+"CoFEA構想の前回の更新から数ヵ月が経過しましたが、何も行われていないわけではありません。まったく逆です! "
+"5つのモデルをテストし、ウェブサイトを改善し、いくつかの点を接続して、利用可能なオープンソースソフトウェアに基づくシミュレーションワークフローを確立しました。"
 
 #: ../../CoFEA/docs/reference/blog/2021-04-01.md:9
 msgid "**Simulation workflow**"
-msgstr ""
+msgstr "**シミュレーションワークフロー**"
 
 #: ../../CoFEA/docs/reference/blog/2021-04-01.md:10
 msgid ""
 "The following section describes the simulation workflow that we followed "
 "when building the models."
-msgstr ""
+msgstr "次のセクションでは、モデルの構築時に使用したシミュレーションワークフローについて説明します。"
 
 #: ../../CoFEA/docs/reference/blog/2021-04-01.md:12
 msgid "FE simulation workflow based on non-commercial software"
-msgstr ""
+msgstr "非商用ソフトウェアに基づくFEシミュレーションワークフロー"
 
 #: ../../CoFEA/docs/reference/blog/2021-04-01.md:20
 msgid "Salome vs Salome-Meca"
-msgstr ""
+msgstr "Salome 対 Salome-Meca"
 
 #: ../../CoFEA/docs/reference/blog/2021-04-01.md:22
 msgid ""
@@ -280,10 +282,15 @@ msgid ""
 "Code_Aster) and contains the pre-compiled Code_Aster solver (this version "
 "supports only single-threaded calculations)."
 msgstr ""
+"まず、Salomeパッケージのディストリビューションを明らかにすることが重要です: SalomeとSalome-"
+"Mecaです。実はには、この2つの間には1つの小さな違いしかありません。 \"普通の\" "
+"サロメには、Shaper、GEOM、Mesh、ParaVIS(SalomeとCode_Aster用に修正されたParaview)のような多くの有用なモジュールが付属しています"
+"。Salome-"
+"MecaにはAster_Study(Code_Aster用のプリプロセッサ)と呼ばれる追加モジュールがあり、コンパイル済みのCode_Asterソルバが含まれています(このバージョンはシングルスレッド計算のみをサポートしています)。"
 
 #: ../../CoFEA/docs/reference/blog/2021-04-01.md:24
 msgid "Shaper module"
-msgstr ""
+msgstr "Shaperモジュール"
 
 #: ../../CoFEA/docs/reference/blog/2021-04-01.md:26
 msgid ""
@@ -296,14 +303,17 @@ msgid ""
 "module, remember to export it to the GEOM module. Otherwise, you will not be"
 " able to create groups for meshing."
 msgstr ""
+"ShaperはSalomeパッケージの最新モジュールです。スケッチの押し出し、回転、およびブール演算を使用したパラメトリックモデリングをサポートしています。3D"
+" "
+"CADソフトウェアを使い慣れている場合は、モデルの作成に問題はありません。このソフトウェアは、SolidWorksやNXなどの他のクルーほど堅牢ではないかもしれないが、まだ1年しか経っていないし、完全に無料です。Shaperモジュールで作成したパーツは、必ずGEOMモジュールにエクスポートしてください。そうしないと、メッシュ作成用のグループを作成できません。"
 
 #: ../../CoFEA/docs/reference/blog/2021-04-01.md:28
 msgid "Creation of hemisphere using Shaper"
-msgstr ""
+msgstr "Shaperを使用した半球の作成"
 
 #: ../../CoFEA/docs/reference/blog/2021-04-01.md:36
 msgid "GEOM module"
-msgstr ""
+msgstr "GEOMモジュール"
 
 #: ../../CoFEA/docs/reference/blog/2021-04-01.md:38
 msgid ""
@@ -313,10 +323,11 @@ msgid ""
 "CAD geometry which later can be transformed into groups of elements or "
 "nodes."
 msgstr ""
+"GEOMは、前に説明したShaperの祖先です。ジオメトリCADモデルの作成、視覚化、および修正のためのさまざまな機能を提供します。このワークフローでは、後で要素またはノードのグループに変換できるCADジオメトリからのグループ生成に使用します。"
 
 #: ../../CoFEA/docs/reference/blog/2021-04-01.md:40
 msgid "Mesh module"
-msgstr ""
+msgstr "Meshモジュール"
 
 #: ../../CoFEA/docs/reference/blog/2021-04-01.md:42
 msgid ""
@@ -325,6 +336,7 @@ msgid ""
 " tri/tet and quad/hex meshes and enables the creation of node and element "
 "sets."
 msgstr ""
+"このモジュールの目的は、単にGEOMモジュールで作成された(またはShaperからインポートされた)ジオメトリモデルに基づいてメッシュを作成することです。三角/四辺形および四角/六角形メッシュをサポートし、ノードおよび要素セットの作成を可能にします。"
 
 #: ../../CoFEA/docs/reference/blog/2021-04-01.md:44
 msgid ""
@@ -337,30 +349,34 @@ msgid ""
 "the INP file, one needs to delete them first in Salome and then export the "
 "UNV file. The procedure to do so is the following:"
 msgstr ""
+"Salomeで作成されたメッシュは、Calculexと互換性がありません。エクスポートされたUNVファイルは[UNV2CCX](https://github.com/calculix/unv2ccx)コンバータでINPファイルに変換できますが、メッシュデータに関する別の問題が発生することがあります。"
+" "
+"たとえば、UNVファイル内のすべての行は、INPファイル内のビーム要素として扱われます。同様の問題は、2Dジオメトリフィーチャーでも発生します。INPファイルに不要な要素タイプが含まれないようにするには、まずサロメで要素タイプを削除してからUNVファイルをエクスポートする必要があります。"
+" その手順は次のとおりです:"
 
 #: ../../CoFEA/docs/reference/blog/2021-04-01.md:45
 msgid ""
 "create the groups on mesh with \"Create Groups from Geometry\" (the "
 "previously created groups in GEOM are used here),"
-msgstr ""
+msgstr "\"ジオメトリからグループを作成\"を使用してメッシュ上にグループを作成します(ここでは、以前にGEOMで作成したグループを使用します)。"
 
 #: ../../CoFEA/docs/reference/blog/2021-04-01.md:46
 msgid "delete undesired entities with \"Delete Groups with Contents\"."
-msgstr ""
+msgstr "\"内容のあるグループを削除\" で不要なエンティティを削除します。"
 
 #: ../../CoFEA/docs/reference/blog/2021-04-01.md:50
 msgid "Example of the meshed hemisphere"
-msgstr ""
+msgstr "半球メッシュの例"
 
 #: ../../CoFEA/docs/reference/blog/2021-04-01.md:59
 msgid "unv2ccx converter"
-msgstr ""
+msgstr "unv2ccxコンバータ"
 
 #: ../../CoFEA/docs/reference/blog/2021-04-01.md:61
 msgid ""
 "The use of an unv2ccx converter is pretty straightforward. Just export your "
 "mesh to .unv format and then type the command:"
-msgstr ""
+msgstr "unv2ccxコンバータの使用は非常に簡単です。メッシュを.unvフォーマットにエクスポートし、次のコマンドを入力します。"
 
 #: ../../CoFEA/docs/reference/blog/2021-04-01.md:67
 msgid ""
@@ -368,18 +384,19 @@ msgid ""
 "doesn't support choosing the elements during conversion therefore sometimes "
 "element type need to be edited manually in the converted .inp file."
 msgstr ""
+"メッシュを変換する必要があります。残念ながら、コンバータは変換中のエレメントの選択をサポートしていないため、変換後の.inpファイルでエレメントタイプを手動で編集する必要がある場合があります。"
 
 #: ../../CoFEA/docs/reference/blog/2021-04-01.md:69
 msgid "ccx2paraview"
-msgstr ""
+msgstr "ccx2paraview"
 
 #: ../../CoFEA/docs/reference/blog/2021-04-01.md:71
 msgid "To convert .frd results to vtk just type this command:"
-msgstr ""
+msgstr "frdの結果をVTKに変換するには、次のコマンドを入力します:"
 
 #: ../../CoFEA/docs/reference/blog/2021-04-01.md:76
 msgid "ElmerGrid"
-msgstr ""
+msgstr "ElmerGrid"
 
 #: ../../CoFEA/docs/reference/blog/2021-04-01.md:78
 msgid ""
@@ -393,10 +410,13 @@ msgid ""
 "-bulkorder, -autoclean. They could greatly help you with successful mesh "
 "conversion. The .unv mesh is converted with the following command:"
 msgstr ""
+"一般的に、ElmerGridはさまざまな形式のメッシュをサポートする堅牢なコンバータですが、いくつかの欠点があります。ノードセットを使用しないようにするのが経験則です。また、すべてのメッシュをスタンドアロンのケースとして検討することも重要です(たとえば、1つのメッシュは追加のフラグなしで変換されますが、同じメッシュに四角形要素がある場合は、それらのいくつかが必要になります)。変換プロセスの前に、マニュアルを読んでこれらのフラグを理解してください:"
+" -boundorder, -removelowdim, -removeunused, -bulkorder, "
+"-autoclean。メッシュ変換を成功させる上で非常に役立ちます。 .unv メッシュは次のコマンドで変換されます。"
 
 #: ../../CoFEA/docs/reference/blog/2021-04-01.md:83
 msgid "**Benchmark conclusions**"
-msgstr ""
+msgstr "**ベンチマークの結論**"
 
 #: ../../CoFEA/docs/reference/blog/2021-04-01.md:85
 msgid ""
@@ -405,10 +425,11 @@ msgid ""
 "the case that we only scratched the surface, but the simple tests let us "
 "also find out how user-friendly a particular software is."
 msgstr ""
+"Salome/Code_Aster、Calculex、Elmerでモデル化された5つのシミュレーションベンチマークは、これらのコードが何をすることができるかについての洞察を与えてくれた。確かに表面をかじっただけですが、簡単なテストによって、特定のソフトウェアがどれだけ使いやすいものかを知ることができます。"
 
 #: ../../CoFEA/docs/reference/blog/2021-04-01.md:87
 msgid "User feeling"
-msgstr ""
+msgstr "ユーザーの感覚"
 
 #: ../../CoFEA/docs/reference/blog/2021-04-01.md:88
 msgid ""
@@ -422,6 +443,10 @@ msgid ""
 " to look for it will not take long to find the right tool. The others will "
 "not find the learning curve very steep as well."
 msgstr ""
+"ユーザーフレンドリーであることが興味の対象であれば、われわれはかなり積極的に驚いています。Salome-"
+"Mecaの最新バージョンは、間違いなく無料で入手できる最高の環境の一つです。噂によると、フランス語はユーザーが自分が何をしているかを知っていると確信するには少々問題があるとのことですが、2019年から利用可能なバージョンは、かなり上手に英語に翻訳されています(非ネイティブ"
+" 'としては' "
+")。モデルは、最初から作成し、メッシュし、解析し、ポストプロセスで作成できます。何を探せばよいかを知っているユーザーにとっては、適切なツールを見つけるのに時間はかからないでしょう。他の人たちも、学習曲線がそれほど急なものではないでしょう。"
 
 #: ../../CoFEA/docs/reference/blog/2021-04-01.md:90
 msgid ""
@@ -434,6 +459,8 @@ msgid ""
 "some situations... but at the end of the day they are quite handy and that's"
 " why it is worth checking them."
 msgstr ""
+"シミュレーションワークフローチャートに示すように、Salome-Meca、PrePoMax、Calculix Advanced "
+"Environmentを組み合わせてCalculixのモデルを構築しました。既にメッシュを準備したPrePoMax/CAEで最終モデルを構築することは非常に容易です。これらのアプリが存在しなかった数年前は、それほど簡単なことではありませんでした。もちろん、いくつかの不具合があります。例えば、最新バージョンのPrePoMaxでは、いくつかの状況でセクションを割り当てることができません.しかし、結局、それらは非常に便利であり、それゆえそれらをチェックする価値があります。"
 
 #: ../../CoFEA/docs/reference/blog/2021-04-01.md:92
 msgid ""
@@ -447,6 +474,7 @@ msgid ""
 "useful. Apart from that, it seems to us that the code has very strong "
 "capabilities if someone is interested in multiphysics simulation."
 msgstr ""
+"エルマーはテストしていた3番目のコードです。GUIは非常に単純に見えますが、本を表紙で判断しないでください。実際には、ソルバ、マテリアル、荷重などを設定できる最も重要なオプションが含まれています。ユーザは、キーワードエディタを使用して手動でオプションを追加することも、テキストエディタを使用して直接オプションを追加することもできます。ただし、ElmerがSalomeからエクスポートされたUNVファイルを常に正しくインポートしているわけではありません(90%のケースは問題ありません)。ノードセットをGUIにインポートできるなら、非常に便利です。それとは別に、誰かがマルチフィジックスシミュレーションに興味を持っていれば、このコードは非常に強力な能力を持っているように思われます。"
 
 #: ../../CoFEA/docs/reference/blog/2021-04-01.md:94
 msgid "Software accuracy"
