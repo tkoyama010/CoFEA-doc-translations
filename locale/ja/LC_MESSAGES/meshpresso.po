@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CoFEA Initiative\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-14 15:00+0000\n"
+"POT-Creation-Date: 2021-05-16 01:05+0000\n"
 "PO-Revision-Date: 2021-05-14 14:56+0000\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/120662/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -327,7 +327,7 @@ msgstr ""
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of
 #: meshpresso.PartMesh.get_elements_from_label_list:1
-msgid "function to retreive the elements from list of elements labels."
+msgid "function to retrieve the elements from list of elements labels."
 msgstr ""
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of
@@ -353,7 +353,7 @@ msgstr ""
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of
 #: meshpresso.PartMesh.reorder_nodes_in_el_definition:1
 msgid ""
-"function used to reoder nodes. by default the node order is the same as in "
+"function used to reorder nodes. by default the node order is the same as in "
 "abaqus."
 msgstr ""
 

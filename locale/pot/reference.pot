@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CoFEA Initiative \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-14 15:00+0000\n"
+"POT-Creation-Date: 2021-05-16 01:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -337,7 +337,7 @@ msgid "Documentation contribution"
 msgstr ""
 
 #: ../../CoFEA/docs/reference/contributor_guide.md:12
-msgid "Your journey as a contributor should start with getting the copy CoFEA docs onto your hard-drive. It is actually very simple to recreate the website locally. You can do it by running folowing commands from terminal:"
+msgid "Your journey as a contributor should start with getting the copy CoFEA docs onto your hard-drive. It is actually very simple to recreate the website locally. You can do it by running following commands from terminal:"
 msgstr ""
 
 #: ../../CoFEA/docs/reference/contributor_guide.md:37

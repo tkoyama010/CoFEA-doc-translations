@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CoFEA Initiative \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-14 15:00+0000\n"
+"POT-Creation-Date: 2021-05-16 01:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -129,7 +129,7 @@ msgid "ARPACK"
 msgstr ""
 
 #: ../../CoFEA/docs/fea_software/calculix.md:75
-msgid "Next step is to compile ARPACK library. It is needed to download 2 seperate archives. Obtain it from [here](https://www.caam.rice.edu/software/ARPACK/SRC/arpack96.tar.gz) and [here](https://www.caam.rice.edu/software/ARPACK/SRC/patch.tar.gz)."
+msgid "Next step is to compile ARPACK library. It is needed to download 2 separate archives. Obtain it from [here](https://www.caam.rice.edu/software/ARPACK/SRC/arpack96.tar.gz) and [here](https://www.caam.rice.edu/software/ARPACK/SRC/patch.tar.gz)."
 msgstr ""
 
 #: ../../CoFEA/docs/fea_software/calculix.md:83
@@ -329,7 +329,7 @@ msgid "How to use ASTK with Code_aster"
 msgstr ""
 
 #: ../../CoFEA/docs/fea_software/code_aster.md:83
-msgid "Change your directory to the simulation directory. In this directory there should be solver input file (*.comm) and mesh file  Create two dummy files result.rmed (there will be the results of the simulation) and error.mess (logfile of the solver) and .astk file for ASTK enviroment. Use touch command:"
+msgid "Change your directory to the simulation directory. In this directory there should be solver input file (*.comm) and mesh file  Create two dummy files result.rmed (there will be the results of the simulation) and error.mess (logfile of the solver) and .astk file for ASTK environment. Use touch command:"
 msgstr ""
 
 #: ../../CoFEA/docs/fea_software/code_aster.md:91
@@ -349,7 +349,7 @@ msgid "Elmer"
 msgstr ""
 
 #: ../../CoFEA/docs/fea_software/elmer.md:9
-msgid "Instalation process of ElmerGUI is straightforward. It is needed to add Elmer sources and then just download the package. To do so please use following commands:"
+msgid "Installation process of ElmerGUI is straightforward. It is needed to add Elmer sources and then just download the package. To do so please use following commands:"
 msgstr ""
 
 #: ../../CoFEA/docs/fea_software/elmer.md:18

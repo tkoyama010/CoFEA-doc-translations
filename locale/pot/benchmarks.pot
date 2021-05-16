@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CoFEA Initiative \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-14 15:00+0000\n"
+"POT-Creation-Date: 2021-05-16 01:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1517,7 +1517,7 @@ msgid "half sphere model with use of shell S8 elements modeled without symmetry 
 msgstr ""
 
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/results.md:56
-msgid "Shell element types in CalculiX did not allow to achieve results close to the target value with symmetry boundary conditions. For the hemisphere shell model, the countour of displacement field seems to be similar to the expected one, although the values are still not correct. On the contrary, the solid model with 3 elements per thickness allows to obtain a satisfying result, but it required some time to estimate the response. These comparison proves that the CalculiX model was set up correctly, but it is the shell element type which is the source of non-satisfactory results."
+msgid "Shell element types in CalculiX did not allow to achieve results close to the target value with symmetry boundary conditions. For the hemisphere shell model, the contour of displacement field seems to be similar to the expected one, although the values are still not correct. On the contrary, the solid model with 3 elements per thickness allows to obtain a satisfying result, but it required some time to estimate the response. These comparison proves that the CalculiX model was set up correctly, but it is the shell element type which is the source of non-satisfactory results."
 msgstr ""
 
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/results.md:58
@@ -1585,7 +1585,7 @@ msgid "The shell implementation in Calculix did not allow to achieve the target 
 msgstr ""
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:7
-msgid "It is also not possible in Calculix to directly specify a load distibuted over an edge. However, one can use a third party software called [PrePoMax](http://lace.fs.uni-mb.si/wordpress/borovinsek/) that allows to define the surface traction load on an edge, which is converted into *CLOAD keyword afterwards. The loading scenario was also approximated with the rigid-body constraint which resulted in the same, incorrect value of displacemt. The last test implies that the source of the error is directly related to the shell element implementation. The provided tests highlight the fact that the shell element in Calculix does not seem to capture the response from the structures with complex shapes."
+msgid "It is also not possible in Calculix to directly specify a load distributed over an edge. However, one can use a third party software called [PrePoMax](http://lace.fs.uni-mb.si/wordpress/borovinsek/) that allows to define the surface traction load on an edge, which is converted into *CLOAD keyword afterwards. The loading scenario was also approximated with the rigid-body constraint which resulted in the same, incorrect value of displacemt. The last test implies that the source of the error is directly related to the shell element implementation. The provided tests highlight the fact that the shell element in Calculix does not seem to capture the response from the structures with complex shapes."
 msgstr ""
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:9
@@ -1593,7 +1593,7 @@ msgid "Difference between the results with shell elements (left) and the solid e
 msgstr ""
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:18
-msgid "Code_Aster allows to run this particular benchmark almost in a frictionless manner. A solution close to the expected value has been achieved even for the linear type of elements. Additionaly, the code has a built-in keyword called FORCE_ARETE that allows to specify a load distributed over an edge."
+msgid "Code_Aster allows to run this particular benchmark almost in a frictionless manner. A solution close to the expected value has been achieved even for the linear type of elements. Additionally, the code has a built-in keyword called FORCE_ARETE that allows to specify a load distributed over an edge."
 msgstr ""
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:20

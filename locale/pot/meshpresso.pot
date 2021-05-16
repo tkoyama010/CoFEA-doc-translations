@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CoFEA Initiative \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-14 15:00+0000\n"
+"POT-Creation-Date: 2021-05-16 01:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -253,7 +253,7 @@ msgid "dictionary of elements with elementtypes used as keys"
 msgstr ""
 
 #: ../../CoFEA/meshpresso/meshpresso.py:docstring of meshpresso.PartMesh.get_elements_from_label_list:1
-msgid "function to retreive the elements from list of elements labels."
+msgid "function to retrieve the elements from list of elements labels."
 msgstr ""
 
 #: ../../CoFEA/meshpresso/meshpresso.py:docstring of meshpresso.PartMesh.get_elements_from_label_list:4
@@ -273,7 +273,7 @@ msgid "list of integers describing node labes"
 msgstr ""
 
 #: ../../CoFEA/meshpresso/meshpresso.py:docstring of meshpresso.PartMesh.reorder_nodes_in_el_definition:1
-msgid "function used to reoder nodes. by default the node order is the same as in abaqus."
+msgid "function used to reorder nodes. by default the node order is the same as in abaqus."
 msgstr ""
 
 #: ../../CoFEA/meshpresso/meshpresso.py:docstring of meshpresso.PartMesh.reorder_nodes_in_el_definition:4
