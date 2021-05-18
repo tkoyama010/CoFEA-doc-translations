@@ -23,11 +23,11 @@ msgstr ""
 
 #: ../../CoFEA/docs/reference/about_us.md:1
 msgid "CoFEA Team"
-msgstr ""
+msgstr "CoFEAチーム"
 
 #: ../../CoFEA/docs/reference/about_us.md:3
 msgid "Authors"
-msgstr ""
+msgstr "著者"
 
 #: ../../CoFEA/docs/reference/about_us.md:5
 msgid ""
@@ -35,6 +35,8 @@ msgid ""
 "of CoFEA initiative and simulation engineer. In CoFEA team he is responsible"
 " for supervision of the project and technical expertise."
 msgstr ""
+"[Slaw Polanski](https://www.linkedin.com/in/slawomirpolanski/) - "
+"CoFEA構想の創始者であり、シミュレーション・エンジニアです。CoFEAチームでは、プロジェクトの監督と技術的専門知識を担当します。"
 
 #: ../../CoFEA/docs/reference/about_us.md:7
 msgid ""
