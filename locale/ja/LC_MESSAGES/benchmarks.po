@@ -828,29 +828,29 @@ msgstr "面 ABA′B′ で $u_x=0$"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/model.md:81
 msgid "$u_y=u_x=0$ on face BCB′C′."
-msgstr ""
+msgstr "面 BCB′C′ で $u_y=u_x=0$"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/model.md:82
 msgid ""
 "$u_z=0$ on line EE′ (E is the midpoint of edge CC′; E′ is the midpoint of "
 "edge BB′)."
-msgstr ""
+msgstr "線 EE′ 上の $u_z=0$ ( E はエッジの中間点 CC′;  E′ はエッジ BB′ の中間点)。"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/model.md:84
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/model.md:83
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/model.md:82
 msgid "Loading"
-msgstr ""
+msgstr "荷重"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/model.md:85
 msgid "uniform normal pressure of 1 MPa on face ABCD."
-msgstr ""
+msgstr "面ABCD上の1MPaの均一な法線圧力"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:3
 msgid ""
 "Number of simulations with different element types and mesh size have been "
 "performed for the thick plate under pressure model."
-msgstr ""
+msgstr "異なる要素タイプとメッシュサイズを持つ多数のシミュレーションを、圧力モデル下の厚板に対して実施しました。"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:9
 msgid ""
@@ -920,89 +920,89 @@ msgstr ""
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:13
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:13
 msgid "-1.51 MPa"
-msgstr ""
+msgstr "-1.51 MPa"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:13
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:13
 msgid "-4.38 MPa"
-msgstr ""
+msgstr "-4.38 MPa"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:13
 msgid "-2.64 MPa"
-msgstr ""
+msgstr "-2.64 MPa"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:13
 msgid "-5.49 MPa"
-msgstr ""
+msgstr "-5.49 MPa"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:13
 msgid "-5.45 MPa"
-msgstr ""
+msgstr "-5.45 MPa"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:13
 msgid "-5.77 MPa"
-msgstr ""
+msgstr "-5.77 MPa"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:13
 msgid "-5.51 MPa"
-msgstr ""
+msgstr "-5.51 MPa"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:13
 msgid "-5.85 MPa"
-msgstr ""
+msgstr "-5.85 MPa"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:13
 msgid "-4.58 MPa"
-msgstr ""
+msgstr "-4.58 MPa"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:13
 msgid "-5.50 MPa"
-msgstr ""
+msgstr "-5.50 MPa"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:38
 msgid "-2.75 MPa"
-msgstr ""
+msgstr "-2.75 MPa"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:38
 msgid "-3.08 MPa"
-msgstr ""
+msgstr "-3.08 MPa"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:38
 msgid "-4.05 MPa"
-msgstr ""
+msgstr "-4.05 MPa"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:38
 msgid "-5.42 MPa"
-msgstr ""
+msgstr "-5.42 MPa"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:38
 msgid "-4.52 MPa"
-msgstr ""
+msgstr "-4.52 MPa"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:38
 msgid "-5.02 MPa"
-msgstr ""
+msgstr "-5.02 MPa"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:38
 msgid "-7.34 MPa"
-msgstr ""
+msgstr "-7.34 MPa"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:38
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:38
 msgid "-5.65 MPa"
-msgstr ""
+msgstr "-5.65 MPa"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:38
 msgid "-7.39 MPa"
-msgstr ""
+msgstr "-7.39 MPa"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:38
 msgid "-5.66 MPa"
-msgstr ""
+msgstr "-5.66 MPa"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:38
 msgid "-5.56 MPa"
-msgstr ""
+msgstr "-5.56 MPa"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/tested-codes.md:8
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/tested-codes.md:8
