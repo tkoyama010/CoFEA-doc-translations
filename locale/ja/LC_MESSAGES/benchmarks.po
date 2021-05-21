@@ -861,6 +861,9 @@ msgid ""
 "additional test with a very fine mesh has been run and all tested FE codes "
 "converged to the target value."
 msgstr ""
+"オープンソースソフトウェアを使用して、圧力荷重条件で構造解析を実行し、正しい解を得ることが可能です。本研究では、かなり粗いメッシュを試験し、 "
+"$\\sigma_{yy}=5.38 MPa$ の目標に近い応力値を得ることができました。 "
+"非常に細かいメッシュの追加テストが実行され、テストされたすべてのFEコードが目標値に収束しました。"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:10
 msgid ""
@@ -869,6 +872,7 @@ msgid ""
 "slightly different element formulation for linear hexahedral meshes was "
 "used."
 msgstr ""
+"CalculexとCode_Asterは一般に、線形六角メッシュの場合とは別に、同様の出力を生成していることがわかります。これは,線形六面体メッシュに対して若干異なる要素定式化が使用されたことを示しています。"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:11
 msgid ""
@@ -1018,6 +1022,9 @@ msgid ""
 "[GitHub](https://github.com/spolanski/CoFEA/tree/master/benchmarks/01-LE10"
 "-Thick-Plate/Model_CalculiX)!"
 msgstr ""
+"この検討で使用するシミュレーション入力ファイルは [CoFEA "
+"GitHub](https://github.com/spolanski/CoFEA/tree/master/benchmarks/01-LE10"
+"-Thick-Plate/Model_CalculiX) にあります。"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/tested-codes.md:65
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/tested-codes.md:60

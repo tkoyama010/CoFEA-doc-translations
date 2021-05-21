@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the CoFEA Initiative package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2021
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-16 01:05+0000\n"
 "PO-Revision-Date: 2021-05-14 14:56+0000\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/120662/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,13 +23,13 @@ msgstr ""
 
 #: ../../CoFEA/docs/meshpresso/api.rst:2
 msgid "Meshpresso module"
-msgstr ""
+msgstr "Meshpressoモジュール"
 
 #: ../../CoFEA/docs/meshpresso/api.rst:4
 msgid ""
 "The following section contains a documentation of the Meshpresso module "
 "implementation."
-msgstr ""
+msgstr "次のセクションは、Meshpressoモジュールの実装について説明するドキュメントです。"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Mesh:1
 msgid ""
