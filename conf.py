@@ -12,9 +12,10 @@ This conf.py do:
 
 """
 import os
-from sphinx.util.pycompat import execfile_
 import shutil
 import sys
+
+from sphinx.util.pycompat import execfile_
 
 shutil.rmtree("benchmarks", ignore_errors=True)
 shutil.copytree("CoFEA/docs/benchmarks", "benchmarks")
@@ -25,6 +26,7 @@ execfile_(os.path.join(BASEDIR, "CoFEA/docs/conf.py"), globals())
 locale_dirs = [os.path.join(BASEDIR, "locale/")]
 
 sys.path.insert(0, os.path.abspath("CoFEA/meshpresso"))
+
 
 def setup(app):
     app.srcdir = os.path.join(BASEDIR, "CoFEA/docs/")
