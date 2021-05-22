@@ -37,10 +37,11 @@ msgid ""
 "the idea is to initialise the constructor, then import mesh from db file. "
 "finally, the mesh can be exported to an external format. for example"
 msgstr ""
+"Meshは、メッシュデータの読み込み、保存、書き出しに使用される最も汎用的なクラスです。コンストラクタを初期化し、dbファイルからメッシュをインポートします。最後に、メッシュを外部形式にエクスポートできます。例えば"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Mesh:13
 msgid "name of imported model"
-msgstr ""
+msgstr "インポートされたモデルの名前"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Mesh:0
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Mesh:0
@@ -58,7 +59,7 @@ msgstr ""
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Node:0
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Node:0
 msgid "type"
-msgstr ""
+msgstr "型"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Mesh:15
 msgid "string"

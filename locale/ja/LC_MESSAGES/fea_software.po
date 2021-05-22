@@ -44,69 +44,71 @@ msgid ""
 "changed and ready for compilation. Please read the original documentation "
 "first from [here](http://www.dhondt.de/ccx_2.17.README.INSTALL)."
 msgstr ""
+"マルチスレッドモードでCalculixを使用するには、ソースからコンパイルする必要があります。そのためには、ARPACKとSPOOLESライブラリーをコンパイルし、必要なツールをインストールする必要があります。ここに示すコードはすでに変更されており、コンパイルの準備ができています。まず"
+" [ここ](http://www.dhondt.de/ccx_2.17.README.INSTALL) からオリジナルのドキュメントを読んでください。"
 
 #: ../../CoFEA/docs/fea_software/calculix.md:10
 msgid "Tools"
-msgstr ""
+msgstr "ツール"
 
 #: ../../CoFEA/docs/fea_software/calculix.md:11
 msgid "Install the required tools for Calculix:"
-msgstr ""
+msgstr "Calculixに必要なツールをインストールします:"
 
 #: ../../CoFEA/docs/fea_software/calculix.md:12
 msgid "gfortran"
-msgstr ""
+msgstr "gfortran"
 
 #: ../../CoFEA/docs/fea_software/calculix.md:13
 msgid "make"
-msgstr ""
+msgstr "make"
 
 #: ../../CoFEA/docs/fea_software/calculix.md:14
 msgid "f2c"
-msgstr ""
+msgstr "f2c"
 
 #: ../../CoFEA/docs/fea_software/calculix.md:15
 msgid "liblapack3"
-msgstr ""
+msgstr "liblapack3"
 
 #: ../../CoFEA/docs/fea_software/calculix.md:16
 msgid "liblapack-dev"
-msgstr ""
+msgstr "liblapack-dev"
 
 #: ../../CoFEA/docs/fea_software/calculix.md:17
 msgid "libexodusii-dev"
-msgstr ""
+msgstr "libexodusii-dev"
 
 #: ../../CoFEA/docs/fea_software/calculix.md:18
 msgid "libgl1-mesa-dev"
-msgstr ""
+msgstr "libgl1-mesa-dev"
 
 #: ../../CoFEA/docs/fea_software/calculix.md:19
 msgid "libglu1-mesa-dev"
-msgstr ""
+msgstr "libglu1-mesa-dev"
 
 #: ../../CoFEA/docs/fea_software/calculix.md:20
 msgid "libxi-dev"
-msgstr ""
+msgstr "libxi-dev"
 
 #: ../../CoFEA/docs/fea_software/calculix.md:21
 msgid "libxmu-dev"
-msgstr ""
+msgstr "libxmu-dev"
 
 #: ../../CoFEA/docs/fea_software/calculix.md:22
 msgid "gcc"
-msgstr ""
+msgstr "gcc"
 
 #: ../../CoFEA/docs/fea_software/calculix.md:24
 #: ../../CoFEA/docs/fea_software/code_aster.md:48
 msgid ""
 "using your package manager. For Ubuntu and Debian-oriented system the "
 "command should be like:"
-msgstr ""
+msgstr "パッケージマネージャを使用します。UbuntuおよびDebian指向のシステムでは、コマンドは次のようになります:"
 
 #: ../../CoFEA/docs/fea_software/calculix.md:29
 msgid "SPOOLES"
-msgstr ""
+msgstr "SPOOLES"
 
 #: ../../CoFEA/docs/fea_software/calculix.md:31
 msgid ""
@@ -148,7 +150,7 @@ msgstr ""
 
 #: ../../CoFEA/docs/fea_software/calculix.md:73
 msgid "ARPACK"
-msgstr ""
+msgstr "ARPACK"
 
 #: ../../CoFEA/docs/fea_software/calculix.md:75
 msgid ""
@@ -305,35 +307,35 @@ msgstr ""
 
 #: ../../CoFEA/docs/fea_software/code_aster.md:36
 msgid "gcc, g++, gfortran,"
-msgstr ""
+msgstr "gcc, g++, gfortran,"
 
 #: ../../CoFEA/docs/fea_software/code_aster.md:37
 msgid "cmake,"
-msgstr ""
+msgstr "cmake,"
 
 #: ../../CoFEA/docs/fea_software/code_aster.md:38
 msgid "python3,"
-msgstr ""
+msgstr "python3,"
 
 #: ../../CoFEA/docs/fea_software/code_aster.md:39
 msgid "python3-dev,"
-msgstr ""
+msgstr "python3-dev,"
 
 #: ../../CoFEA/docs/fea_software/code_aster.md:40
 msgid "python3-numpy,"
-msgstr ""
+msgstr "python3-numpy,"
 
 #: ../../CoFEA/docs/fea_software/code_aster.md:41
 msgid "tk,"
-msgstr ""
+msgstr "tk,"
 
 #: ../../CoFEA/docs/fea_software/code_aster.md:42
 msgid "bison,,"
-msgstr ""
+msgstr "bison,,"
 
 #: ../../CoFEA/docs/fea_software/code_aster.md:43
 msgid "flex,"
-msgstr ""
+msgstr "flex,"
 
 #: ../../CoFEA/docs/fea_software/code_aster.md:44
 msgid "liblapack-dev, libblas-dev ou libopenblas-dev,"

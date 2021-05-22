@@ -36,7 +36,7 @@ msgid ""
 " for supervision of the project and technical expertise."
 msgstr ""
 "[Slaw Polanski](https://www.linkedin.com/in/slawomirpolanski/) - "
-"CoFEA構想の創始者であり、シミュレーション・エンジニアです。CoFEAチームでは、プロジェクトの監督と技術的専門知識を担当します。"
+"CoFEA計画の創始者であり、シミュレーション・エンジニアです。CoFEAチームでは、プロジェクトの監督と技術的専門知識を担当します。"
 
 #: ../../CoFEA/docs/reference/about_us.md:7
 msgid ""
@@ -45,35 +45,37 @@ msgid ""
 "responsibilities are conducting the FEA simulations and postprocessing "
 "results with Python."
 msgstr ""
+"[Maciej Dudek](https://www.linkedin.com/in/dudek-maciej/) - "
+"機械工学を専攻する学生で、FEAとLinuxに情熱を燃やしています。主な業務は、FEAシミュレーションの実施と、Pythonによるポストプロセスの結果です。"
 
 #: ../../CoFEA/docs/reference/about_us.md:9
 msgid "You can also contact us on cofea.project(at)gmail.com"
-msgstr ""
+msgstr "cofea.project(at)gmail.com でもご連絡いただけます。"
 
 #: ../../CoFEA/docs/reference/about_us.md:13
 msgid "Contributors"
-msgstr ""
+msgstr "貢献者"
 
 #: ../../CoFEA/docs/reference/about_us.md:15
 msgid "Filip Janczak"
-msgstr ""
+msgstr "Filip Janczak"
 
 #: ../../CoFEA/docs/reference/about_us.md:16
 msgid "Gabriel Dante Lima Chaves"
-msgstr ""
+msgstr "Gabriel Dante Lima Chaves"
 
 #: ../../CoFEA/docs/reference/blog.md:1
 msgid "CoFEA Blog"
-msgstr ""
+msgstr "CoFEAブログ"
 
 #: ../../CoFEA/docs/reference/blog.md:3
 msgid "This page will be replaced by ABlog."
-msgstr ""
+msgstr "このページはABlogに置き換えられます。"
 
 #: ../../CoFEA/docs/reference/blog/2020-12-10.md:5
 msgid ""
 "Engineering simulations without limits. The origin of CoFEA Initiative ☕"
-msgstr "無制限のエンジニアリングシミュレーション。CoFEA 構想の起源 ☕"
+msgstr "無制限のエンジニアリングシミュレーション。CoFEA 計画の起源 ☕"
 
 #: ../../CoFEA/docs/reference/blog/2020-12-10.md:7
 msgid ""
@@ -105,9 +107,9 @@ msgid ""
 " aims to bring open-source simulation software closer to the engineering "
 "industry problems. The goals of this initiative is to:"
 msgstr ""
-"正直なところ、コンピュータシミュレーションをより多くの企業に導入する方法について、以前から考えていました。これは、解が一意に定まらない非常に複雑な問題のようです。そこで、どんな貢献でも役に立つと思い、自分の構想を公開したいと思いました。11月の初めから、私はCoFEA"
+"正直なところ、コンピュータシミュレーションをより多くの企業に導入する方法について、以前から考えていました。これは、解が一意に定まらない非常に複雑な問題のようです。そこで、どんな貢献でも役に立つと思い、自分の計画を公開したいと思いました。11月の初めから、私はCoFEA"
 " (Collaboration+Finite Element Analysis) "
-"と名付けた新しい時間外プロジェクトに取り組んでいます。CoFEAは、オープンソースのシミュレーションソフトウェアをエンジニアリング業界の問題に近づけることを目的とした構想です。この構想の目標は次のとおりです:"
+"と名付けた新しい時間外プロジェクトに取り組んでいます。CoFEAは、オープンソースのシミュレーションソフトウェアをエンジニアリング業界の問題に近づけることを目的とした計画です。この計画の目標は次のとおりです:"
 
 #: ../../CoFEA/docs/reference/blog/2020-12-10.md:11
 msgid "raise awareness of the available open-source simulation software"
@@ -157,7 +159,7 @@ msgid ""
 "another goal of the CoFEA Initiative - to create a Python library which "
 "converts simulation data into format possible to use in multiple codes."
 msgstr ""
-"オープンソースソフトウェアのもう1つの落とし穴は、コード間の互換性の欠如です。メッシュ生成に適したコードもあれば、優れたソルバを持つコードもあれば、優れた後処理機能を持つコードもあります。これらすべての条件を満たすオープンソースソフトウェアを私は見つけていません。この障害は、シミュレーションデータを複数のコードで使用できる形式に変換するPythonライブラリを作成するという、CoFEA構想のもう1つの目標です。"
+"オープンソースソフトウェアのもう1つの落とし穴は、コード間の互換性の欠如です。メッシュ生成に適したコードもあれば、優れたソルバを持つコードもあれば、優れた後処理機能を持つコードもあります。これらすべての条件を満たすオープンソースソフトウェアを私は見つけていません。この障害は、シミュレーションデータを複数のコードで使用できる形式に変換するPythonライブラリを作成するという、CoFEA計画のもう1つの目標です。"
 
 #: ../../CoFEA/docs/reference/blog/2020-12-10.md:22
 msgid ""
@@ -170,7 +172,7 @@ msgid ""
 "Code Aster and Elmer - all give the same correct answer!"
 msgstr ""
 "これらの課題はすべて、プロジェクトの起源以来取り組まれてきました。幸運なことに、この旅に参加したのは私だけではありませんでした。Maciej "
-"Dudekの多大な助けによって、私は当初の目標以上のことを成し遂げることができたのです。CoFEAデータベースの最初のベンチマークとして音叉モデルを選択しました。モデルが単純であるにもかかわらず、この検討は、440Hzの周波数を選択できるように細かいメッシュを使用する必要があることを明確に示しました。Calculix、Code"
+"Dudekの多大な助けによって、私は当初の目標以上のことを成し遂げることができたのです。CoFEAデータベースの最初のベンチマークとして音叉モデルを選択しました。モデルが単純であるにもかかわらず、この解析は、440Hzの周波数を選択できるように細かいメッシュを使用する必要があることを明確に示しました。Calculix、Code"
 " Aster、Elmerでテストしましたが、どれも同じで正解でした!"
 
 #: ../../CoFEA/docs/reference/blog/2020-12-10.md:24
@@ -194,7 +196,7 @@ msgid ""
 "this initiative."
 msgstr ""
 "CoFEAイニシアティブは、誰もが貢献できるように構築されています。Pythonコードとウェブサイト全体はGitHubで公開されています。GitHubに変更を加えると、Sphinxを使ってReadTheDocsサーバ上でHTML"
-" Webサイトの自動コンパイルが起動されます。誰もがこの構想の一部だと感じることができます。"
+" Webサイトの自動コンパイルが起動されます。誰もがこの計画の一部だと感じることができます。"
 
 #: ../../CoFEA/docs/reference/blog/2020-12-10.md:28
 msgid "So how to contribute? There are plenty of ways:"
@@ -234,13 +236,13 @@ msgstr ""
 
 #: ../../CoFEA/docs/reference/blog/2020-12-10.md:36
 msgid "Let's make this initiative valuable for all of us!"
-msgstr "この構想をすべての人にとって価値あるものにしましょう!"
+msgstr "この計画をすべての人にとって価値あるものにしましょう!"
 
 #: ../../CoFEA/docs/reference/blog/2020-12-10.md:38
 msgid ""
 "[Follow the CoFEA Initiative on "
 "Twitter](https://twitter.com/CoFEAinitiative)"
-msgstr "[TwitterでCoFEA構想をフォローする](https://twitter.com/CoFEAinitiative)"
+msgstr "[TwitterでCoFEA計画をフォローする](https://twitter.com/CoFEAinitiative)"
 
 #: ../../CoFEA/docs/reference/blog/2021-04-01.md:5
 msgid "April 2021"
@@ -253,7 +255,7 @@ msgid ""
 "improved the website and connected some dots to establish a simulation "
 "workflow based on available open-source software."
 msgstr ""
-"CoFEA構想の前回の更新から数ヵ月が経過しましたが、何も行われていないわけではありません。まったく逆です! "
+"CoFEA計画の前回の更新から数ヵ月が経過しましたが、何も行われていないわけではありません。まったく逆です! "
 "5つのモデルをテストし、ウェブサイトを改善し、いくつかの点を接続して、利用可能なオープンソースソフトウェアに基づくシミュレーションワークフローを確立しました。"
 
 #: ../../CoFEA/docs/reference/blog/2021-04-01.md:9
@@ -412,7 +414,7 @@ msgid ""
 "-bulkorder, -autoclean. They could greatly help you with successful mesh "
 "conversion. The .unv mesh is converted with the following command:"
 msgstr ""
-"一般的に、ElmerGridはさまざまな形式のメッシュをサポートする堅牢なコンバータですが、いくつかの欠点があります。ノードセットを使用しないようにするのが経験則です。また、すべてのメッシュをスタンドアロンのケースとして検討することも重要です(たとえば、1つのメッシュは追加のフラグなしで変換されますが、同じメッシュに四角形要素がある場合は、それらのいくつかが必要になります)。変換プロセスの前に、マニュアルを読んでこれらのフラグを理解してください:"
+"一般的に、ElmerGridはさまざまな形式のメッシュをサポートする堅牢なコンバータですが、いくつかの欠点があります。ノードセットを使用しないようにするのが経験則です。また、すべてのメッシュをスタンドアロンのケースとして解析することも重要です(たとえば、1つのメッシュは追加のフラグなしで変換されますが、同じメッシュに四角形要素がある場合は、それらのいくつかが必要になります)。変換プロセスの前に、マニュアルを読んでこれらのフラグを理解してください:"
 " -boundorder, -removelowdim, -removeunused, -bulkorder, "
 "-autoclean。メッシュ変換を成功させる上で非常に役立ちます。 .unv メッシュは次のコマンドで変換されます。"
 
@@ -480,7 +482,7 @@ msgstr ""
 
 #: ../../CoFEA/docs/reference/blog/2021-04-01.md:94
 msgid "Software accuracy"
-msgstr ""
+msgstr "ソフトウェアの精度"
 
 #: ../../CoFEA/docs/reference/blog/2021-04-01.md:95
 msgid ""
@@ -494,6 +496,8 @@ msgid ""
 "make all the meshes as close as possible to the patterns recommended by "
 "NAFEMS."
 msgstr ""
+"結果に関する最も重要な結論は、フリーソフトウェアは非常に良い仕事ができるということです。すべての解析事例において目標の解決を達成した。 "
+"また、ほとんどの場合、同じメッシュの結果は非常に類似しています。これは、同様の要素の実装が原因であると考えられます。このような小さなDOF数のモデルでは、性能比較を実施するのは不合理でしたが、将来このような試験を実施する計画があります。また、NAFEMSで推奨されているパターンにできるだけ近いメッシュを作成しようとしたことも注目に値します。"
 
 #: ../../CoFEA/docs/reference/blog/2021-04-01.md:97
 msgid ""
@@ -505,10 +509,13 @@ msgid ""
 " like to thank [Lukasz Kaczmarczyk](https://twitter.com/LukaszKaczmarcz) for"
 " running the eigenvalue analysis for this scenario."
 msgstr ""
+" Calculix, Code_Aster, Elmerを用いて音叉ベンチマークの正しい解が得られることは既に証明されています。今回の更新では, "
+"MoFEMコードを用いて行った試験結果を追加した。この有限要素の実装では、いくつかの高次要素形状関数を使用しており、粗いメッシュを使用しても非常に優れた結果を得ることができます。このシナリオの固有値解析を実行してくれた"
+" [Lukasz Kaczmarczyk](https://twitter.com/LukaszKaczmarcz) に感謝します。"
 
 #: ../../CoFEA/docs/reference/blog/2021-04-01.md:99
 msgid "Tuning fork simulation performed in MoFEM"
-msgstr ""
+msgstr "MoFEMによる音叉シミュレーション"
 
 #: ../../CoFEA/docs/reference/blog/2021-04-01.md:108
 msgid ""
@@ -516,6 +523,7 @@ msgid ""
 "achieve correct results for a linear model driven by pressure load. The "
 "target solution was achieved with both tetrahedral and hexahedral elements."
 msgstr ""
+"圧力下の厚板の結果は、圧力荷重によって駆動される線形モデルに対して、正しい結果を容易に得ることができるということです。四面体および六面体要素の両方で目標解を達成しました。"
 
 #: ../../CoFEA/docs/reference/blog/2021-04-01.md:110
 msgid ""
@@ -525,6 +533,7 @@ msgid ""
 "to use the linear type of elements to obtain a decent solution. A solution "
 "closed to the target value was obtained with quadratic type elements."
 msgstr ""
+"Cookの膜ベンチマークでは、半非圧縮性材料を試験しました。ヤング率値が低い線形材料モデルについて,ポアソン値の2つの値を調べました。線形タイプの要素を使用して適切な解を得ることは現実的ではないことが分かりました。二次形式要素を用いて目標値に近い解を得ました。"
 
 #: ../../CoFEA/docs/reference/blog/2021-04-01.md:112
 msgid ""
@@ -533,6 +542,8 @@ msgid ""
 "convinced us that it is fairly simple to set up a 2D model and achieve the "
 "correct solution."
 msgstr ""
+" 圧力下楕円膜モデルでは、平面応力要素を使用した解析からの応答をテストすることを目的としています。このベンチマークにより、2 "
+"Dモデルを設定して適切なソリューションを実現するのは非常に簡単であることがわかりました。"
 
 #: ../../CoFEA/docs/reference/blog/2021-04-01.md:114
 msgid ""
@@ -552,10 +563,13 @@ msgid ""
 " early phase of development. We would like to also say thank you to all "
 "people at the Elmer forum who helped us to debug the model."
 msgstr ""
+"半球状シェル点荷重モデルの最後のモデルは、調べるのが最も面倒だったと言えます。Code_Asterを使用したテストは非常に単純でしたが、CalculixとElmerの両方で応答のトラブルシューティングに時間がかかりました。Calculixを使ったテストの最終的な結論は、シェルの実装では正しい解を得ることができないということです。対称境界条件は結果の精度に大きな影響を与えると思われます。固体要素では正しい解が得られ、設定が正しいことが証明されましたが、これらの要素の使用はこの解析の目的ではありませんでした。"
+" "
+"Elmerでシェル要素の対称条件を設定するにはいくつかのテストが必要であり、最終的に目標値を達成しましたが、メッシュが非常に細かいモデルの場合のみです。NAFEMSメッシュ設定では適切な応答を得ることはできませんが、Elmerでのシェル実装はまだ開発の初期段階にあることにも注意してください。また、モデルのデバッグに協力してくれたElmerフォーラムのすべての方々にも感謝します。"
 
 #: ../../CoFEA/docs/reference/blog/2021-04-01.md:159
 msgid "Additional notes"
-msgstr ""
+msgstr "その他の注意事項"
 
 #: ../../CoFEA/docs/reference/blog/2021-04-01.md:161
 msgid ""
@@ -566,17 +580,20 @@ msgid ""
 "our Contribution Guide which now describes how to compile the CoFEA docs "
 "locally and how to contribute to the initiative."
 msgstr ""
+"また、この作業はシミュレーションのみで行われたわけではありません。上に示したように、我々のウェブサイトに [ipygany]() "
+"拡張を実装することができました。 この拡張機能を使用すると、Paraviewから直接書き出されたインタラクティブなプロットを表示できます。また、 "
+"貢献者ガイドを拡充し、CoFEA文書のローカルでの編集方法や取り組みへの貢献方法について説明しています。"
 
 #: ../../CoFEA/docs/reference/contributor_guide.md:1
 msgid "Contributor Guide"
-msgstr ""
+msgstr "貢献者ガイド"
 
 #: ../../CoFEA/docs/reference/contributor_guide.md:3
 msgid ""
 "Here is a quick introduction on how to start contributing to the CoFEA "
 "Initiative. At first, you can acknowledge yourself with the rules we try to "
 "follow:"
-msgstr ""
+msgstr "CoFEA計画への貢献を開始する方法を簡単に紹介します。最初に、私たちが従うべきルールを自分自身に認めてください:"
 
 #: ../../CoFEA/docs/reference/contributor_guide.md:4
 msgid ""
@@ -585,6 +602,8 @@ msgid ""
 "tend to use this distribution and all guidelines presented in this docs have"
 " been validated with this OS."
 msgstr ""
+"プログラミングやコンパイルなどに慣れていない場合は、メイン環境としてUbuntu 18.0 (またはDebianベースのLinux) "
+"を使用することをお勧めします。私たちはこのディストリビューションを使う傾向があり、この文書で紹介されているすべてのガイドラインはこのOSで検証されています。"
 
 #: ../../CoFEA/docs/reference/contributor_guide.md:5
 msgid ""
@@ -596,6 +615,10 @@ msgid ""
 "understanding of *git* version control system and the nomenclature used on "
 "GitHub (such as pull request, fork etc.)"
 msgstr ""
+"コードやドキュメントなどを保存する場所としてGitHubのウェブサイトを使っています。その結果、CoFEAに投稿したい場合は、 [CoFEA "
+"repository](https://github.com/spolanski/CoFEA) "
+"をフォークし、変更を加え、変更したバージョンを送り返すことができるように、このプラットフォームのアカウントを持っている必要があります。 また、あなたは "
+"*git* のバージョン管理システムとGitHubで使われている命名法(たとえば、プル要求、フォークなどです。)の基本を理解している必要があります。"
 
 #: ../../CoFEA/docs/reference/contributor_guide.md:6
 msgid ""
@@ -604,22 +627,26 @@ msgid ""
 "are developed should be developed in a way that is more or less compatible "
 "with 2.x and 3.x versions."
 msgstr ""
+"Python 3.xのみを使用すると便利ですが、一部のFEコード (たとえば、Salome) "
+"はまだPythonバージョン2.7を使用しています。そのため、開発されるすべてのスクリプトは、2.xおよび3.xバージョンとほぼ互換性のある方法で開発する必要があります。"
 
 #: ../../CoFEA/docs/reference/contributor_guide.md:7
 msgid ""
 "All the tasks we are currently working on are presented in the [CoFEA Github"
 " issues](https://github.com/spolanski/CoFEA/issues)"
 msgstr ""
+"私たちが現在取り組んでいるすべてのタスクは、 [CoFEA Github "
+"issues](https://github.com/spolanski/CoFEA/issues) に提示されています。"
 
 #: ../../CoFEA/docs/reference/contributor_guide.md:8
 msgid ""
 "While still not in place, please use snake_case for naming instead of "
 "camelCase rule or any different"
-msgstr ""
+msgstr "新しく整備する場合は、camelCaseルールまたは他の任意のルールの代わりにsnake_caseを使用して命名してください"
 
 #: ../../CoFEA/docs/reference/contributor_guide.md:10
 msgid "Documentation contribution"
-msgstr ""
+msgstr "ドキュメントの貢献"
 
 #: ../../CoFEA/docs/reference/contributor_guide.md:12
 msgid ""
@@ -627,6 +654,7 @@ msgid ""
 "onto your hard-drive. It is actually very simple to recreate the website "
 "locally. You can do it by running following commands from terminal:"
 msgstr ""
+"コントリビューターとしての旅は、CoFEA文書のコピーをハードドライブに保存することから始める必要があります。Webサイトをローカルに再作成するのは非常に簡単です。これを行うには、ターミナルから次のコマンドを実行します。"
 
 #: ../../CoFEA/docs/reference/contributor_guide.md:37
 msgid ""
@@ -634,6 +662,8 @@ msgid ""
 "locally. Then you can modify the files and send them back to the CoFEA "
 "github using git push command. We are looking forward to your contribution!"
 msgstr ""
+"以上です! 上記の手順に従うと、Webサイトをローカルでコンパイルできます。その後、ファイルを変更し、git pushコマンドを使用してCoFEA "
+"githubに送ることができます。私たちはあなたの貢献を楽しみにしています!"
 
 #: ../../CoFEA/docs/reference/contributor_guide.md:39
 msgid ""
@@ -644,36 +674,41 @@ msgid ""
 "knows that someone is working on it. After that send a pull request and your"
 " work will be merged soon."
 msgstr ""
+"やるべき仕事を探している? "
+"[CoFEAドキュメントのissue](https://github.com/spolanski/CoFEA/issues/27) "
+"を確認してください。これには、実装したいいくつかのものが含まれています。一つ選んで [Github "
+"issueを作成してください](https://github.com/spolanski/CoFEA/issues/new/choose)、誰かが取り組んでいることがわかります。"
+" その後プルリクエストを送信すると、作業はすぐにマージされます。"
 
 #: ../../CoFEA/docs/reference/contributor_guide.md:43
 msgid "FE work contribution"
-msgstr ""
+msgstr "FE作業の貢献"
 
 #: ../../CoFEA/docs/reference/contributor_guide.md:45
 msgid ""
 "Once the documentation works, you can set up the simulation environment. The"
 " CoFEA workflow currently used by contributors is following:"
-msgstr ""
+msgstr "ドキュメントが機能したら、シミュレーション環境を設定できます。共同作成者が現在使用しているCoFEAワークフローは次のとおりです:"
 
 #: ../../CoFEA/docs/reference/contributor_guide.md:46
 msgid "Salome_Meca 2019.3 is used to build/import geometries and meshes"
-msgstr ""
+msgstr "Salome_Meca 2019.3を使用して形状とメッシュを作成/インポートします"
 
 #: ../../CoFEA/docs/reference/contributor_guide.md:47
 msgid "Established model is tested in Code_Aster"
-msgstr ""
+msgstr "確立されたモデルはCode_Asterでテストされます"
 
 #: ../../CoFEA/docs/reference/contributor_guide.md:48
 msgid ""
 "Meshes are converted into format appropriate to run study in Calculix and "
 "Elmer"
-msgstr ""
+msgstr "メッシュは、CalculixおよびElmerで解析を実行するのに適した形式に変換されます。"
 
 #: ../../CoFEA/docs/reference/contributor_guide.md:49
 msgid ""
 "Optionally, the same setup is tested in different codes which are also free "
 "and open-source."
-msgstr ""
+msgstr "オプションとして、同じセットアップが、フリーでオープンソースの異なるコードでテストされます。"
 
 #: ../../CoFEA/docs/reference/contributor_guide.md:51
 msgid ""
@@ -681,6 +716,7 @@ msgid ""
 "Calculix and Elmer, so that you could build your own models and contribute "
 "to the CoFEA initiative."
 msgstr ""
+"貢献する最善の方法は、Code_Aster、Calculix、およびElmerとともにSalome_Mecaをインストールし、独自のモデルを構築してCoFEAイニシアチブに貢献できるようにすることです。貢献する最善の方法は、Code_Aster、Calculix、およびElmerとともにSalome_Mecaをインストールし、独自のモデルを構築してCoFEA計画に貢献できるようにすることです。"
 
 #: ../../CoFEA/docs/reference/contributor_guide.md:53
 msgid ""
@@ -691,6 +727,10 @@ msgid ""
 "knows that someone is working on it. After that send a pull request and your"
 " work will be merged soon."
 msgstr ""
+"やるべき仕事を探している? [FEA作業のissue](https://github.com/spolanski/CoFEA/issues/51) "
+"を確認してください。これには、テストしたいいくつかの例が含まれています。一つ選んで [Github "
+"issueを作成してください](https://github.com/spolanski/CoFEA/issues/new/choose)、誰かが取り組んでいることがわかります。"
+" その後プルリクエストを送信すると、作業はすぐにマージされます。"
 
 #: ../../CoFEA/docs/reference/contributor_guide.md:57
 msgid ""
@@ -698,10 +738,11 @@ msgid ""
 "example or show results for already existing benchmark, feel free to add "
 "your contribution to the Benchmarks folder and send pull request."
 msgstr ""
+"FEコード開発者で、独自のサンプルを提出したり、既存のベンチマークの結果を表示したい場合は、Benchmarksフォルダに自由に投稿を追加してプルリクエストを送信してください。"
 
 #: ../../CoFEA/docs/reference/contributor_guide.md:62
 msgid "Python scripts contribution"
-msgstr ""
+msgstr "Pythonスクリプトの貢献"
 
 #: ../../CoFEA/docs/reference/contributor_guide.md:64
 msgid ""
@@ -709,3 +750,5 @@ msgid ""
 "Converter](../meshpresso/index.md). More information on how to contribute "
 "will be provided soon."
 msgstr ""
+"現在のところ、ほとんどの作業は [Meshpresso Mesh Converter](../meshpresso/index.md) "
+"上で行われています。どのように貢献するかについての詳細は、まもなく提供される予定です。"

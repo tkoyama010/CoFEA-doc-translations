@@ -49,7 +49,7 @@ msgid ""
 "in this study, the first frequency of vibration is expected to be close to "
 "440 Hz ([original study](http://pubs.sciepub.com/ajme/4/7/16/index.html))."
 msgstr ""
-"異なる有限要素コードで実行したモーダル解析の結果を比較することを目的としています。音叉ジオメトリを使用してソフトウェアのパフォーマンスを測定します。本検討で使用した音叉ジオメトリでは、振動の第1周波数は440Hz([原研究](http://pubs.sciepub.com/ajme/4/7/16/index.html))に近いと予想されます。"
+"異なる有限要素コードで実行したモーダル解析の結果を比較することを目的としています。音叉ジオメトリを使用してソフトウェアのパフォーマンスを測定します。本解析で使用した音叉ジオメトリでは、振動の第1周波数は440Hz([原研究](http://pubs.sciepub.com/ajme/4/7/16/index.html))に近いと予想されます。"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/model.md:6
 msgid ""
@@ -63,7 +63,7 @@ msgid ""
 "GitHub](https://github.com/spolanski/CoFEA/tree/master/benchmarks/00-Tuning-"
 "Fork)."
 msgstr ""
-"この検討で使用するシミュレーション入力ファイルは [CoFEA "
+"この解析で使用するシミュレーション入力ファイルは [CoFEA "
 "GitHub](https://github.com/spolanski/CoFEA/tree/master/benchmarks/00-Tuning-"
 "Fork) にあります。"
 
@@ -91,7 +91,7 @@ msgstr "材料特性"
 msgid ""
 "The table below presents all the material properties that were used in the "
 "study. These properties aim to reproduce the behaviour of steel material."
-msgstr "下の表は、検討で使用されたすべての材料特性を示しています。これらの特性は鋼材の挙動を再現することを目的としています。"
+msgstr "下の表は、解析で使用されたすべての材料特性を示しています。これらの特性は鋼材の挙動を再現することを目的としています。"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/model.md:21
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/model.md:58
@@ -695,7 +695,7 @@ msgid ""
 "[GitHub](https://github.com/spolanski/CoFEA/tree/master/benchmarks/00"
 "-Tuning-Fork/MODEL_CALCULIX)!"
 msgstr ""
-"この検討で使用するシミュレーション入力ファイルは、 "
+"この解析で使用するシミュレーション入力ファイルは、 "
 "[GitHub](https://github.com/spolanski/CoFEA/tree/master/benchmarks/00"
 "-Tuning-Fork/MODEL_CALCULIX) にあります!"
 
@@ -714,7 +714,7 @@ msgid ""
 "[GitHub](https://github.com/spolanski/CoFEA/tree/master/benchmarks/00"
 "-Tuning-Fork/MODEL_Code_Aster)!"
 msgstr ""
-"この検討で使用するシミュレーション入力ファイルは、 "
+"この解析で使用するシミュレーション入力ファイルは、 "
 "[GitHub](https://github.com/spolanski/CoFEA/tree/master/benchmarks/00"
 "-Tuning-Fork/MODEL_Code_Aster) にあります!"
 
@@ -730,7 +730,7 @@ msgid ""
 "[GitHub](https://github.com/spolanski/CoFEA/tree/master/benchmarks/00"
 "-Tuning-Fork/MODEL_ElmerGUI)!"
 msgstr ""
-"この検討で使用するシミュレーション入力ファイルは、 "
+"この解析で使用するシミュレーション入力ファイルは、 "
 "[GitHub](https://github.com/spolanski/CoFEA/tree/master/benchmarks/00"
 "-Tuning-Fork/MODEL_ElmerGUI) にあります!"
 
@@ -781,7 +781,7 @@ msgid ""
 "[GitHub](https://github.com/spolanski/CoFEA/tree/master/benchmarks/01-LE10"
 "-Thick-Plate)!"
 msgstr ""
-"この検討で使用するシミュレーション入力ファイルは [CoFEA "
+"この解析で使用するシミュレーション入力ファイルは [CoFEA "
 "GitHub](https://github.com/spolanski/CoFEA/tree/master/benchmarks/01-LE10"
 "-Thick-Plate) にあります。"
 
@@ -889,11 +889,17 @@ msgid ""
 " created in the Salome environment. Especially, the quadratic hexahedral "
 "mesh type seems to be problematic."
 msgstr ""
+"Elmerの結果は他のFEコードと比較して異なる収束挙動を示しました。 この挙動は異なる数値スキーム実装の結果である可能性がありますが、 "
+"Elmer実行で使用されるFEメッシュが他のコードの実行とわずかに異なることも強調されるべきです。この違いは、CalculixとCode_Asterで使用されているメッシュがmeshpressoコンバータの出力として提供されたものであり、Elmerとの互換性がないために生じました。3"
+" Dジオメトリでは、すべてのタイプの要素(3 D六角線/四角線、2 D三角線/四角線、1 "
+"Dワイヤ)を指定する必要があるように見えますが、現在の段階では、meshpressoは3 Dまたは2 "
+"D要素のみを提供します。しかし、ElmerGUIは、Salome環境で作成されたある種の .UNV "
+"メッシュをインポートするのに苦労していることも指摘しておきます。特に、二次六面体メッシュタイプは問題があると思われます。"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:13
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:13
 msgid "Results obtained with Calculix software and quadratic hexahedral mesh"
-msgstr ""
+msgstr "Calculixソフトウェアおよび二次六面体メッシュで得られた結果"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:13
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:13
@@ -906,7 +912,7 @@ msgstr ""
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/results.md:15
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/results.md:15
 msgid "Coarse Mesh"
-msgstr ""
+msgstr "粗いメッシュ"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:13
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:13
@@ -919,7 +925,7 @@ msgstr ""
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/results.md:15
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/results.md:15
 msgid "Fine Mesh"
-msgstr ""
+msgstr "細かいメッシュ"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:13
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:13
@@ -1014,7 +1020,7 @@ msgstr "-5.56 MPa"
 msgid ""
 "CalculiX supports elastic simulation. Below there is an explanation of the "
 "input file."
-msgstr ""
+msgstr "CalculiXは弾性シミュレーションをサポートしています。以下に入力ファイルの説明を示します。"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/tested-codes.md:63
 msgid ""
@@ -1022,26 +1028,26 @@ msgid ""
 "[GitHub](https://github.com/spolanski/CoFEA/tree/master/benchmarks/01-LE10"
 "-Thick-Plate/Model_CalculiX)!"
 msgstr ""
-"この検討で使用するシミュレーション入力ファイルは [CoFEA "
+"この解析で使用するシミュレーション入力ファイルは [CoFEA "
 "GitHub](https://github.com/spolanski/CoFEA/tree/master/benchmarks/01-LE10"
 "-Thick-Plate/Model_CalculiX) にあります。"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/tested-codes.md:65
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/tested-codes.md:60
 msgid "How to apply pressure boundary condition"
-msgstr ""
+msgstr "圧力境界条件の適用方法"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/tested-codes.md:67
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/tested-codes.md:62
 msgid "Please open your mesh with CalculiX GraphiX in read mode using:"
-msgstr ""
+msgstr "次のコマンドを使用して、読み込みモードのCalculiX GraphiXでメッシュを開いてください:"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/tested-codes.md:72
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/tested-codes.md:67
 msgid ""
 "Then in CGX window please click right button of mouse and choose Toggle "
 "command line. In command line please write:"
-msgstr ""
+msgstr "次に、CGXウィンドウでマウスの右ボタンをクリックし、コマンドラインを切り替えを選択します。 コマンドラインで次のように入力してください:"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/tested-codes.md:78
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/tested-codes.md:73
@@ -1050,6 +1056,7 @@ msgid ""
 " included in *DLOAD section to apply pressure to boundary. Positive value of"
 " pressure goes is compressing the element face."
 msgstr ""
+"同じディレクトリにNODESET.dloというファイルが表示されます。このファイルは、境界に圧力を適用するために*DLOADセクションに含める必要があります。圧力が正の値になると、要素面が圧縮されます。"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/tested-codes.md:83
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/tested-codes.md:78
@@ -1057,7 +1064,7 @@ msgstr ""
 msgid ""
 "Code_Aster supports elastic simulation. Below there is an explanation of the"
 " input file."
-msgstr ""
+msgstr "Code_Asterは弾性シミュレーションをサポートしています。以下に入力ファイルの説明を示します。"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/tested-codes.md:245
 msgid ""
@@ -1065,6 +1072,9 @@ msgid ""
 "[GitHub](https://github.com/spolanski/CoFEA/tree/master/benchmarks/01-LE10"
 "-Thick-Plate/Model_Code_Aster)!"
 msgstr ""
+"この解析で使用するシミュレーション入力ファイルは "
+"[GitHub](https://github.com/spolanski/CoFEA/tree/master/benchmarks/01-LE10"
+"-Thick-Plate/Model_Code_Aster) にあります。"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/tested-codes.md:249
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/tested-codes.md:138
@@ -1072,7 +1082,7 @@ msgstr ""
 msgid ""
 "Elmer supports elastic simulations out of the box. Below there is an "
 "explanation of solver input file."
-msgstr ""
+msgstr "Elmerは、弾性シミュレーションをサポートします。以下はソルバー入力ファイルの説明です。"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/tested-codes.md:380
 msgid ""
@@ -1080,15 +1090,18 @@ msgid ""
 "[GitHub](https://github.com/spolanski/CoFEA/tree/master/benchmarks/01-LE10"
 "-Thick-Plate/Model_ElmerGUI)!"
 msgstr ""
+"この解析で使用するシミュレーション入力ファイルは "
+"[GitHub](https://github.com/spolanski/CoFEA/tree/master/benchmarks/01-LE10"
+"-Thick-Plate/Model_ElmerGUI) にあります。"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/index.md:1
 msgid "Cook's membrane"
-msgstr ""
+msgstr "Cook's membrane"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/model.md:1
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/model.md:1
 msgid "Model setup"
-msgstr ""
+msgstr "モデルの設定"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/model.md:5
 msgid ""
@@ -1098,6 +1111,8 @@ msgid ""
 " and 0.4999 has been tested. It is expected that the solvers will face some "
 "difficulties to compute solution, especially for the latter value."
 msgstr ""
+"Cook membrane 問題は古典的なベンチマークテストであり、非圧縮性条件下でのせん断固定挙動をチェックするために使用されます。 "
+"この解析では、0.3333と0.4999の異なるポアソン比値を持つ線形材料モデルをテストしました。特に後者の値では,解の計算が困難になることが予想されます。"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/model.md:7
 msgid ""
@@ -1107,6 +1122,8 @@ msgid ""
 "all FE codes, the variation with direction tangential to the surface is not "
 "that common."
 msgstr ""
+"このベンチマークのもう1つの目的は、FEコードがせん断方向の領域に分布した力を適用できるかどうかをチェックすることです。圧力の定義 (領域上の垂直力) "
+"は、すべてのFEコードの中で非常に一般的な荷重条件ですが、面に接する方向の変形はそれほど一般的ではありません。"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/model.md:9
 msgid ""
@@ -1114,21 +1131,23 @@ msgid ""
 "been modelled. Number of variations of this benchmark can be found in the "
 "literature, but in this example the thickness of 5mm has been assumed."
 msgstr ""
+"本研究では、三次元形状をモデル化しました。このベンチマークのバリエーションの数は文献で見つけることができますが、この例では5 "
+"mmの厚さが想定されています。"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/model.md:52
 msgid ""
 "The benchmark geometry shown above is interactive and it shows displacement "
 "in vertical direction [mm]."
-msgstr ""
+msgstr "上記のベンチマークジオメトリはインタラクティブで、垂直方向の変位 [mm] を示しています。"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/model.md:56
 msgid "Sketch of the Cook's membrane benchmark"
-msgstr ""
+msgstr "Cook's membraneのスケッチ"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/model.md:65
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/model.md:63
 msgid "Target solution"
-msgstr ""
+msgstr "目標の解"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/model.md:67
 msgid ""
@@ -1136,41 +1155,42 @@ msgid ""
 "[source](http://www.simplassoftware.com/benchmarks.html#biblio-58), the "
 "target solution for this benchmark is:"
 msgstr ""
+"[ソース](http://www.simplassoftware.com/benchmarks.html#biblio-58)によると、このベンチマークの目標の解は次のとおりです。"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/model.md:68
 msgid "32.00 mm for Poisson's ratio of 0.3333"
-msgstr ""
+msgstr "ポアソン比0.3333の場合32.00 mm"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/model.md:69
 msgid "28.00 mm for Poisson's ratio of 0.4999"
-msgstr ""
+msgstr "ポアソン比0.4999の場合28.00 mm"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/model.md:56
 msgid "70.00"
-msgstr ""
+msgstr "70.00"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/model.md:56
 msgid "0.3333 / 0.4999"
-msgstr ""
+msgstr "0.3333 / 0.4999"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/model.md:81
 msgid ""
 "The membrane considered in this study is fixed at its' left side (the "
 "dimension 44 mm in the picture above) and the symmetry condition in out-of-"
 "plane direction is also assumed."
-msgstr ""
+msgstr "本解析の膜は、 左側で固定され (上図の寸法44 mm) 、面外方向の対称条件も想定されています。"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/model.md:83
 msgid ""
 "The model is driven by the distributed force of $6.25 N/mm$ applied to right"
 " side of the geometry."
-msgstr ""
+msgstr "モデルは、ジオメトリの右側に適用された $6.25 N/mm$ の分布力によって駆動されます。"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:3
 msgid ""
 "Number of simulations with different element types and mesh size have been "
 "performed for the Cook's membrane model."
-msgstr ""
+msgstr "異なる要素タイプとメッシュサイズを持つ多数のシミュレーションを、 Cook's membrane に対して実施しました。"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:9
 msgid ""
@@ -1241,42 +1261,42 @@ msgstr ""
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:13
 msgid "24.36 / 31.70"
-msgstr ""
+msgstr "24.36 / 31.70"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:13
 msgid "29.78 / 32.05"
-msgstr ""
+msgstr "29.78 / 32.05"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:13
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:32
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:32
 msgid "32.27"
-msgstr ""
+msgstr "32.27"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:13
 msgid "24.32 / 31.63"
-msgstr ""
+msgstr "24.32 / 31.63"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:13
 msgid "29.71 / 31.99"
-msgstr ""
+msgstr "29.71 / 31.99"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:13
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:32
 msgid "32.20"
-msgstr ""
+msgstr "32.20"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:13
 msgid "24.16 / 31.59"
-msgstr ""
+msgstr "24.16 / 31.59"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:13
 msgid "29.76 / 32.02"
-msgstr ""
+msgstr "29.76 / 32.02"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:13
 msgid "32.28"
-msgstr ""
+msgstr "32.28"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:32
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:66
@@ -1293,20 +1313,20 @@ msgstr ""
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:32
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:32
 msgid "23.30 / 31.34"
-msgstr ""
+msgstr "23.30 / 31.34"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:32
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:32
 msgid "28.78 / 31.92"
-msgstr ""
+msgstr "28.78 / 31.92"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:32
 msgid "23.21 / 31.26"
-msgstr ""
+msgstr "23.21 / 31.26"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:32
 msgid "28.70 / 31.85"
-msgstr ""
+msgstr "28.70 / 31.85"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:48
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:82
@@ -1322,29 +1342,29 @@ msgstr ""
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:48
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:48
 msgid "8.69 / 25.52"
-msgstr ""
+msgstr "8.69 / 25.52"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:48
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:48
 msgid "11.80 / 27.13"
-msgstr ""
+msgstr "11.80 / 27.13"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:48
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:48
 msgid "27.52"
-msgstr ""
+msgstr "27.52"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:48
 msgid "8.73 / 25.38"
-msgstr ""
+msgstr "8.73 / 25.38"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:48
 msgid "11.79 / 27.16"
-msgstr ""
+msgstr "11.79 / 27.16"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:48
 msgid "27.56"
-msgstr ""
+msgstr "27.56"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:66
 msgid "Coarse Mesh   linear / quadratic"
@@ -1362,22 +1382,22 @@ msgstr ""
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:66
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:66
 msgid "7.44 / 23.60"
-msgstr ""
+msgstr "7.44 / 23.60"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:66
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:66
 msgid "7.64 / 26.03"
-msgstr ""
+msgstr "7.64 / 26.03"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:66
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:66
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:66
 msgid "27.35"
-msgstr ""
+msgstr "27.35"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:66
 msgid "7.63 / 26.03"
-msgstr ""
+msgstr "7.63 / 26.03"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/tested-codes.md:8
 msgid ""
@@ -1494,27 +1514,27 @@ msgstr ""
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:13
 msgid "33.79 MPa"
-msgstr ""
+msgstr "33.79 MPa"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:13
 msgid "54.84 MPa"
-msgstr ""
+msgstr "54.84 MPa"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:13
 msgid "33.58 MPa"
-msgstr ""
+msgstr "33.58 MPa"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:13
 msgid "54.88 MPa"
-msgstr ""
+msgstr "54.88 MPa"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:13
 msgid "39.37 MPa"
-msgstr ""
+msgstr "39.37 MPa"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:13
 msgid "65.19 MPa"
-msgstr ""
+msgstr "65.19 MPa"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:30
 msgid "Quadratic triangular mesh"
@@ -1522,27 +1542,27 @@ msgstr ""
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:13
 msgid "73.09 MPa"
-msgstr ""
+msgstr "73.09 MPa"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:13
 msgid "88.42 MPa"
-msgstr ""
+msgstr "88.42 MPa"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:13
 msgid "73.13 MPa"
-msgstr ""
+msgstr "73.13 MPa"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:13
 msgid "88.33 MPa"
-msgstr ""
+msgstr "88.33 MPa"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:13
 msgid "69.26 MPa"
-msgstr ""
+msgstr "69.26 MPa"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:13
 msgid "85.46 MPa"
-msgstr ""
+msgstr "85.46 MPa"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:38
 msgid "Graph representing results of the simulation with triangular mesh"
@@ -1555,27 +1575,27 @@ msgstr ""
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:38
 msgid "69.62 MPa"
-msgstr ""
+msgstr "69.62 MPa"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:38
 msgid "85.55 MPa"
-msgstr ""
+msgstr "85.55 MPa"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:38
 msgid "70.49 MPa"
-msgstr ""
+msgstr "70.49 MPa"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:38
 msgid "85.40 MPa"
-msgstr ""
+msgstr "85.40 MPa"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:38
 msgid "75.33 MPa"
-msgstr ""
+msgstr "75.33 MPa"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:38
 msgid "86.91 MPa"
-msgstr ""
+msgstr "86.91 MPa"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:55
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/results.md:33
@@ -1584,27 +1604,27 @@ msgstr ""
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:38
 msgid "85.85 MPa"
-msgstr ""
+msgstr "85.85 MPa"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:38
 msgid "92.99 MPa"
-msgstr ""
+msgstr "92.99 MPa"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:38
 msgid "87 MPa"
-msgstr ""
+msgstr "87 MPa"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:38
 msgid "92.21 MPa"
-msgstr ""
+msgstr "92.21 MPa"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:38
 msgid "89.65 MPa"
-msgstr ""
+msgstr "89.65 MPa"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:38
 msgid "93.78 MPa"
-msgstr ""
+msgstr "93.78 MPa"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:63
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/results.md:41
@@ -1671,7 +1691,7 @@ msgstr ""
 
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/model.md:59
 msgid "$68.25 \\cdot 10^{9}$"
-msgstr ""
+msgstr "$68.25 \\cdot 10^{9}$"
 
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/model.md:79
 msgid "symmetry along edge AE,"
@@ -1734,43 +1754,43 @@ msgstr ""
 
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/results.md:15
 msgid "0.000306 m"
-msgstr ""
+msgstr "0.000306 m"
 
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/results.md:15
 msgid "0.0000325 m"
-msgstr ""
+msgstr "0.0000325 m"
 
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/results.md:15
 msgid "0.163 m"
-msgstr ""
+msgstr "0.163 m"
 
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/results.md:15
 msgid "0.192 m"
-msgstr ""
+msgstr "0.192 m"
 
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/results.md:15
 msgid "0.009578 m"
-msgstr ""
+msgstr "0.009578 m"
 
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/results.md:15
 msgid "0.033597 m"
-msgstr ""
+msgstr "0.033597 m"
 
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/results.md:15
 msgid "0.0000431 m"
-msgstr ""
+msgstr "0.0000431 m"
 
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/results.md:15
 msgid "0.0000792 m"
-msgstr ""
+msgstr "0.0000792 m"
 
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/results.md:15
 msgid "0.147 m"
-msgstr ""
+msgstr "0.147 m"
 
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/results.md:15
 msgid "0.184 m"
-msgstr ""
+msgstr "0.184 m"
 
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/results.md:15
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/results.md:15
@@ -1889,11 +1909,11 @@ msgstr ""
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/model.md:54
 msgid "22752510"
-msgstr ""
+msgstr "22752510"
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/model.md:54
 msgid "0.35"
-msgstr ""
+msgstr "0.35"
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/model.md:76
 msgid ""
@@ -2000,28 +2020,28 @@ msgstr ""
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:22
 msgid "0.116 / 0.129"
-msgstr ""
+msgstr "0.116 / 0.129"
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:22
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:44
 msgid "0.118 / 0.128"
-msgstr ""
+msgstr "0.118 / 0.128"
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:22
 msgid "0.116 / 0.128"
-msgstr ""
+msgstr "0.116 / 0.128"
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:22
 msgid "0.040 / -"
-msgstr ""
+msgstr "0.040 / -"
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:22
 msgid "0.055 / -"
-msgstr ""
+msgstr "0.055 / -"
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:22
 msgid "0.084 / -"
-msgstr ""
+msgstr "0.084 / -"
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:118
 msgid "Linear and Quadratic Quadrilateral mesh"
@@ -2029,23 +2049,23 @@ msgstr ""
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:44
 msgid "0.112 / 0.130"
-msgstr ""
+msgstr "0.112 / 0.130"
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:44
 msgid "0.116 / 0.127"
-msgstr ""
+msgstr "0.116 / 0.127"
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:44
 msgid "0.0304 / -"
-msgstr ""
+msgstr "0.0304 / -"
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:44
 msgid "0.052 / -"
-msgstr ""
+msgstr "0.052 / -"
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:44
 msgid "0.125 / -"
-msgstr ""
+msgstr "0.125 / -"
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/tested-codes.md:5
 msgid ""

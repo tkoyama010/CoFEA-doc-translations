@@ -72,16 +72,16 @@ msgstr "タグ"
 
 #: ../../../../.venv/lib/python3.7/site-packages/ablog/templates/postcard2.html:60
 msgid "Tag"
-msgstr ""
+msgstr "タグ"
 
 #: ../../../../.venv/lib/python3.7/site-packages/ablog/templates/postnavy.html:5
 msgid "Previous"
-msgstr ""
+msgstr "前へ"
 
 #: ../../../../.venv/lib/python3.7/site-packages/ablog/templates/postnavy.html:15
 msgid "Next"
-msgstr ""
+msgstr "次へ"
 
 #: ../../../../.venv/lib/python3.7/site-packages/ablog/templates/recentposts.html:3
 msgid "Recent Posts"
-msgstr ""
+msgstr "最近の投稿"
