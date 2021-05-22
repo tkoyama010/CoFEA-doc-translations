@@ -63,32 +63,32 @@ msgstr "型"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Mesh:15
 msgid "string"
-msgstr ""
+msgstr "string"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Mesh:19
 msgid "list of imported parts"
-msgstr ""
+msgstr "インポートされたパーツのリスト"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Mesh:21
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.PartMesh:19
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Element:20
 msgid "list"
-msgstr ""
+msgstr "list"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Mesh:25
 msgid ""
 "the dictionary contains parts, but those have renumbered        node and "
 "element labels, so that the labels are not        repeating"
-msgstr ""
+msgstr "ディクショナリにはパーツが含まれていますが、ラベルが繰り返されないようにノードと要素のラベルの番号が変更されています。"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Mesh:27
 msgid "dictionary"
-msgstr ""
+msgstr "dictionary"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of
 #: meshpresso.Mesh.export_to_calculix:1
 msgid "function to export mesh to calculix format"
-msgstr ""
+msgstr "メッシュをcalculix形式にエクスポートする関数"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of
 #: meshpresso.Mesh.export_to_calculix:0
@@ -115,27 +115,27 @@ msgstr ""
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of
 #: meshpresso.Node.change_label:0
 msgid "Parameters"
-msgstr ""
+msgstr "パラメータ"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of
 #: meshpresso.Mesh.export_to_calculix:3
 msgid "name of the file to export mesh (eg 'calculix.inp')"
-msgstr ""
+msgstr "メッシュをエクスポートするファイルの名前 (例 'calculix.inp' )"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of
 #: meshpresso.Mesh.export_to_unv_format:1
 msgid "function to export to unv format"
-msgstr ""
+msgstr "unvフォーマットにエクスポートする関数"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of
 #: meshpresso.Mesh.export_to_unv_format:3
 msgid "name of the file to export mesh (eg 'salome.unv')"
-msgstr ""
+msgstr "メッシュをエクスポートするファイルの名前(例 'salome.unv' )"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of
 #: meshpresso.Mesh.get_calculix_surf_definition:1
 msgid "function converts surfaces into format appropriate for calculix."
-msgstr ""
+msgstr "関数は、サーフェスをcalculixに適した形式に変換します。"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of
 #: meshpresso.Mesh.get_calculix_surf_definition:0
@@ -158,7 +158,7 @@ msgstr ""
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of
 #: meshpresso.Element.get_node_labels:0
 msgid "Returns"
-msgstr ""
+msgstr "戻り値"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of
 #: meshpresso.Mesh.get_calculix_surf_definition:4
@@ -167,7 +167,7 @@ msgstr ""
 msgid ""
 "dictionary with surface name as keys and dictionary surface definition as "
 "value"
-msgstr ""
+msgstr "サーフェス名をキーとし、ディクショナリサーフェス定義を値とするディクショナリ"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of
 #: meshpresso.Mesh.get_calculix_surf_definition:0
@@ -190,36 +190,36 @@ msgstr ""
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of
 #: meshpresso.Element.get_node_labels:0
 msgid "Return type"
-msgstr ""
+msgstr "戻り値の型"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of
 #: meshpresso.Mesh.import_from_abaqus_cae:1
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of
 #: meshpresso.Mesh.import_from_db_file:1
 msgid "function to initiate the mesh object"
-msgstr ""
+msgstr "メッシュオブジェクトを開始する関数"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of
 #: meshpresso.Mesh.import_from_abaqus_cae:3
 msgid "name of the abaqus model"
-msgstr ""
+msgstr "abaqusモデルの名称"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of
 #: meshpresso.Mesh.import_from_abaqus_cae:5
 msgid "list of abaqus parts to export mesh from"
-msgstr ""
+msgstr "メッシュをエクスポートするabaqusパーツのリスト"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of
 #: meshpresso.Mesh.import_from_abaqus_cae:8
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of
 #: meshpresso.Mesh.import_from_db_file:6
 msgid "object containing model mesh definition"
-msgstr ""
+msgstr "モデルメッシュ定義を含むオブジェクト"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of
 #: meshpresso.Mesh.import_from_db_file:3
 msgid "path to the db file"
-msgstr ""
+msgstr "dbファイルへのパス"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of
 #: meshpresso.Mesh.renumber_mesh:1
@@ -227,230 +227,233 @@ msgid ""
 "function computes mesh at assembly level from list of part objects. the "
 "returned dictionary contains parts with renumbered nodes and elements"
 msgstr ""
+"関数は、部品オブジェクトのリストからアセンブリレベルでメッシュを計算します。戻り値のディクショナリには、再番号付けされたノードおよび要素を持つパーツが含まれています"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of
 #: meshpresso.Mesh.renumber_mesh:5
 msgid "dictionary of parts"
-msgstr ""
+msgstr "パーツディクショナリ"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of
 #: meshpresso.Mesh.save_to_db_file:1
 msgid "function to save model data to db file"
-msgstr ""
+msgstr "モデルデータをdbファイルに保存する関数"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of
 #: meshpresso.Mesh.save_to_db_file:3
 msgid "name of the file that will be used to store data"
-msgstr ""
+msgstr "データを保管するために使用されるファイルの名前"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of
 #: meshpresso.Mesh.set_salome_surf_definition:1
 msgid "function converts surfaces into format appropriate for salome."
-msgstr ""
+msgstr "関数は、サーフェスをsalomeに適した形式に変換します。"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.PartMesh:1
 msgid "PartMesh is an object used to store mesh properties for a given part."
-msgstr ""
+msgstr "PartMeshは、特定のパーツのメッシュプロパティを保存するために使用するオブジェクトです。"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.PartMesh:5
 msgid "name of the part"
-msgstr ""
+msgstr "パーツの名前"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.PartMesh:7
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Element:8
 msgid "str"
-msgstr ""
+msgstr "str"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.PartMesh:11
 msgid "list of the node objects"
-msgstr ""
+msgstr "ノードオブジェクトのリスト"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.PartMesh:13
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of
 #: meshpresso.PartMesh.get_nodes_from_label_list:6
 msgid "list of node objects"
-msgstr ""
+msgstr "ノードオブジェクトのリスト"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.PartMesh:17
 msgid "list of the element objects"
-msgstr ""
+msgstr "要素オブジェクトのリスト"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.PartMesh:23
 msgid "dictionary of elements grouped by element type"
-msgstr ""
+msgstr "要素タイプ別にグループ化された要素のディクショナリ"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.PartMesh:25
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.PartMesh:31
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.PartMesh:37
 msgid "defaultdict(list)"
-msgstr ""
+msgstr "defaultdict(list)"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.PartMesh:29
 msgid "dictionary of element sets grouped by element set name"
-msgstr ""
+msgstr "要素セット名でグループ化された要素セットのディクショナリ"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.PartMesh:35
 msgid "dictionary of node sets grouped by node set name"
-msgstr ""
+msgstr "節点セット名でグループ化された節点セットのディクショナリ"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.PartMesh:41
 msgid ""
 "dictionary of surfaces {surf_name: {'nodes': n_set, 'elements': el_set, "
 "'sides': string}, by default None"
 msgstr ""
+"サーフェスのディクショナリ {surf_name: {'nodes': n_set, 'elements': el_set, 'sides': "
+"string} 、既定ではNone"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.PartMesh:45
 msgid "defaultdict(list), optional"
-msgstr ""
+msgstr "defaultdict(list), optional"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of
 #: meshpresso.PartMesh.from_abaqus_cae:1
 msgid "function to initiate object from abaqus part."
-msgstr ""
+msgstr "関数を使用して、abaqusパーツからオブジェクトを開始します。"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of
 #: meshpresso.PartMesh.from_abaqus_cae:3
 msgid "abaqus part object"
-msgstr ""
+msgstr "abaqusパーツオブジェクト"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of
 #: meshpresso.PartMesh.from_abaqus_cae:6
 msgid "object containing part mesh definition"
-msgstr ""
+msgstr "パーツメッシュ定義を含むオブジェクト"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of
 #: meshpresso.PartMesh.get_elements_by_type:1
 msgid ""
 "function used to create a dictionary of elements with element types used as "
 "keys"
-msgstr ""
+msgstr "キーとして使用される要素タイプを持つ要素のディクショナリを作成するために使用される関数"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of
 #: meshpresso.PartMesh.get_elements_by_type:4
 msgid "dictionary of elements with elementtypes used as keys"
-msgstr ""
+msgstr "キーとして使用される要素型を持つ要素の辞書"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of
 #: meshpresso.PartMesh.get_elements_from_label_list:1
 msgid "function to retrieve the elements from list of elements labels."
-msgstr ""
+msgstr "関数を使用して、要素ラベルのリストから要素を取得します。"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of
 #: meshpresso.PartMesh.get_elements_from_label_list:4
 msgid "list of integers referring to element labels"
-msgstr ""
+msgstr "要素ラベルを参照する整数のリスト"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of
 #: meshpresso.PartMesh.get_elements_from_label_list:7
 msgid "list of element objects"
-msgstr ""
+msgstr "要素オブジェクトのリスト"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of
 #: meshpresso.PartMesh.get_nodes_from_label_list:1
 msgid "function to retrieve the nodes from list of node labels"
-msgstr ""
+msgstr "関数を使用して、節点ラベルのリストから節点を取得します"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of
 #: meshpresso.PartMesh.get_nodes_from_label_list:3
 msgid "list of integers describing node labes"
-msgstr ""
+msgstr "節点ラベルを記述する整数のリスト"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of
 #: meshpresso.PartMesh.reorder_nodes_in_el_definition:1
 msgid ""
 "function used to reorder nodes. by default the node order is the same as in "
 "abaqus."
-msgstr ""
+msgstr "関数はノードの並び替えに使用されます。デフォルトでは、節点の順序はabaqusと同じです。"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of
 #: meshpresso.PartMesh.reorder_nodes_in_el_definition:4
 msgid "format of mesh to be converted to"
-msgstr ""
+msgstr "変換先のメッシュの形式"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of
 #: meshpresso.PartMesh.set_element_type_format:1
 msgid ""
 "function to change element types in dictionary elements_by_type (for example"
 " from c3_d20_r to 116)"
-msgstr ""
+msgstr "関数を使用して、ディクショナリ内の要素のタイプをelements_by_type (例 c3_d20_r から 116) に変更します。"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of
 #: meshpresso.PartMesh.set_element_type_format:4
 msgid "new format (eg 'UNV')"
-msgstr ""
+msgstr "新しい形式 (例 'UNV')"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Element:1
 msgid ""
 "class used to store information about elements, theirs type, label and "
 "connection to nodes"
-msgstr ""
+msgstr "エレメント、エレメントのタイプ、ラベル、およびノードへの接続に関する情報を保存するために使用されるクラス"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Element:6
 msgid "element type (eg C3D4)"
-msgstr ""
+msgstr "要素タイプ (C3D4 など)"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Element:12
 msgid "element number"
-msgstr ""
+msgstr "要素番号"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Element:14
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Node:7
 msgid "int"
-msgstr ""
+msgstr "int"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Element:18
 msgid "list of nodes that element is based on"
-msgstr ""
+msgstr "要素の基になる節点のリスト"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of
 #: meshpresso.Element.change_label:1
 msgid "a function to change element label"
-msgstr ""
+msgstr "要素ラベルを変更する関数"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of
 #: meshpresso.Element.change_label:3
 msgid "new element number"
-msgstr ""
+msgstr "新しい要素番号"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of
 #: meshpresso.Element.get_node_labels:1
 msgid "function returns labels of nodes which building the element"
-msgstr ""
+msgstr "関数は要素を構築する節点のラベルを返す"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of
 #: meshpresso.Element.get_node_labels:3
 msgid "list of integers describing node labels"
-msgstr ""
+msgstr "節点ラベルを記述する整数のリスト"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Node:1
 msgid "used to create node objects from external data"
-msgstr ""
+msgstr "外部データからノードオブジェクトを作成するために使用"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Node:5
 msgid "node number"
-msgstr ""
+msgstr "節点番号"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Node:11
 msgid "node coordinates"
-msgstr ""
+msgstr "節点座標"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of meshpresso.Node:13
 msgid "tuple"
-msgstr ""
+msgstr "tuple"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of
 #: meshpresso.Node.change_label:1
 msgid "a function to change node label"
-msgstr ""
+msgstr "節点ラベルを変更する関数"
 
 #: ../../CoFEA/meshpresso/meshpresso.pydocstring of
 #: meshpresso.Node.change_label:3
 msgid "new node number"
-msgstr ""
+msgstr "新しい節点番号"
 
 #: ../../CoFEA/docs/meshpresso/index.md:1
 msgid "Meshpresso Mesh Converter"
-msgstr ""
+msgstr "Meshpressoメッシュコンバータ"
 
 #: ../../CoFEA/docs/meshpresso/index.md:3
 msgid ""
@@ -461,12 +464,14 @@ msgid ""
 " then exported to Calculix input deck. It can also be exported to .db file "
 "from which it can be imported back."
 msgstr ""
+"Python "
+"Meshpressoモジュールの背景にある考え方は、異なるシミュレーション環境間でモデルデータを変換できるようにすることです。Meshpressoモジュールは、メッシュを最初から作成するか、別のソースからインポートできるように記述されています。次に、メッシュを作成してCalculix入力デックにエクスポートする例を示します。また、.dbファイルにエクスポートして、そこからインポートして戻すこともできます。"
 
 #: ../../CoFEA/docs/meshpresso/index.md:62
 msgid ""
 "In order to load the mesh from db file, the following function can be used:"
-msgstr ""
+msgstr "dbファイルからメッシュをロードするには、次の関数を使用します:"
 
 #: ../../CoFEA/docs/meshpresso/index.md:69
 msgid "Documentation of module implementation can be found in the link below:"
-msgstr ""
+msgstr "モジュール実装のドキュメントは、次のリンクから参照できます:"

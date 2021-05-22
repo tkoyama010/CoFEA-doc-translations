@@ -307,7 +307,7 @@ msgid ""
 "module, remember to export it to the GEOM module. Otherwise, you will not be"
 " able to create groups for meshing."
 msgstr ""
-"ShaperはSalomeパッケージの最新モジュールです。スケッチの押し出し、回転、およびブール演算を使用したパラメトリックモデリングをサポートしています。3D"
+"ShaperはSalomeパッケージの最新モジュールです。概要の押し出し、回転、およびブール演算を使用したパラメトリックモデリングをサポートしています。3D"
 " "
 "CADソフトウェアを使い慣れている場合は、モデルの作成に問題はありません。このソフトウェアは、SolidWorksやNXなどの他のクルーほど堅牢ではないかもしれないが、まだ1年しか経っていないし、完全に無料です。Shaperモジュールで作成したパーツは、必ずGEOMモジュールにエクスポートしてください。そうしないと、メッシュ作成用のグループを作成できません。"
 

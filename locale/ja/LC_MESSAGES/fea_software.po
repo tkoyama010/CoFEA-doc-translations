@@ -116,6 +116,9 @@ msgid ""
 "[site](http://www.netlib.org/linalg/spooles/spooles.2.2.tgz) using wget "
 "command."
 msgstr ""
+"SPOOOLESライブラリーは、この "
+"[サイト](http://www.netlib.org/linalg/spooles/spooles.2.2.tgz) "
+"からwgetコマンドを使用して入手する必要があります。"
 
 #: ../../CoFEA/docs/fea_software/calculix.md:37
 msgid ""
@@ -123,30 +126,31 @@ msgid ""
 "Move the archive there and unpack it. It can be done with the following "
 "commands:"
 msgstr ""
+"ファイルをダウンロードしたら、フォルダSPOOOLES.2.2を作成する必要があります。アーカイブをそこに移動して展開します。次のコマンドで実行できます:"
 
 #: ../../CoFEA/docs/fea_software/calculix.md:45
 msgid "Change directory to SPOOLES.2.2 with cd:"
-msgstr ""
+msgstr "cdを使用して、ディレクトリをSPOOOLES.2.2に変更します:"
 
 #: ../../CoFEA/docs/fea_software/calculix.md:51
 msgid ""
 "Then  uncomment 14 line and comment line 15 in Make.inc file with your text "
 "editor. It can be done by:"
-msgstr ""
+msgstr "次に、Make.incファイルの14行と15行のコメントをテキストエディタで外します。次の方法で実行できます:"
 
 #: ../../CoFEA/docs/fea_software/calculix.md:56
 msgid "The file after changes should look like:"
-msgstr ""
+msgstr "変更後のファイルは次のようになります:"
 
 #: ../../CoFEA/docs/fea_software/calculix.md:62
 msgid "Now the files are ready for compilation. Use:"
-msgstr ""
+msgstr "これで、ファイルをコンパイルする準備ができました。次のコマンドで実行します:"
 
 #: ../../CoFEA/docs/fea_software/calculix.md:67
 msgid ""
 "Then it is needed to compile the MT library. It is done with following "
 "commands:"
-msgstr ""
+msgstr "次に、MTライブラリをコンパイルする必要があります。次のコマンドで実行します:"
 
 #: ../../CoFEA/docs/fea_software/calculix.md:73
 msgid "ARPACK"
@@ -159,135 +163,152 @@ msgid ""
 "[here](https://www.caam.rice.edu/software/ARPACK/SRC/arpack96.tar.gz) and "
 "[here](https://www.caam.rice.edu/software/ARPACK/SRC/patch.tar.gz)."
 msgstr ""
+"次のステップはARPACKライブラリをコンパイルすることです。2つのアーカイブを別々にダウンロードする必要があります。 "
+"[ここ](https://www.caam.rice.edu/software/ARPACK/SRC/arpack96.tar.gz) と "
+"[ここ](https://www.caam.rice.edu/software/ARPACK/SRC/patch.tar.gz) から入手してください。"
 
 #: ../../CoFEA/docs/fea_software/calculix.md:83
 msgid "Then unpack files with tar commands"
-msgstr ""
+msgstr "tarコマンドでファイルを展開します。"
 
 #: ../../CoFEA/docs/fea_software/calculix.md:90
 msgid "In `ARPACK/ARmake.inc` change:"
-msgstr ""
+msgstr "`ARPACK/ARmake.inc` を次のように変更します:"
 
 #: ../../CoFEA/docs/fea_software/calculix.md:91
 msgid "`home = $(HOME)/ARPACK` to your ARPACK directory"
-msgstr ""
+msgstr "`home = $(HOME)/ARPACK` をARPACKディレクトリへ"
 
 #: ../../CoFEA/docs/fea_software/calculix.md:92
 msgid "`PLAT = SUN4` to `PLAT = linux`"
-msgstr ""
+msgstr "`PLAT = SUN4` を `PLAT = linux` へ"
 
 #: ../../CoFEA/docs/fea_software/calculix.md:93
 msgid "`FC = f77` to `FC = gfortran`"
-msgstr ""
+msgstr "`FC = f77` を `FC = gfortran` へ"
 
 #: ../../CoFEA/docs/fea_software/calculix.md:94
 msgid "`FFLAGS = -O -cg89` to `FFLAGS = -O2`"
-msgstr ""
+msgstr "`FFLAGS = -O -cg89` を `FFLAGS = -O2` へ"
 
 #: ../../CoFEA/docs/fea_software/calculix.md:95
 msgid "`MAKE = /bin/make` to `MAKE = make`"
-msgstr ""
+msgstr "`MAKE = /bin/make` を `MAKE = make` へ"
 
 #: ../../CoFEA/docs/fea_software/calculix.md:96
 msgid "`SHELL = /bin/sh` to `SHELL = shell`"
-msgstr ""
+msgstr "`SHELL = /bin/sh` を `SHELL = shell` へ"
 
 #: ../../CoFEA/docs/fea_software/calculix.md:97
 msgid ""
 "In `ARPACK/UTIL/second.f` change: `EXTERNAL ETIME` to `*EXTERNAL ETIME`"
 msgstr ""
+"`ARPACK/UTIL/second.f` を次のように変更します: `EXTERNAL ETIME` を `*EXTERNAL ETIME` へ"
 
 #: ../../CoFEA/docs/fea_software/calculix.md:99
 msgid "Then mowe to ARPACK directory and run:"
-msgstr ""
+msgstr "次にARPACKディレクトリに移動し、以下を実行します:"
 
 #: ../../CoFEA/docs/fea_software/calculix.md:104
 msgid "Calculix compilation"
-msgstr ""
+msgstr "Calculixのコンパイル"
 
 #: ../../CoFEA/docs/fea_software/calculix.md:106
 msgid ""
 "Obtain Calculix [source code](http://www.dhondt.de/ccx_2.17.src.tar.bz2) "
 "using wget to your Calculix directory."
 msgstr ""
+"wgetを使用してCalculix [ソースコード](http://www.dhondt.de/ccx_2.17.src.tar.bz2) "
+"をCalculixディレクトリーに入手します。"
 
 #: ../../CoFEA/docs/fea_software/calculix.md:111
 msgid "To unpack archieve use:"
-msgstr ""
+msgstr "アーカイブを解凍するには、次のコマンドを使用します:"
 
 #: ../../CoFEA/docs/fea_software/calculix.md:116
 msgid ""
 "In order to compile Calculix in multithreading mode it is needed to change "
 "the Makefile from singlethread to multithread one. It can be simply done by:"
 msgstr ""
+"マルチスレッドモードでCalculixをコンパイルするには、Makefileをシングルスレッドからマルチスレッドに変更する必要があります。次の方法で簡単に実行できます:"
 
 #: ../../CoFEA/docs/fea_software/calculix.md:123
 msgid "In `Makefile` change:"
-msgstr ""
+msgstr "`Makefile` を次のように変更します:"
 
 #: ../../CoFEA/docs/fea_software/calculix.md:124
 msgid "`CC=cc` to `CC=gcc`"
-msgstr ""
+msgstr "`CC=cc` を `CC=gcc` へ"
 
 #: ../../CoFEA/docs/fea_software/calculix.md:125
 msgid ""
 "in 15 line   `../../../ARPACK/libarpack_INTEL.a \\` to "
 "`../../../ARPACK/libarpack_linux.a \\`"
 msgstr ""
+"15行を   `../../../ARPACK/libarpack_INTEL.a \\` から "
+"`../../../ARPACK/libarpack_linux.a \\` へ"
 
 #: ../../CoFEA/docs/fea_software/calculix.md:127
 msgid "Then it is possible to compile Calculix with:"
-msgstr ""
+msgstr "その後、次のようにCalculixをコンパイルできます:"
 
 #: ../../CoFEA/docs/fea_software/calculix.md:132
 msgid "Happy meshing!"
-msgstr ""
+msgstr "ハッピーメッシュ!"
 
 #: ../../CoFEA/docs/fea_software/calculix.md:134
 msgid "Interesting projects with CalculiX"
-msgstr ""
+msgstr "CalculiXによる興味深いプロジェクト"
 
 #: ../../CoFEA/docs/fea_software/calculix.md:136
 msgid ""
 "[CAE](https://github.com/calculix/cae) is a software package mainly "
 "consisting of CalculiX GraphiX, CrunchiX and keyword editor."
 msgstr ""
+"[CAE](https://github.com/calculix/cae) は、主にCalculiX "
+"GraphiX、CrunchiX、およびキーワードエディタで構成されるソフトウェアパッケージです。"
 
 #: ../../CoFEA/docs/fea_software/calculix.md:138
 msgid ""
 "[unv2ccx](https://github.com/calculix/unv2ccx) is a mesh converter that "
 "allows to convert Salome UNV file into CalculiX INP file."
 msgstr ""
+"[unv2ccx](https://github.com/calculix/unv2ccx) は、Salome UNVファイルをCalculiX "
+"INPファイルに変換できるメッシュコンバータです。"
 
 #: ../../CoFEA/docs/fea_software/calculix.md:140
 msgid ""
 "[ccx2paraview](https://github.com/calculix/ccx2paraview) is a Calculix "
 "results converter which creates a Paraview compatible file."
 msgstr ""
+"[ccx2paraview](https://github.com/calculix/ccx2paraview) "
+"はParaview互換ファイルを作成するCalculix結果コンバータです。"
 
 #: ../../CoFEA/docs/fea_software/calculix.md:142
 msgid ""
 "[pycalculix](https://github.com/spacether/pycalculix) is a Python 3 library "
 "to automate and build finite element analysis (FEA) models in Calculix."
 msgstr ""
+"[pycalculix](https://github.com/spacether/pycalculix) は、Calculixの有限要素解析 "
+"(FEA) モデルを自動化および構築するためのPython 3ライブラリです。"
 
 #: ../../CoFEA/docs/fea_software/code_aster.md:1
 msgid "Salome / Code_Aster"
-msgstr ""
+msgstr "Salome / Code_Aster"
 
 #: ../../CoFEA/docs/fea_software/code_aster.md:7
 msgid "Salome-Meca 2020 installation in Ubuntu 20.04"
-msgstr ""
+msgstr "Ubuntu 20.04でのSalome-Meca 2020のインストール"
 
 #: ../../CoFEA/docs/fea_software/code_aster.md:9
 msgid ""
 "The following manual describes how to install the latest version of Salome-"
 "Meca environment."
-msgstr ""
+msgstr "最新版のSalome-Meca環境のインストール方法について説明します。"
 
 #: ../../CoFEA/docs/fea_software/code_aster.md:31
 msgid "Code_Aster compilation under Ubuntu 18.04"
-msgstr ""
+msgstr "Ubuntu 18.04でのCode_Asterコンパイル"
 
 #: ../../CoFEA/docs/fea_software/code_aster.md:32
 msgid ""
@@ -296,14 +317,17 @@ msgid ""
 "dependencies tools. The source code of Code_aster can be obtained from this "
 "repository or [link](https://www.code-aster.org/spip.php?rubrique21)."
 msgstr ""
+"UBUNTU "
+"18.04でマルチスレッドモードでCode_asterを使うには、ソースからコンパイルする必要があります。そのためには、必要な依存関係ツールをインストールする必要があります。Code_asterのソースコードは、このリポジトリまたは"
+" [リンク](https://www.code-aster.org/spip.php?rubrique21) から取得できます。"
 
 #: ../../CoFEA/docs/fea_software/code_aster.md:34
 msgid "Prerequisities"
-msgstr ""
+msgstr "前提条件"
 
 #: ../../CoFEA/docs/fea_software/code_aster.md:35
 msgid "Install the required tools for Code_aster:"
-msgstr ""
+msgstr "Code_asterに必要なツールをインストールします:"
 
 #: ../../CoFEA/docs/fea_software/code_aster.md:36
 msgid "gcc, g++, gfortran,"
@@ -339,51 +363,52 @@ msgstr "flex,"
 
 #: ../../CoFEA/docs/fea_software/code_aster.md:44
 msgid "liblapack-dev, libblas-dev ou libopenblas-dev,"
-msgstr ""
+msgstr "liblapack-dev 、 libblas-dev または libopenblas-dev 、"
 
 #: ../../CoFEA/docs/fea_software/code_aster.md:45
 msgid ""
 "libboost-python-dev (+ libboost-numpy-dev on ubuntu, boost-devel on centos),"
 msgstr ""
+"libboost-python-dev (+ ubuntu では libboost-numpy-dev、 centos ではboost-devel)、"
 
 #: ../../CoFEA/docs/fea_software/code_aster.md:46
 msgid "zlib (named zlib1g-dev sur debian/ubuntu)."
-msgstr ""
+msgstr "zlib (debian/ubuntu上では zlib1g-dev という名前です)。"
 
 #: ../../CoFEA/docs/fea_software/code_aster.md:53
 msgid "Compilation"
-msgstr ""
+msgstr "コンパイル"
 
 #: ../../CoFEA/docs/fea_software/code_aster.md:55
 msgid ""
 "In order to compile Code_aster please download the source code to the "
 "installation directory."
-msgstr ""
+msgstr "Code_asterをコンパイルするには、ソースコードをインストールディレクトリにダウンロードしてください。"
 
 #: ../../CoFEA/docs/fea_software/code_aster.md:61
 msgid ""
 "After downloading the file, please unpack it using the following commands:"
-msgstr ""
+msgstr "ファイルをダウンロードしたら、次のコマンドを使用して展開してください:"
 
 #: ../../CoFEA/docs/fea_software/code_aster.md:67
 msgid "To compile the code. please use command:"
-msgstr ""
+msgstr "コードをコンパイルします。次のコマンドを使用してください:"
 
 #: ../../CoFEA/docs/fea_software/code_aster.md:72
 msgid ""
 "To be able to use Code_aster and ASTK in every directory on your system you "
 "need to add line to .bashrc file"
-msgstr ""
+msgstr "システム上のすべてのディレクトリでCode_asterとASTKを使用するには、.bashrcファイルに行を追加する必要があります。"
 
 #: ../../CoFEA/docs/fea_software/code_aster.md:79
 msgid ""
 "Sometimes this operation need root privileges so add sudo at the beginnings "
 "of the commands."
-msgstr ""
+msgstr "この操作にはroot権限が必要な場合があるので、コマンドの最初にsudoを追加してください。"
 
 #: ../../CoFEA/docs/fea_software/code_aster.md:81
 msgid "How to use ASTK with Code_aster"
-msgstr ""
+msgstr "Code_asterでASTKを使う方法"
 
 #: ../../CoFEA/docs/fea_software/code_aster.md:83
 msgid ""
@@ -393,15 +418,18 @@ msgid ""
 "(logfile of the solver) and .astk file for ASTK environment. Use touch "
 "command:"
 msgstr ""
+"ディレクトリをシミュレーションディレクトリに変更します。このディレクトリには、ソルバー入力ファイル (*.comm) "
+"とメッシュファイルがあるはずです。2つのダミーファイルresult.rmed (シミュレーションの結果があるはずです) とerror.mess "
+"(ソルバーのログファイル) およびASTK環境用の.astkファイルを作成します。 touchコマンドを使用します:"
 
 #: ../../CoFEA/docs/fea_software/code_aster.md:91
 msgid "Type the"
-msgstr ""
+msgstr "ターミナルで次のように入力します。"
 
 #: ../../CoFEA/docs/fea_software/code_aster.md:96
 msgid ""
 "in the terminal. The ASTK Window should appear with the job progress window."
-msgstr ""
+msgstr "ASTKウィンドウが、ジョブの進行状況ウィンドウとともに表示されます。"
 
 #: ../../CoFEA/docs/fea_software/code_aster.md:105
 msgid ""
@@ -409,6 +437,9 @@ msgid ""
 "file, *.rmed and *.mess to run the simulation with the blue, open folder "
 "icon. To start the simulation press run."
 msgstr ""
+"Base path "
+"で作業ディレクトリを選択し、*.commファイル、メッシュファイル、*.rmed、および*.messを追加して、青いフォルダアイコンでシミュレーションを実行します。シミュレーションを開始するには、"
+" run をクリックします。"
 
 #: ../../CoFEA/docs/fea_software/elmer.md:1
 msgid "Elmer"
@@ -420,14 +451,15 @@ msgid ""
 "Elmer sources and then just download the package. To do so please use "
 "following commands:"
 msgstr ""
+"ElmerGUIのインストールプロセスは簡単です。Elmerのソースを追加して、パッケージをダウンロードするだけです。そのためには、次のコマンドを使用してください:"
 
 #: ../../CoFEA/docs/fea_software/elmer.md:18
 msgid "How  to use ElmerGUI with Benchmarks"
-msgstr ""
+msgstr "ベンチマークでElmerGUIを使用する方法"
 
 #: ../../CoFEA/docs/fea_software/elmer.md:20
 msgid "Please start ElmerGUI with:"
-msgstr ""
+msgstr "ElmerGUIを起動するには:"
 
 #: ../../CoFEA/docs/fea_software/elmer.md:25
 msgid ""
@@ -437,3 +469,7 @@ msgid ""
 "navigate to the project directory and click open. The benchmarking files "
 "should import without troubles."
 msgstr ""
+"ファイルを開くアイコンを使用して.unvメッシュをロードし、.sifファイル (Ctrl+G) "
+"を生成してプロジェクトを保存してください。次に、生成された.sifおよび.xmlファイルをCoFEA "
+"githubにアップロードされたファイルに置き換えます。ElmerGUIを起動し、 import project "
+"をクリックしてプロジェクトディレクトリに移動し、 open をクリックします。ベンチマークファイルは問題なくインポートされます。"

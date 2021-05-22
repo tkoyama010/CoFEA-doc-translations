@@ -761,7 +761,7 @@ msgstr ""
 "[CalculiX](http://www.calculix.de/) 、 [Code_Aster](https://code-aster.org/) "
 "、 [Elmer](http://www.elmerfem.org/blog/) "
 "有限要素コードで行った静的解析の結果の比較を目的としています。ソフトウェアのパフォーマンスを測定するために、厚板形状を使用します。この報告書に記載されているモデルは、この"
-" [link](http://wufengyun.com:888/v6.14/books/bmk/ch04s02anf10.html) "
+" [リンク](http://wufengyun.com:888/v6.14/books/bmk/ch04s02anf10.html) "
 "の記事を基に作成されたものです。"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/model.md:6
@@ -794,7 +794,7 @@ msgstr "上に示したベンチマークジオメトリはインタラクティ
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/model.md:58
 msgid "Sketch of the thick plate under pressure benchmark"
-msgstr "圧力ベンチマーク下の厚板のスケッチ"
+msgstr "圧力ベンチマーク下の厚板の概要"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/model.md:58
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/model.md:59
@@ -1142,7 +1142,7 @@ msgstr "上記のベンチマークジオメトリはインタラクティブで
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/model.md:56
 msgid "Sketch of the Cook's membrane benchmark"
-msgstr "Cook's membraneのスケッチ"
+msgstr "Cook's membraneの概要"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/model.md:65
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/model.md:63
@@ -1190,7 +1190,7 @@ msgstr "モデルは、ジオメトリの右側に適用された $6.25 N/mm$ �
 msgid ""
 "Number of simulations with different element types and mesh size have been "
 "performed for the Cook's membrane model."
-msgstr "異なる要素タイプとメッシュサイズを持つ多数のシミュレーションを、 Cook's membrane に対して実施しました。"
+msgstr "異なる要素タイプとメッシュサイズを持つ多数のシミュレーションを、 Cook's membrane モデルに対して実施しました。"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:9
 msgid ""
@@ -1205,6 +1205,9 @@ msgid ""
 "the Code_Aster and Elmer package allows to apply a force distributed over "
 "area in directions of global coordinate system."
 msgstr ""
+"オープンソースソフトウェアは、提示されたシナリオに対する正しい解決策を得ることを可能にします。しかし,試験したFEコードの全てが容易な方法で面力を適用できるわけではないことに注意すべきです。たとえば、Calculixソルバーでは面力条件を適用できません。本研究では,"
+"  (PrePoMax)[http://lace.fs.uni-mb.si/wordpress/borovinsek/] "
+"と呼ばれるフリーの前処理および後処理ツールを用いて、面力定義を作成した。このソフトウェアは、荷重を節点に適用される集中荷重のセットに変換します。Calculixとは異なり、Code_AsterおよびElmerパッケージでは、領域全体に分布する力を全体座標系の方向に適用できます。"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:10
 msgid ""
@@ -1215,6 +1218,7 @@ msgid ""
 "moderate value of aspect ratio for hexahedral mesh may have influenced the "
 "solution for these elements."
 msgstr ""
+"線形四面体要素は、線形六面体メッシュに比べて収束率が高いことがわかります。エッジは均一に表示される(たとえば、各エッジが均等分割されています。)と仮定しました。その結果、六面体メッシュのアスペクト比が中程度の値であることが、これらの要素の解析に影響している可能性があります。"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:11
 msgid ""
@@ -1223,19 +1227,20 @@ msgid ""
 "allows to obtain more accurate solution, the graphs prove really well that "
 "the linear shape function will not allow to obtain a target value."
 msgstr ""
+"線形要素は、非圧縮性に近いシナリオでは収束率が低いことを示します。二次形状関数がより正確な解を得ることを可能にすることは驚くことではありませんが、グラフは、線形形状関数が目標値を得ることを可能にしないことを本当によく証明しています。"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:13
 msgid "Cook's membrane benchmark results"
-msgstr ""
+msgstr "Cook's membrane ベンチマークの結果"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:22
 msgid "Poisson's ratio v=0.33"
-msgstr ""
+msgstr "ポアソン比 v=0.33"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:24
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:58
 msgid "Linear and Quadratic Tetrahedral mesh"
-msgstr ""
+msgstr "線形および二次四面体メッシュ"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:13
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:32
@@ -1243,7 +1248,7 @@ msgstr ""
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:22
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:44
 msgid "Coarse Mesh <br> linear / quadratic"
-msgstr ""
+msgstr "粗いメッシュ <br> 線形/二次"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:13
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:32
@@ -1251,13 +1256,13 @@ msgstr ""
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:22
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:44
 msgid "Fine Mesh <br> linear / quadratic"
-msgstr ""
+msgstr "細かいメッシュ <br> 線形/二次"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:13
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:32
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:48
 msgid "Very Fine Mesh <br> quadratic"
-msgstr ""
+msgstr "非常に細かいメッシュ <br> 二次"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:13
 msgid "24.36 / 31.70"
@@ -1303,12 +1308,12 @@ msgstr "32.28"
 msgid ""
 "Graph representing the displacement [mm] results from the simulations with "
 "linear and quadratic tetrahedral elements"
-msgstr ""
+msgstr "線形および二次四面体要素によるシミュレーション結果からの変位 [mm] を表すグラフ"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:40
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:74
 msgid "Linear and Quadratic Hexahedral mesh"
-msgstr ""
+msgstr "線形および二次六面体メッシュ"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:32
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:32
@@ -1333,11 +1338,11 @@ msgstr "28.70 / 31.85"
 msgid ""
 "Graph representing the displacement [mm] results from the simulations with "
 "linear and quadratic hexahedral elements"
-msgstr ""
+msgstr "線形および二次六面体要素によるシミュレーション結果からの変位 [mm] を表すグラフ"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:56
 msgid "Poisson's ratio v=0.49"
-msgstr ""
+msgstr "ポアソン比 v=0.49"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:48
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:48
@@ -1368,15 +1373,15 @@ msgstr "27.56"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:66
 msgid "Coarse Mesh   linear / quadratic"
-msgstr ""
+msgstr "粗いメッシュ線形/二次"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:66
 msgid "Fine Mesh   linear / quadratic"
-msgstr ""
+msgstr "細かいメッシュ線形/二次"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:66
 msgid "Very Fine Mesh   quadratic"
-msgstr ""
+msgstr "非常に細かいメッシュ 二次"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:66
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:66
@@ -1407,38 +1412,45 @@ msgid ""
 "application converts surface traction definition into the set of nodal "
 "loads."
 msgstr ""
+"次のセクションでは、Cookの膜モデルがCalculixソルバー用に作成された方法について説明します。結果セクションで説明したように、面力を定義するには、PrePoMaxという別のアプリを使用する必要があります。このアプリケーションは、面の表面力の定義を節点荷重のセットに変換します。"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/tested-codes.md:62
 msgid ""
 "The simulation input file used in this study can be found on our "
 "[GitHub](https://github.com/spolanski/CoFEA)!"
 msgstr ""
+"この解析で使用するシミュレーション入力ファイルは [CoFEA GitHub](https://github.com/spolanski/CoFEA) "
+"にあります。"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/tested-codes.md:66
 msgid ""
 "This section describes how the model has been set up in Code_Aster solver"
-msgstr ""
+msgstr "このセクションでは、Code_Asterソルバーでモデルを設定する方法について説明します。"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/tested-codes.md:131
 msgid ""
 "The simulation input file used in this study can be found on our "
 "[GitHub](https://github.com/spolanski/CoFEA/)!"
 msgstr ""
+"この解析で使用するシミュレーション入力ファイルは [CoFEA GitHub](https://github.com/spolanski/CoFEA/)"
+" にあります。"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/tested-codes.md:135
 msgid ""
 "The following section describes how to set up a model in Elmer software"
-msgstr ""
+msgstr "次のセクションでは、Elmerソフトウェアでモデルをセットアップする方法について説明します。"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/tested-codes.md:241
 msgid ""
 "The simulation input file used in this study can be found on our "
 "[GitHub](https://github.com/spolanski/CoFEA/)"
 msgstr ""
+"この解析で使用するシミュレーション入力ファイルは [CoFEA GitHub](https://github.com/spolanski/CoFEA/)"
+" にあります。"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/index.md:1
 msgid "Eliptic membrane under pressure"
-msgstr ""
+msgstr "圧力下の弾性膜"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/model.md:4
 msgid ""
@@ -1450,6 +1462,11 @@ msgid ""
 "found in this "
 "[link](http://wufengyun.com:888/v6.14/books/bmk/ch04s02anf01.html)."
 msgstr ""
+"[CalculiX](http://www.calculix.de/) 、 [Code_Aster](https://code-aster.org/) "
+"、 [Elmer](http://www.elmerfem.org/blog/) "
+"有限要素コードで行った静的解析の結果の比較を目的としています。ソフトウェアのパフォーマンスを測定するために、厚板形状を使用します。この報告書に記載されているモデルは、この"
+" [リンク](http://wufengyun.com:888/v6.14/books/bmk/ch04s02anf01.html) "
+"の記事を基に作成されたものです。"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/model.md:6
 msgid ""
@@ -1458,6 +1475,9 @@ msgid ""
 " equal to 92.7 MPa. Additionally, the benchmark allow to test how easy is to"
 " apply pressure load condition."
 msgstr ""
+"このベンチマークの目的は、点Dにおける膜の応力 $\\sigma_{yy}$ "
+"を調べることです。この時点での対象解は92.7MPaに等しいと予想されます。 "
+"さらに、このベンチマークを使用して、圧力荷重条件を適用するのがどの程度簡単かをテストできます。"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/model.md:8
 msgid ""
@@ -1465,28 +1485,31 @@ msgid ""
 "[GitHub](https://github.com/spolanski/CoFEA/tree/master/benchmarks/04"
 "-eliptic-membrane)!"
 msgstr ""
+"この解析で使用するシミュレーション入力ファイルは [CoFEA "
+"GitHub](https://github.com/spolanski/CoFEA/tree/master/benchmarks/04"
+"-eliptic-membrane) にあります。"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/model.md:59
 msgid "Sketch of the eliptic membrane under pressure benchmark"
-msgstr ""
+msgstr "圧力下の楕円膜ベンチマークの概要"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/model.md:80
 msgid "$u_y=0$ on edge DC."
-msgstr ""
+msgstr "辺 DC で $u_y=0$"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/model.md:81
 msgid "$u_x=0$ on edge AB."
-msgstr ""
+msgstr "辺 AB で $u_x=0$"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/model.md:84
 msgid "uniform normal pressure of 10.0 MPa on BC edge."
-msgstr ""
+msgstr "辺BC上の10.0MPaの均一な法線圧力"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:3
 msgid ""
 "Number of simulations with different element types and mesh size have been "
 "performed for the eliptic membrane model."
-msgstr ""
+msgstr "異なる要素タイプとメッシュサイズを持つ多数のシミュレーションを、 弾性膜モデルに対して実施しました。"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:9
 msgid ""
@@ -1495,22 +1518,25 @@ msgid ""
 "current study, all solvers allow to obtain a stress value close to the "
 "target of $\\sigma_{yy}=92.7 MPa$."
 msgstr ""
+"オープンソースのソフトウェアを使用して圧力荷重条件で平面応力解析を実行し、正しい解を得ることができます。現在の解析では、すべてのソルバーを使用して、目標に近い"
+" $\\sigma_{yy}=92.7 MPa$ の応力値を取得できます。"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:10
 msgid ""
 "It can be seen that Calculix and Code_Aster generally provided similar "
 "output, with CalculiX being a slightly more precise in finer meshes."
 msgstr ""
+"CalculixとCode_Asterは一般的に同じような出力を提供していることがわかりますが、CalculiXの方が細かいメッシュでは少し正確です。"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:11
 msgid ""
 "Except of quadratic triangular meshes and fine quadratic quadrilateral mesh,"
 " Elmer was converging faster than others FE codes."
-msgstr ""
+msgstr "二次三角形メッシュと微細二次三角形メッシュを除いて, Elmerは他のFEコードより速く収束しました。"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:22
 msgid "Linear triangular mesh"
-msgstr ""
+msgstr "線形三角形メッシュ"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:13
 msgid "33.79 MPa"
@@ -1538,7 +1564,7 @@ msgstr "65.19 MPa"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:30
 msgid "Quadratic triangular mesh"
-msgstr ""
+msgstr "二次三辺形メッシュ"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:13
 msgid "73.09 MPa"
@@ -1566,12 +1592,12 @@ msgstr "85.46 MPa"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:38
 msgid "Graph representing results of the simulation with triangular mesh"
-msgstr ""
+msgstr "三角形メッシュによるシミュレーション結果を示すグラフ"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:47
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/results.md:25
 msgid "Linear quadrilateral mesh"
-msgstr ""
+msgstr "線形四辺形メッシュ"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:38
 msgid "69.62 MPa"
@@ -1600,7 +1626,7 @@ msgstr "86.91 MPa"
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:55
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/results.md:33
 msgid "Quadratic quadrilateral mesh"
-msgstr ""
+msgstr "二次四辺形メッシュ"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:38
 msgid "85.85 MPa"
@@ -1629,7 +1655,7 @@ msgstr "93.78 MPa"
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:63
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/results.md:41
 msgid "Graph representing results of the simulation with quadrilateral mesh"
-msgstr ""
+msgstr "四辺形メッシュによるシミュレーション結果を示すグラフ"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/tested-codes.md:58
 msgid ""
@@ -1637,6 +1663,9 @@ msgid ""
 "[GitHub](https://github.com/spolanski/CoFEA/tree/master/benchmarks/04"
 "-eliptic-membrane/model_setup/Model_CalculiX)!"
 msgstr ""
+"この解析で使用するシミュレーション入力ファイルは "
+"[GitHub](https://github.com/spolanski/CoFEA/tree/master/benchmarks/04"
+"-eliptic-membrane/model_setup/Model_CalculiX) にあります。"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/tested-codes.md:134
 msgid ""
@@ -1644,6 +1673,9 @@ msgid ""
 "[GitHub](https://github.com/spolanski/CoFEA/tree/master/benchmarks/04"
 "-eliptic-membrane/model_setup//Model_Code_Aster)!"
 msgstr ""
+"この解析で使用するシミュレーション入力ファイルは "
+"[GitHub](https://github.com/spolanski/CoFEA/tree/master/benchmarks/04"
+"-eliptic-membrane/model_setup//Model_Code_Aster) にあります。"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/tested-codes.md:244
 msgid ""
@@ -1651,10 +1683,13 @@ msgid ""
 "[GitHub](https://github.com/spolanski/CoFEA/tree/master/benchmarks/04"
 "-eliptic-membrane/model_setup//Model_ElmerGUI)!"
 msgstr ""
+"この解析で使用するシミュレーション入力ファイルは "
+"[GitHub](https://github.com/spolanski/CoFEA/tree/master/benchmarks/04"
+"-eliptic-membrane/model_setup//Model_ElmerGUI) にあります。"
 
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/index.md:1
 msgid "Hemispherical shell point load"
-msgstr ""
+msgstr "半球シェル点負荷"
 
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/model.md:4
 msgid ""
@@ -1666,12 +1701,18 @@ msgid ""
 "found in this [link](https://abaqus-"
 "docs.mit.edu/2017/English/SIMACAEBMKRefMap/simabmk-c-le3.htm)."
 msgstr ""
+"[CalculiX](http://www.calculix.de/) 、 [Code_Aster](https://code-aster.org/) "
+"、 [Elmer](http://www.elmerfem.org/blog/) "
+"有限要素コードで行った静的解析の結果の比較を目的としています。ソフトウェアのパフォーマンスを測定するために、厚板形状を使用します。この報告書に記載されているモデルは、この"
+" [リンク](https://abaqus-"
+"docs.mit.edu/2017/English/SIMACAEBMKRefMap/simabmk-c-le3.htm) "
+"の記事を基に作成されたものです。"
 
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/model.md:6
 msgid ""
 "The aim of this benchmark is to examine the $u_x$ of the shell at the point "
 "A. The target solution at this point is expected to be equal to 0.185 m."
-msgstr ""
+msgstr "このベンチマークの目的は、A地点のシェルの $u_x$ を調べることです。この時点での目標解は0.185 mに等しいと予想されます。"
 
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/model.md:8
 msgid ""
@@ -1679,15 +1720,18 @@ msgid ""
 "[GitHub](https://github.com/spolanski/CoFEA/tree/master/benchmarks/05"
 "-hemispherical-shell-point-load)!"
 msgstr ""
+"この解析で使用するシミュレーション入力ファイルは "
+"[GitHub](https://github.com/spolanski/CoFEA/tree/master/benchmarks/05"
+"-hemispherical-shell-point-load) にあります。"
 
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/model.md:55
 msgid ""
 "The benchmark geometry shown above is interactive and shows $u_x$ in [m]."
-msgstr ""
+msgstr "上に示したベンチマークジオメトリはインタラクティブで $u_x$ を[m]で表示します。"
 
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/model.md:59
 msgid "Hemispherical shell point load benchmark"
-msgstr ""
+msgstr "半球シェル点負荷ベンチマーク"
 
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/model.md:59
 msgid "$68.25 \\cdot 10^{9}$"
@@ -1695,29 +1739,29 @@ msgstr "$68.25 \\cdot 10^{9}$"
 
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/model.md:79
 msgid "symmetry along edge AE,"
-msgstr ""
+msgstr "エッジAEに沿った対称性、"
 
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/model.md:80
 msgid "symmetry along edge CE,"
-msgstr ""
+msgstr "エッジCEに沿った対称性、"
 
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/model.md:81
 msgid "$u_x=u_y=u_z=0$ at point E."
-msgstr ""
+msgstr "E地点で $u_x=u_y=u_z=0$ 。"
 
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/model.md:83
 msgid "radial outward force of 2000 N at point A,"
-msgstr ""
+msgstr "点Aにおける2000 Nの半径方向外向きの力"
 
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/model.md:84
 msgid "radial inward force of 2000 N at point C,"
-msgstr ""
+msgstr "点Cにおける2000 Nの半径方向内向きの力"
 
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/results.md:3
 msgid ""
 "Number of simulations with different element types and mesh size have been "
 "performed for the hemisphere shell model."
-msgstr ""
+msgstr "異なる要素タイプとメッシュサイズを持つ多数のシミュレーションを、半球殻モデルに対して実施しました。"
 
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/results.md:9
 msgid ""
@@ -1726,6 +1770,8 @@ msgid ""
 "only code_aster benchmark mesh was able to obtain a displacement value close"
 " to the target of $u_{x}=0.185 m$."
 msgstr ""
+"オープンソースソフトウェアを用いた強制荷重条件でシェル解析を行い,正しい解を得ることは難しいです。本研究では, "
+"code_asterベンチマークメッシュのみが $u_{x}=0.185 m$ の目標に近い変位値を得ることができました。"
 
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/results.md:10
 msgid ""
@@ -1734,23 +1780,26 @@ msgid ""
 "For now (27.03.2021) Elmer doesn't support quadratic shell elements. Please "
 "remember that shell solver is under development."
 msgstr ""
+"Elmerで正確な結果を得るには、より細かいメッシュを使用し、計算を開始する前に法線ベクトルを計算する必要があります (mesh.director) "
+"。現在 (27.03.2021) Elmerは二次シェル要素をサポートしていません。シェルソルバは開発中であることを覚えておいてください。"
 
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/results.md:11
 msgid ""
 "CalculiX was unable to produce correct results with shell elements and "
 "symmetry boundary conditions. For more detailed information please read "
 "chapter below."
-msgstr ""
+msgstr "CalculiXは、シェル要素と対称境界条件で正しい結果を生成できませんでした。詳細については、以下の章を参照してください。"
 
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/results.md:12
 msgid ""
 "Code_Aster support QUAD_9 instead QUAD_8 elements. Fortunately the solver "
 "itself contains a mesh converter to this type of elements."
 msgstr ""
+"Code_Asterは、QUAD_8要素の代わりにQUAD_9要素をサポートします。幸い、ソルバー自体には、このタイプの要素へのメッシュコンバータが含まれています。"
 
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/results.md:15
 msgid "Results obtained with Code_Aster software and linear hexahedral mesh"
-msgstr ""
+msgstr "Code_Asterソフトウェアおよび線形六面体メッシュで得られた結果"
 
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/results.md:15
 msgid "0.000306 m"
@@ -1795,34 +1844,34 @@ msgstr "0.184 m"
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/results.md:15
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/results.md:15
 msgid "no data"
-msgstr ""
+msgstr "データなし"
 
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/results.md:50
 msgid "Numerous models in CalculiX"
-msgstr ""
+msgstr "CalculiXの多くのモデル"
 
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/results.md:51
 msgid ""
 "In order to obtain correct results with CalculiX 3 models were prepared:"
-msgstr ""
+msgstr "CalculiX 3モデルで正しい結果を得るために、次のように準備しました。"
 
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/results.md:52
 msgid ""
 "quarter hemisphere model with use of shell S8 elements as described in "
 "NAFEMS benchmark,"
-msgstr ""
+msgstr "NAFEMSベンチマークに記載されているシェルS 8エレメントを使用したクォーター半球モデル"
 
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/results.md:53
 msgid ""
 "quarter hemisphere model with use of solid C3D20R elements as described in "
 "NAFEMS benchmark,"
-msgstr ""
+msgstr "NAFEMSベンチマークに記載されているソリッドC3D20Rエレメントを使用したクォーター半球モデル"
 
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/results.md:54
 msgid ""
 "half sphere model with use of shell S8 elements modeled without symmetry "
 "boundary conditions,"
-msgstr ""
+msgstr "対称境界条件なしでモデル化されたシェルS 8要素を使用した半球体モデル"
 
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/results.md:56
 msgid ""
@@ -1835,6 +1884,7 @@ msgid ""
 " proves that the CalculiX model was set up correctly, but it is the shell "
 "element type which is the source of non-satisfactory results."
 msgstr ""
+"CalculiXのシェル要素タイプでは、対称境界条件で目標値に近い結果を得ることができませんでした。半球シェルモデルの場合、変位場のコンターは予想されたものと似ていますが、値は正しくありません。一方,厚さ当たり3要素のソリッドモデルでは満足できる結果が得られたが,応答の推定には時間を要しました。これらの比較は、CalculiXモデルが正しく設定されていることを証明していますが、満足のいく結果が得られない原因はシェル要素タイプにあります。"
 
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/results.md:58
 msgid ""
@@ -1842,12 +1892,15 @@ msgid ""
 "left: S8 shell elements quarter hemisphere model, S8 shell half sphere "
 "model, solid C3D20R elements quarter hemisphere model."
 msgstr ""
+"さまざまなモデルの結果を表すグラフは、CalculiXの左から: S8 シェル要素1/4半球モデル、 S8 シェル半球モデル、ソリッド C3D20R "
+"要素1/4半球モデルの結果になります。"
 
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/results.md:67
 msgid ""
 "Results from fine shell mesh in Code_Aster, very fine shell mesh in Elmer "
 "and very fine hexahedral mesh in Calculix'"
 msgstr ""
+"Code_Asterの細かいシェルメッシュ、Elmerの非常に細かいシェルメッシュ、およびCalculixの非常に細かい六面体メッシュの結果"
 
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/tested-codes.md:60
 msgid ""
@@ -1855,6 +1908,9 @@ msgid ""
 "[GitHub](https://github.com/spolanski/CoFEA/tree/master/benchmarks/05"
 "-hemispherical-shell-point-load/Model_CalculiX)!"
 msgstr ""
+"この解析で使用するシミュレーション入力ファイルは "
+"[GitHub](https://github.com/spolanski/CoFEA/tree/master/benchmarks/05"
+"-hemispherical-shell-point-load/Model_CalculiX) にあります。"
 
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/tested-codes.md:136
 msgid ""
@@ -1862,6 +1918,9 @@ msgid ""
 "[GitHub](https://github.com/spolanski/CoFEA/tree/master/benchmarks/05"
 "-hemispherical-shell-point-load//Model_Code_Aster)!"
 msgstr ""
+"この解析で使用するシミュレーション入力ファイルは "
+"[GitHub](https://github.com/spolanski/CoFEA/tree/master/benchmarks/05"
+"-hemispherical-shell-point-load//Model_Code_Aster) にあります。"
 
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/tested-codes.md:255
 msgid ""
@@ -1869,10 +1928,13 @@ msgid ""
 "[GitHub](https://github.com/spolanski/CoFEA/tree/master/benchmarks/05"
 "-hemispherical-shell-point-load//Model_ElmerGUI)!"
 msgstr ""
+"この解析で使用するシミュレーション入力ファイルは "
+"[GitHub](https://github.com/spolanski/CoFEA/tree/master/benchmarks/05"
+"-hemispherical-shell-point-load//Model_ElmerGUI) にあります。"
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/index.md:1
 msgid "Raasch challenge test"
-msgstr ""
+msgstr "Raasch負荷試験"
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/model.md:5
 msgid ""
@@ -1882,6 +1944,8 @@ msgid ""
 " the edge of the free edge, so that the displacement of 0.125 m is expected "
 "in Z direction."
 msgstr ""
+"Raaschチャレンジテストは、ドリル回転、例えばシェル面内回転が重要な役割を果たす線形シェルモデルをベンチマークするためにKnightによって提案されました。この解析では、Z方向に0.125"
+" mの変位が予想されるように、自由エッジのエッジに分布荷重が適用されます。"
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/model.md:7
 msgid ""
@@ -1889,16 +1953,18 @@ msgid ""
 "modeled with Imperial units. In this particular study, the units have been "
 "converted into SI units (m, N, Pa, kg)."
 msgstr ""
+"最初のRaaschチャレンジベンチマークは帝国単位でモデル化されていることに注意してください。 この特定の解析では、単位をSI単位 "
+"(m、N、Pa、kg) に変換しました。"
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/model.md:50
 msgid ""
 "The benchmark geometry shown above is interactive and it shows displacement "
 "in horizontal direction [m]."
-msgstr ""
+msgstr "上記のベンチマークジオメトリはインタラクティブで、水平方向の変位 [m] を示しています。"
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/model.md:54
 msgid "Sketch of the Raasch challenge test"
-msgstr ""
+msgstr "Raasch負荷試験の概略"
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/model.md:65
 msgid ""
@@ -1906,6 +1972,8 @@ msgid ""
 "aster.org/V2/doc/v12/en/man_v/v3/v3.03.119.pdf), displacement of 0.125 m in "
 "Z direction is the target solution for the presented study."
 msgstr ""
+"[これ](https://www.code-aster.org/V2/doc/v12/en/man_v/v3/v3.03.119.pdf) "
+"によると、Z方向の0.125 mの変位が提示した解析のための目標解です。"
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/model.md:54
 msgid "22752510"
@@ -1919,13 +1987,13 @@ msgstr "0.35"
 msgid ""
 "The movement of the shell presented in this study is restrained in all "
 "directions at its' left side."
-msgstr ""
+msgstr "この解析で提示されたシェルの動きは、左側ですべての方向に拘束されています。"
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/model.md:78
 msgid ""
 "The model is driven by the distributed force of 8.7594 N/m applied to the "
 "model free edge."
-msgstr ""
+msgstr "モデルは、モデルの自由エッジに8.7594 N/mの分布力を加えて駆動します。"
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:5
 msgid ""
@@ -1935,6 +2003,8 @@ msgid ""
 "has been derived in the [Hemispherical shell point load](../005"
 "-hemispherical-shell-point-load/index) study."
 msgstr ""
+"Calculixのシェル実装では、目標解を実現できませんでした。入力パラメータが正しいことを証明する固体型要素を用いて目標解を達成しました。 "
+"[半球シェル点荷重](../005-hemispherical-shell-point-load/index) の解析でも同様の結果が得られています。"
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:7
 msgid ""
@@ -1949,12 +2019,15 @@ msgid ""
 "the fact that the shell element in Calculix does not seem to capture the "
 "response from the structures with complex shapes."
 msgstr ""
+"また、Calculixでは、エッジに分布する荷重を直接指定することもできません。ただし、 [PrePoMax](http://lace.fs.uni-"
+"mb.si/wordpress/borovinsek/) "
+"と呼ばれるサードパーティのソフトウェアを使用すると、エッジのサーフェス牽引力荷重を定義できます。これは、後で*CLOADキーワードに変換されます。また、荷重シナリオは剛体拘束で近似されているため、同じ不正確な変位量が得られます。最後のテストは、エラーの原因がシェル要素の実装に直接関係していることを示しています。提供されたテストは、Calculixのシェル要素が複雑な形状を持つ構造からの応答を取得していないように見えるという事実を強調しています。"
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:9
 msgid ""
 "Difference between the results with shell elements (left) and the solid "
 "elements (right)"
-msgstr ""
+msgstr "シェル要素 (左) とソリッド要素 (右) の結果の違い"
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:18
 msgid ""
@@ -1963,6 +2036,7 @@ msgid ""
 "the linear type of elements. Additionally, the code has a built-in keyword "
 "called FORCE_ARETE that allows to specify a load distributed over an edge."
 msgstr ""
+"Code_Asterでは、この特定のベンチマークをほとんど摩擦のない方法で実行することができます。線形タイプの要素でも、期待値に近い解が得られています。さらに、このコードにはFORCE_ARETEという組み込みキーワードがあり、これを使用してエッジに分散された負荷を指定できます。"
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:20
 msgid ""
@@ -1976,12 +2050,16 @@ msgid ""
 "section [Tested Finite Element codes](./tested-codes) presents an example of"
 " input deck that take advantage of the mentioned workaround."
 msgstr ""
+"ソルバーの設定は簡単ですが、2次シェル要素を使用した結果のポストプロセスは混乱を招く可能性があります。Code_Asterソルバーは、要素の中間に追加の節点を持つTRIA"
+" 6_7またはQUAD "
+"8_9要素定式化を使用します。現時点では、この場所の変位場を直接視覚化することはできません。この問題を回避するには、追加の節点を含むメッシュでシミュレーションを実行し、節点を含まないメッシュに結果を投影します。セクション"
+" [テスト済み有限要素コード](./tested-codes) は、上記の回避策を利用した入力デックの例を示しています。"
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:22
 msgid ""
 "Inappropriate display of results with the QUAD8_9 elements (left) and the "
 "projected results (right)"
-msgstr ""
+msgstr "QUAD8_9要素による結果の不適切な表示 (左) と投影結果 (右)"
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:31
 msgid ""
@@ -1990,6 +2068,7 @@ msgid ""
 "one. The distributed loading conditions have also been easily defined using "
 "Resultant Force keyword."
 msgstr ""
+"Elmerソルバーは2次シェル要素をサポートしていませんが、期待値に近い変位値を得ることができました。分散荷重条件も、合力キーワードを使用して簡単に定義できます。"
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:33
 msgid ""
@@ -2004,19 +2083,22 @@ msgid ""
 " vector could be computed at any node position. The mentioned script can be "
 "found on the [CoFEA Github](https://github.com/spolanski/CoFEA) repo."
 msgstr ""
+"Elmerの現在のシェル実装では、シェルの法線を手動で定義する必要があることに注意してください。この定義は、ノード番号を含むmesh.directorというファイルと、特定のノードの位置にある法線ベクトルで構成されます。複雑な形状のためのベクトル値を得ることは、かなり非自明な操作であることがすぐに理解できる。この例では、FreeCAD環境で実行するPythonスクリプトを用意しています。このスクリプトは、ジオメトリのBREP表現とElmer"
+" mesh.nodesファイルをロードするため、正確なベクトルを任意のノード位置で計算できます。上記のスクリプトは [CoFEA "
+"Github](https://github.com/spolanski/CoFEA) リポジトリにあります。"
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:35
 msgid "Mesh convergence study"
-msgstr ""
+msgstr "メッシュ収束解析"
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:36
 msgid "Linear and Quadratic Triangle mesh"
-msgstr ""
+msgstr "線形および二次三角形メッシュ"
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:22
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:44
 msgid "Very Fine Mesh <br> linear / quadratic"
-msgstr ""
+msgstr "非常に細かいメッシュ <br> 線形/二次"
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:22
 msgid "0.116 / 0.129"
@@ -2045,7 +2127,7 @@ msgstr "0.084 / -"
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:118
 msgid "Linear and Quadratic Quadrilateral mesh"
-msgstr ""
+msgstr "線形および二次四辺形メッシュ"
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:44
 msgid "0.112 / 0.130"
@@ -2077,6 +2159,7 @@ msgid ""
 " This application converts distributed load definition into the set of nodal"
 " loads."
 msgstr ""
+"次のセクションでは、RaaschチャレンジモデルがCalculixソルバー用に作成された方法について説明します。モデルの応答では正しい結果が得られませんが、誰かが問題を再現したい場合に備えて、セットアップを行う必要があります。結果セクションで説明したように、境界上の分散荷重を定義するには、PrePoMaxという別のアプリケーションを使用する必要があります。このアプリケーションは、分布荷重の定義を節点荷重のセットに変換します。"
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/tested-codes.md:7
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/tested-codes.md:75
@@ -2086,6 +2169,9 @@ msgid ""
 "[GitHub](https://github.com/spolanski/CoFEA/tree/master/benchmarks/07"
 "-Raasch-shell-challenge)"
 msgstr ""
+"この解析で使用するシミュレーション入力ファイルは [CoFEA "
+"GitHub](https://github.com/spolanski/CoFEA/tree/master/benchmarks/07-Raasch-"
+"shell-challenge) にあります。"
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/tested-codes.md:73
 msgid ""
@@ -2094,9 +2180,12 @@ msgid ""
 "development it is not straightforward to postprocess second order type of "
 "element (QUAD8_9 and TRI6_7). This section describes how to achieve it"
 msgstr ""
+"このセクションでは、Code_Asterソルバーでのモデルの設定方法について説明します。結果の章で述べたように、Code_Aster開発の現段階では、2次タイプの要素"
+" (QUAD 8_9とTRI 6_7) を後処理するのは簡単ではありません。このセクションでは、その方法について説明します。"
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/tested-codes.md:161
 msgid ""
 "The following section describes how to set up a model in Elmer software. The"
 " section also presents a structure of macro that can be run in FreeCAD"
 msgstr ""
+"次のセクションでは、Elmerソフトウェアでモデルをセットアップする方法について説明します。このセクションでは、FreeCADで実行できるマクロの構造についても説明します。"
