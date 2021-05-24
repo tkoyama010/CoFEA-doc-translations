@@ -533,7 +533,7 @@ msgid ""
 "to use the linear type of elements to obtain a decent solution. A solution "
 "closed to the target value was obtained with quadratic type elements."
 msgstr ""
-"Cookの膜ベンチマークでは、半非圧縮性材料を試験しました。ヤング率値が低い線形材料モデルについて,ポアソン値の2つの値を調べました。線形タイプの要素を使用して適切な解を得ることは現実的ではないことが分かりました。二次形式要素を用いて目標値に近い解を得ました。"
+"Cookの膜ベンチマークでは、半非圧縮性材料を試験しました。ヤング率値が低い線形材料モデルについて,ポアソン値の2つの値を調べました。線形タイプの要素を使用して適切な解を得ることは現実的ではないことが分かりました。2次形式要素を用いて目標値に近い解を得ました。"
 
 #: ../../CoFEA/docs/reference/blog/2021-04-01.md:112
 msgid ""

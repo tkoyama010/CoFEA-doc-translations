@@ -262,7 +262,7 @@ msgid ""
 "accurate answer than the linear one. The very fine linear hexahedral mesh "
 "achieve the same order of accuracy as the coarse quadratic tetrahedral mesh."
 msgstr ""
-"音叉モデルに対して、二次形状関数は線形形状関数よりもはるかに正確な解を与えます。非常に細かい線形六面体メッシュは、粗い二次四面体メッシュと同程度の精度です。"
+"音叉モデルに対して、2次形状関数は線形形状関数よりもはるかに正確な解を与えます。非常に細かい線形六面体メッシュは、粗い2次四面体メッシュと同程度の精度です。"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:23
 msgid "Codes comparison"
@@ -567,7 +567,7 @@ msgstr "455.63 Hz"
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:50
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:30
 msgid "Quadratic tetrahedral mesh"
-msgstr "二次四面体メッシュ"
+msgstr "2次四面体メッシュ"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:33
 msgid "441.14 Hz"
@@ -636,7 +636,7 @@ msgstr "444.22 Hz"
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:75
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:55
 msgid "Quadratic hexahedral mesh"
-msgstr "二次六面体メッシュ"
+msgstr "2次六面体メッシュ"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:58
 msgid "440.57 Hz"
@@ -894,12 +894,12 @@ msgstr ""
 " Dジオメトリでは、すべてのタイプの要素(3 D六角線/四角線、2 D三角線/四角線、1 "
 "Dワイヤ)を指定する必要があるように見えますが、現在の段階では、meshpressoは3 Dまたは2 "
 "D要素のみを提供します。しかし、ElmerGUIは、Salome環境で作成されたある種の .UNV "
-"メッシュをインポートするのに苦労していることも指摘しておきます。特に、二次六面体メッシュタイプは問題があると思われます。"
+"メッシュをインポートするのに苦労していることも指摘しておきます。特に、2次六面体メッシュタイプは問題があると思われます。"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:13
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:13
 msgid "Results obtained with Calculix software and quadratic hexahedral mesh"
-msgstr "Calculixソフトウェアおよび二次六面体メッシュで得られた結果"
+msgstr "Calculixソフトウェアおよび2次六面体メッシュで得られた結果"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:13
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:13
@@ -1227,7 +1227,7 @@ msgid ""
 "allows to obtain more accurate solution, the graphs prove really well that "
 "the linear shape function will not allow to obtain a target value."
 msgstr ""
-"線形要素は、非圧縮性に近いシナリオでは収束率が低いことを示します。二次形状関数がより正確な解を得ることを可能にすることは驚くことではありませんが、グラフは、線形形状関数が目標値を得ることを可能にしないことを本当によく証明しています。"
+"線形要素は、非圧縮性に近いシナリオでは収束率が低いことを示します。2次形状関数がより正確な解を得ることを可能にすることは驚くことではありませんが、グラフは、線形形状関数が目標値を得ることを可能にしないことを本当によく証明しています。"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:13
 msgid "Cook's membrane benchmark results"
@@ -1240,7 +1240,7 @@ msgstr "ポアソン比 v=0.33"
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:24
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:58
 msgid "Linear and Quadratic Tetrahedral mesh"
-msgstr "線形および二次四面体メッシュ"
+msgstr "線形および2次四面体メッシュ"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:13
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:32
@@ -1248,7 +1248,7 @@ msgstr "線形および二次四面体メッシュ"
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:22
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:44
 msgid "Coarse Mesh <br> linear / quadratic"
-msgstr "粗いメッシュ <br> 線形/二次"
+msgstr "粗いメッシュ <br> 線形/2次"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:13
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:32
@@ -1256,13 +1256,13 @@ msgstr "粗いメッシュ <br> 線形/二次"
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:22
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:44
 msgid "Fine Mesh <br> linear / quadratic"
-msgstr "細かいメッシュ <br> 線形/二次"
+msgstr "細かいメッシュ <br> 線形/2次"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:13
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:32
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:48
 msgid "Very Fine Mesh <br> quadratic"
-msgstr "非常に細かいメッシュ <br> 二次"
+msgstr "非常に細かいメッシュ <br> 2次"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:13
 msgid "24.36 / 31.70"
@@ -1308,12 +1308,12 @@ msgstr "32.28"
 msgid ""
 "Graph representing the displacement [mm] results from the simulations with "
 "linear and quadratic tetrahedral elements"
-msgstr "線形および二次四面体要素によるシミュレーション結果からの変位 [mm] を表すグラフ"
+msgstr "線形および2次四面体要素によるシミュレーション結果からの変位 [mm] を表すグラフ"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:40
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:74
 msgid "Linear and Quadratic Hexahedral mesh"
-msgstr "線形および二次六面体メッシュ"
+msgstr "線形および2次六面体メッシュ"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:32
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:32
@@ -1338,7 +1338,7 @@ msgstr "28.70 / 31.85"
 msgid ""
 "Graph representing the displacement [mm] results from the simulations with "
 "linear and quadratic hexahedral elements"
-msgstr "線形および二次六面体要素によるシミュレーション結果からの変位 [mm] を表すグラフ"
+msgstr "線形および2次六面体要素によるシミュレーション結果からの変位 [mm] を表すグラフ"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:56
 msgid "Poisson's ratio v=0.49"
@@ -1373,15 +1373,15 @@ msgstr "27.56"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:66
 msgid "Coarse Mesh   linear / quadratic"
-msgstr "粗いメッシュ線形/二次"
+msgstr "粗いメッシュ線形/2次"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:66
 msgid "Fine Mesh   linear / quadratic"
-msgstr "細かいメッシュ線形/二次"
+msgstr "細かいメッシュ線形/2次"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:66
 msgid "Very Fine Mesh   quadratic"
-msgstr "非常に細かいメッシュ 二次"
+msgstr "非常に細かいメッシュ 2次"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:66
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:66
@@ -1532,7 +1532,7 @@ msgstr ""
 msgid ""
 "Except of quadratic triangular meshes and fine quadratic quadrilateral mesh,"
 " Elmer was converging faster than others FE codes."
-msgstr "二次三角形メッシュと微細二次三角形メッシュを除いて, Elmerは他のFEコードより速く収束しました。"
+msgstr "2次三角形メッシュと微細2次三角形メッシュを除いて, Elmerは他のFEコードより速く収束しました。"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:22
 msgid "Linear triangular mesh"
@@ -1564,7 +1564,7 @@ msgstr "65.19 MPa"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:30
 msgid "Quadratic triangular mesh"
-msgstr "二次三辺形メッシュ"
+msgstr "2次三辺形メッシュ"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:13
 msgid "73.09 MPa"
@@ -1626,7 +1626,7 @@ msgstr "86.91 MPa"
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:55
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/results.md:33
 msgid "Quadratic quadrilateral mesh"
-msgstr "二次四辺形メッシュ"
+msgstr "2次四辺形メッシュ"
 
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:38
 msgid "85.85 MPa"
@@ -1781,7 +1781,7 @@ msgid ""
 "remember that shell solver is under development."
 msgstr ""
 "Elmerで正確な結果を得るには、より細かいメッシュを使用し、計算を開始する前に法線ベクトルを計算する必要があります (mesh.director) "
-"。現在 (27.03.2021) Elmerは二次シェル要素をサポートしていません。シェルソルバは開発中であることを覚えておいてください。"
+"。現在 (27.03.2021) Elmerは2次シェル要素をサポートしていません。シェルソルバは開発中であることを覚えておいてください。"
 
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/results.md:11
 msgid ""
@@ -2093,12 +2093,12 @@ msgstr "メッシュ収束解析"
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:36
 msgid "Linear and Quadratic Triangle mesh"
-msgstr "線形および二次三角形メッシュ"
+msgstr "線形および2次三角形メッシュ"
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:22
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:44
 msgid "Very Fine Mesh <br> linear / quadratic"
-msgstr "非常に細かいメッシュ <br> 線形/二次"
+msgstr "非常に細かいメッシュ <br> 線形/2次"
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:22
 msgid "0.116 / 0.129"
@@ -2127,7 +2127,7 @@ msgstr "0.084 / -"
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:118
 msgid "Linear and Quadratic Quadrilateral mesh"
-msgstr "線形および二次四辺形メッシュ"
+msgstr "線形および2次四辺形メッシュ"
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:44
 msgid "0.112 / 0.130"
