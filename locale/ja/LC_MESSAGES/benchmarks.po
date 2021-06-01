@@ -49,7 +49,7 @@ msgid ""
 "in this study, the first frequency of vibration is expected to be close to "
 "440 Hz ([original study](http://pubs.sciepub.com/ajme/4/7/16/index.html))."
 msgstr ""
-"異なる有限要素コードで実行したモーダル解析の結果を比較することを目的としています。音叉ジオメトリを使用してソフトウェアのパフォーマンスを測定します。本解析で使用した音叉ジオメトリでは、振動の第1周波数は440Hz([原研究](http://pubs.sciepub.com/ajme/4/7/16/index.html))に近いと予想されます。"
+"異なる有限要素コードで実行したモーダル解析の結果を比較することを目的としています。音叉ジオメトリを使用してソフトウェアのパフォーマンスを測定します。本解析で使用した音叉ジオメトリでは、振動の第1周波数は440Hz([原解析](http://pubs.sciepub.com/ajme/4/7/16/index.html))に近いと予想されます。"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/model.md:6
 msgid ""
@@ -231,7 +231,7 @@ msgstr "結論"
 #: ../../CoFEA/docs/benchmarks/004-eliptic-membrane/results.md:7
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/results.md:7
 msgid "A few conclusions can be derived from the presented study:"
-msgstr "提示された研究からいくつかの結論が導かれる。"
+msgstr "以上の解析からいくつかの結論が得られます。"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:18
 msgid ""
@@ -861,7 +861,7 @@ msgid ""
 "additional test with a very fine mesh has been run and all tested FE codes "
 "converged to the target value."
 msgstr ""
-"オープンソースソフトウェアを使用して、圧力荷重条件で構造解析を実行し、正しい解を得ることが可能です。本研究では、かなり粗いメッシュを試験し、 "
+"オープンソースソフトウェアを使用して、圧力荷重条件で構造解析を実行し、正しい解を得ることが可能です。本解析では、かなり粗いメッシュを試験し、 "
 "$\\sigma_{yy}=5.38 MPa$ の目標に近い応力値を得ることができました。 "
 "非常に細かいメッシュの追加テストが実行され、テストされたすべてのFEコードが目標値に収束しました。"
 
@@ -1131,7 +1131,7 @@ msgid ""
 "been modelled. Number of variations of this benchmark can be found in the "
 "literature, but in this example the thickness of 5mm has been assumed."
 msgstr ""
-"本研究では、三次元形状をモデル化しました。このベンチマークのバリエーションの数は文献で見つけることができますが、この例では5 "
+"本解析では、三次元形状をモデル化しました。このベンチマークのバリエーションの数は文献で見つけることができますが、この例では5 "
 "mmの厚さが想定されています。"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/model.md:52
@@ -1147,7 +1147,7 @@ msgstr "Cook's membraneの概要"
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/model.md:65
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/model.md:63
 msgid "Target solution"
-msgstr "目標の解"
+msgstr "目標解"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/model.md:67
 msgid ""
@@ -1155,7 +1155,7 @@ msgid ""
 "[source](http://www.simplassoftware.com/benchmarks.html#biblio-58), the "
 "target solution for this benchmark is:"
 msgstr ""
-"[ソース](http://www.simplassoftware.com/benchmarks.html#biblio-58)によると、このベンチマークの目標の解は次のとおりです。"
+"[ソース](http://www.simplassoftware.com/benchmarks.html#biblio-58)によると、このベンチマークの目標解は次のとおりです。"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/model.md:68
 msgid "32.00 mm for Poisson's ratio of 0.3333"
@@ -1205,9 +1205,9 @@ msgid ""
 "the Code_Aster and Elmer package allows to apply a force distributed over "
 "area in directions of global coordinate system."
 msgstr ""
-"オープンソースソフトウェアは、提示されたシナリオに対する正しい解決策を得ることを可能にします。しかし,試験したFEコードの全てが容易な方法で面力を適用できるわけではないことに注意すべきです。たとえば、Calculixソルバーでは面力条件を適用できません。本研究では,"
+"オープンソースソフトウェアは、以上のシナリオに対する正しい解を得ることを可能にします。しかし,試験したFEコードの全てが容易な方法で面力を適用できるわけではないことに注意すべきです。たとえば、Calculixソルバーでは面力条件を適用できません。本解析では,"
 "  (PrePoMax)[http://lace.fs.uni-mb.si/wordpress/borovinsek/] "
-"と呼ばれるフリーの前処理および後処理ツールを用いて、面力定義を作成した。このソフトウェアは、荷重を節点に適用される集中荷重のセットに変換します。Calculixとは異なり、Code_AsterおよびElmerパッケージでは、領域全体に分布する力を全体座標系の方向に適用できます。"
+"と呼ばれるフリーの前処理および後処理ツールを用いて、面力定義を作成しました。このソフトウェアは、荷重を節点に適用される集中荷重のセットに変換します。Calculixとは異なり、Code_AsterおよびElmerパッケージでは、領域全体に分布する力を全体座標系の方向に適用できます。"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:10
 msgid ""
@@ -1770,7 +1770,7 @@ msgid ""
 "only code_aster benchmark mesh was able to obtain a displacement value close"
 " to the target of $u_{x}=0.185 m$."
 msgstr ""
-"オープンソースソフトウェアを用いた強制荷重条件でシェル解析を行い,正しい解を得ることは難しいです。本研究では, "
+"オープンソースソフトウェアを用いた強制荷重条件でシェル解析を行い,正しい解を得ることは難しいです。本解析では, "
 "code_asterベンチマークメッシュのみが $u_{x}=0.185 m$ の目標に近い変位値を得ることができました。"
 
 #: ../../CoFEA/docs/benchmarks/005-hemispherical-shell-point-load/results.md:10
@@ -1987,7 +1987,7 @@ msgstr "0.35"
 msgid ""
 "The movement of the shell presented in this study is restrained in all "
 "directions at its' left side."
-msgstr "この解析で提示されたシェルの動きは、左側ですべての方向に拘束されています。"
+msgstr "この解析で以上のシェルの動きは、左側ですべての方向に拘束されています。"
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/model.md:78
 msgid ""
