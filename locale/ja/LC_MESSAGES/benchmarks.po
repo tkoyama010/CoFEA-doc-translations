@@ -247,7 +247,7 @@ msgid ""
 "modes (this is possible with setting called 'Bande') or the model has to be "
 "constrained."
 msgstr ""
-"3つのソルバーはすべて非常に類似した応答を返しましたが、CalculexとElmerが最も簡単に設定できたように思います。それらは追加設定なしで剛体モードを選択しました。一方、Code_Asterは、非剛体モードのみを検索するように設定するか("
+"3つのソルバーはすべて非常に類似した応答を返しましたが、CalculixとElmerが最も簡単に設定できたように思います。それらは追加設定なしで剛体モードを選択しました。一方、Code_Asterは、非剛体モードのみを検索するように設定するか("
 " 'Bande' という設定で可能)、モデルを拘束する必要があります。"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:20
@@ -872,7 +872,7 @@ msgid ""
 "slightly different element formulation for linear hexahedral meshes was "
 "used."
 msgstr ""
-"CalculexとCode_Asterは一般に、線形六角メッシュの場合とは別に、同様の出力を生成していることがわかります。これは,線形六面体メッシュに対して若干異なる要素定式化が使用されたことを示しています。"
+"CalculixとCode_Asterは一般に、線形六角メッシュの場合とは別に、同様の出力を生成していることがわかります。これは,線形六面体メッシュに対して若干異なる要素定式化が使用されたことを示しています。"
 
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:11
 msgid ""
