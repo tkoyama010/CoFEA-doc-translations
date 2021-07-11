@@ -1,0 +1,12 @@
+version: 2
+
+python:
+  version: 3
+  install:
+      - method: pip
+        path: .
+
+sphinx:
+  configuration: conf.py
+  builder: html
+  fail_on_warning: false
