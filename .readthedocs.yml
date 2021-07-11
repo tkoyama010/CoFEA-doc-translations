@@ -4,3 +4,9 @@ submodules:
   include:
     - CoFEA
   recursive: true
+
+python:
+  version: 3
+  install:
+      - method: pip
+        path: .
