@@ -4,7 +4,7 @@ python:
   version: 3
   install:
       - method: pip
-        path: requirements.txt
+        path: ./
 
 sphinx:
   configuration: conf.py
