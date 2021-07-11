@@ -6,7 +6,6 @@ submodules:
   recursive: true
 
 python:
-  version: 3
-  install:
-      - method: pip
-        path: .
+   version: 3
+   install:
+   - requirements: ./requirements.txt
