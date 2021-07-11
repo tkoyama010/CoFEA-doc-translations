@@ -1,0 +1,16 @@
+version: 2
+
+submodules:
+  include:
+    - CoFEA
+  recursive: true
+
+python:
+   version: 3
+   install:
+   - requirements: ./requirements.txt
+
+sphinx:
+  configuration: ./conf.py
+  builder: html
+  fail_on_warning: false
