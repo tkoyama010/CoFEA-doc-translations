@@ -332,7 +332,7 @@ msgstr "MoFEM"
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:60
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/tested-codes.md:200
 msgid "GetFEM"
-msgstr ""
+msgstr "GetFEM"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:5
 msgid "1"
@@ -359,7 +359,7 @@ msgstr "441.0 Hz"
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:5
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:60
 msgid "439.87 Hz"
-msgstr ""
+msgstr "439.87 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:5
 msgid "2"
@@ -384,7 +384,7 @@ msgstr "674.4 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:5
 msgid "673.37 Hz"
-msgstr ""
+msgstr "673.37 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:5
 msgid "3"
@@ -409,7 +409,7 @@ msgstr "1690.3 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:5
 msgid "1688.53 Hz"
-msgstr ""
+msgstr "1688.53 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:5
 msgid "4"
@@ -434,7 +434,7 @@ msgstr "1825.7 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:5
 msgid "1825.37 Hz"
-msgstr ""
+msgstr "1825.37 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:5
 msgid "5"
@@ -459,7 +459,7 @@ msgstr "2781.3 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:5
 msgid "2776.80 Hz"
-msgstr ""
+msgstr "2776.80 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:33
 msgid "Comparison of FE codes for the tuning fork example"
@@ -597,11 +597,11 @@ msgstr "455.63 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:33
 msgid "564.49 Hz"
-msgstr ""
+msgstr "564.49 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:33
 msgid "490.91 Hz"
-msgstr ""
+msgstr "490.91 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:51
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:30
@@ -637,15 +637,15 @@ msgstr "440.30 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:33
 msgid "444.17 Hz"
-msgstr ""
+msgstr "444.17 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:33
 msgid "441.33 Hz"
-msgstr ""
+msgstr "441.33 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:33
 msgid "440.27 Hz"
-msgstr ""
+msgstr "440.27 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:60
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:38
@@ -686,15 +686,15 @@ msgstr "444.22 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:60
 msgid "496.88 Hz"
-msgstr ""
+msgstr "496.88 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:60
 msgid "455.35 Hz"
-msgstr ""
+msgstr "455.35 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:60
 msgid "444.23 Hz"
-msgstr ""
+msgstr "444.23 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:78
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:55
@@ -726,11 +726,11 @@ msgstr "440.09 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:60
 msgid "436.32 Hz"
-msgstr ""
+msgstr "436.32 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:60
 msgid "439.97 Hz"
-msgstr ""
+msgstr "439.97 Hz"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:87
 #: ../../CoFEA/docs/benchmarks/001-thick-plate/results.md:63
