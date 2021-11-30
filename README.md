@@ -11,6 +11,8 @@ translated docs for CoFEA official document
 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
 
+![license](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)
+
 This is a project to provide cofea official documentation with multiple versions and multiple languages on Read The Docs site.
 
 Current procedure is bit tricky because Read The Docs doesn't have a way to specify options for sphinx-build command.
