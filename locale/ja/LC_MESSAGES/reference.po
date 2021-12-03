@@ -523,7 +523,7 @@ msgid ""
 "achieve correct results for a linear model driven by pressure load. The "
 "target solution was achieved with both tetrahedral and hexahedral elements."
 msgstr ""
-"圧力下の厚板の結果は、圧力荷重によって駆動される線形モデルに対して、正しい結果を容易に得ることができるということです。四面体および六面体要素の両方で目標解を達成しました。"
+"圧力下の厚板の結果は、圧力荷重によって動かされる線形モデルに対して、正しい結果を容易に得ることができるということです。四面体および六面体要素の両方で目標解を達成しました。"
 
 #: ../../CoFEA/docs/reference/blog/2021-04-01.md:110
 msgid ""

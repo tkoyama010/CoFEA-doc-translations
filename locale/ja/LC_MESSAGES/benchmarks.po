@@ -207,7 +207,7 @@ msgid ""
 "performed for the tuning model. The animation below shows the results from "
 "the Calculix code."
 msgstr ""
-"異なる要素タイプとメッシュサイズを持つ多数のシミュレーションをチューニングモデルに対して行った。 "
+"異なる要素タイプとメッシュサイズを持つ多数のシミュレーションをチューニングモデルに対して行いました。 "
 "次のアニメーションは、Calculixコードの結果を示しています。"
 
 #: ../../CoFEA/docs/benchmarks/000-tuning-fork/results.md:5
@@ -1202,8 +1202,7 @@ msgid ""
 "been modelled. Number of variations of this benchmark can be found in the "
 "literature, but in this example the thickness of 5mm has been assumed."
 msgstr ""
-"本解析では、三次元形状をモデル化しました。このベンチマークのバリエーションの数は文献で見つけることができますが、この例では5 "
-"mmの厚さが想定されています。"
+"本解析では、三次元形状をモデル化しました。文献ではこのベンチマークにはいくつかのバリエーションがありますが、この例では5 mmの厚さが想定されています。"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/model.md:52
 msgid ""
@@ -1255,7 +1254,7 @@ msgstr "本解析の膜は、 左側で固定され (上図の寸法44 mm) 、�
 msgid ""
 "The model is driven by the distributed force of $6.25 N/mm$ applied to right"
 " side of the geometry."
-msgstr "モデルは、ジオメトリの右側に適用された $6.25 N/mm$ の分布力によって駆動されます。"
+msgstr "モデルは、ジオメトリの右側に適用された $6.25 N/mm$ の分布力によって動かされます。"
 
 #: ../../CoFEA/docs/benchmarks/002-cook-membrane/results.md:3
 msgid ""
@@ -2064,7 +2063,7 @@ msgstr "この解析で以上のシェルの動きは、左側ですべての方
 msgid ""
 "The model is driven by the distributed force of 8.7594 N/m applied to the "
 "model free edge."
-msgstr "モデルは、モデルの自由エッジに8.7594 N/mの分布力を加えて駆動します。"
+msgstr "モデルは、モデルの自由エッジに8.7594 N/mの分布力を加えて動かします。"
 
 #: ../../CoFEA/docs/benchmarks/007-raasch-challenge/results.md:5
 msgid ""
