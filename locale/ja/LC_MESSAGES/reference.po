@@ -288,8 +288,7 @@ msgid ""
 msgstr ""
 "まず、Salomeパッケージのディストリビューションを明らかにすることが重要です: SalomeとSalome-"
 "Mecaです。実はには、この2つの間には1つの小さな違いしかありません。 \"普通の\" "
-"サロメには、Shaper、GEOM、Mesh、ParaVIS(SalomeとCode_Aster用に修正されたParaview)のような多くの有用なモジュールが付属しています"
-"。Salome-"
+"サロメには、Shaper、GEOM、Mesh、ParaVIS(SalomeとCode_Aster用に修正されたParaview)のような多くの有用なモジュールが付属しています。Salome-"
 "MecaにはAster_Study(Code_Aster用のプリプロセッサ)と呼ばれる追加モジュールがあり、コンパイル済みのCode_Asterソルバが含まれています(このバージョンはシングルスレッド計算のみをサポートしています)。"
 
 #: ../../CoFEA/docs/reference/blog/2021-04-01.md:24
