@@ -1,2 +1,2 @@
 -e ./CoFEA
-sphinx-intl[transifex]==2.0.0
+sphinx-intl[transifex]==2.0.1
