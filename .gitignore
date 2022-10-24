@@ -1,3 +1,4 @@
 *.doctree
 *.pickle
 locale/jupyter_execute/*
+tx

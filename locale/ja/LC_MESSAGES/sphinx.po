@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CoFEA Initiative\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-14 15:00+0000\n"
+"POT-Creation-Date: 2022-10-18 02:41+0000\n"
 "PO-Revision-Date: 2021-05-14 14:56+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/tkoyama010/teams/120662/ja/)\n"
@@ -21,67 +21,67 @@ msgstr ""
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../../../../.venv/lib/python3.7/site-packages/ablog/templates/archives.html:3
+#: ../../../../.venv/lib/python3.8/site-packages/ablog/templates/archives.html:3
 msgid "Archives"
 msgstr "アーカイブ"
 
-#: ../../../../.venv/lib/python3.7/site-packages/ablog/templates/authors.html:2
+#: ../../../../.venv/lib/python3.8/site-packages/ablog/templates/authors.html:2
 msgid "Authors"
 msgstr "著者"
 
-#: ../../../../.venv/lib/python3.7/site-packages/ablog/templates/categories.html:3
+#: ../../../../.venv/lib/python3.8/site-packages/ablog/templates/categories.html:3
 msgid "Categories"
 msgstr "カテゴリ"
 
-#: ../../../../.venv/lib/python3.7/site-packages/ablog/templates/collection.html:47
+#: ../../../../.venv/lib/python3.8/site-packages/ablog/templates/collection.html:47
 msgid "Read more ..."
 msgstr "詳細情報..."
 
-#: ../../../../.venv/lib/python3.7/site-packages/ablog/templates/languages.html:3
+#: ../../../../.venv/lib/python3.8/site-packages/ablog/templates/languages.html:3
 msgid "Languages"
 msgstr "言語"
 
-#: ../../../../.venv/lib/python3.7/site-packages/ablog/templates/locations.html:3
+#: ../../../../.venv/lib/python3.8/site-packages/ablog/templates/locations.html:3
 msgid "Locations"
 msgstr "場所"
 
-#: ../../../../.venv/lib/python3.7/site-packages/ablog/templates/postcard2.html:5
+#: ../../../../.venv/lib/python3.8/site-packages/ablog/templates/postcard2.html:5
 msgid "Update"
 msgstr "更新"
 
-#: ../../../../.venv/lib/python3.7/site-packages/ablog/templates/postcard2.html:12
+#: ../../../../.venv/lib/python3.8/site-packages/ablog/templates/postcard2.html:12
 msgid "Author"
 msgstr "著者"
 
-#: ../../../../.venv/lib/python3.7/site-packages/ablog/templates/postcard2.html:24
+#: ../../../../.venv/lib/python3.8/site-packages/ablog/templates/postcard2.html:24
 msgid "Location"
 msgstr "場所"
 
-#: ../../../../.venv/lib/python3.7/site-packages/ablog/templates/postcard2.html:35
+#: ../../../../.venv/lib/python3.8/site-packages/ablog/templates/postcard2.html:35
 msgid "Language"
 msgstr "言語"
 
-#: ../../../../.venv/lib/python3.7/site-packages/ablog/templates/postcard2.html:46
+#: ../../../../.venv/lib/python3.8/site-packages/ablog/templates/postcard2.html:46
 msgid "Category"
 msgstr "カテゴリ"
 
-#: ../../../../.venv/lib/python3.7/site-packages/ablog/templates/postcard2.html:57
-#: ../../../../.venv/lib/python3.7/site-packages/ablog/templates/tagcloud.html:2
+#: ../../../../.venv/lib/python3.8/site-packages/ablog/templates/postcard2.html:57
+#: ../../../../.venv/lib/python3.8/site-packages/ablog/templates/tagcloud.html:2
 msgid "Tags"
 msgstr "タグ"
 
-#: ../../../../.venv/lib/python3.7/site-packages/ablog/templates/postcard2.html:60
+#: ../../../../.venv/lib/python3.8/site-packages/ablog/templates/postcard2.html:60
 msgid "Tag"
 msgstr "タグ"
 
-#: ../../../../.venv/lib/python3.7/site-packages/ablog/templates/postnavy.html:5
+#: ../../../../.venv/lib/python3.8/site-packages/ablog/templates/postnavy.html:5
 msgid "Previous"
 msgstr "前へ"
 
-#: ../../../../.venv/lib/python3.7/site-packages/ablog/templates/postnavy.html:15
+#: ../../../../.venv/lib/python3.8/site-packages/ablog/templates/postnavy.html:15
 msgid "Next"
 msgstr "次へ"
 
-#: ../../../../.venv/lib/python3.7/site-packages/ablog/templates/recentposts.html:3
+#: ../../../../.venv/lib/python3.8/site-packages/ablog/templates/recentposts.html:3
 msgid "Recent Posts"
 msgstr "最近の投稿"
