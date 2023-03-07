@@ -36,14 +36,11 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install -y --no-install-recommends python3-setuptools
-        sudo apt-get install -y --no-install-recommends python3-venv
-        python3 -m venv /home/runner/work/.venv
         source /home/runner/work/.venv/bin/activate
         pip install -U pip setuptools wheel
         pip install -r ./requirements.txt
         curl -o- https://raw.githubusercontent.com/transifex/cli/master/install.sh | bash
-        mv tx .venv/bin/tx
-        deactivate
+        mv tx /usr/local/bin/tx
     - name: update
       env:
         SPHINXINTL_TRANSIFEX_ORGANIZATION_NAME: tkoyama010
@@ -51,11 +48,9 @@ jobs:
         SPHINXINTL_TRANSIFEX_PROJECT_NAME: cofea-doc
         TX_TOKEN: ${{ secrets.TX_TOKEN }}
       run: |
-        source /home/runner/work/.venv/bin/activate
         git submodule update --remote
         (cd CoFEA/docs; make html)
         sh ./locale/update.sh
-        deactivate
     - name: commit
       if: contains(github.event.head_commit.message, '[ci skip]') == false && contains(github.ref, 'master')
       env:
