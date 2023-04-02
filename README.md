@@ -29,7 +29,6 @@ conf.py files for each languages have 'language' and 'locale_dirs' values withou
   * https://cofea.readthedocs.io/en/latest/
   * https://cofea.readthedocs.io/ja/latest/
 
-
 ## How to setup a translated documentation project on RTD
 
 Detail is here: https://docs.readthedocs.org/en/latest/localization.html#project-with-multiple-translations
