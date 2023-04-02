@@ -1,13 +1,10 @@
 # CoFEA on the Read The Docs.
 translated docs for CoFEA official document
 
-:us:
-
-[![Documentation Status](https://readthedocs.org/projects/cofea/badge/?version=latest)](https://cofea.readthedocs.io/en/latest/?badge=latest)
-
-:jp:
-
-[![Documentation Status](https://readthedocs.org/projects/cofea-ja/badge/?version=latest)](https://cofea-ja.readthedocs.io/ja/latest/?badge=latest)
+|           | :globe_with_meridians:                                                                                                                                     |
+| --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | 
+| English   | [![Documentation Status](https://readthedocs.org/projects/cofea/badge/?version=latest)](https://cofea.readthedocs.io/en/latest/?badge=latest)              | 
+| 日本語     | [![Documentation Status](https://readthedocs.org/projects/cofea-ja/badge/?version=latest)](https://cofea-ja.readthedocs.io/ja/latest/?badge=latest)        |
 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
 
@@ -30,7 +27,7 @@ conf.py files for each languages have 'language' and 'locale_dirs' values withou
 * Documentation pages for each languages:
 
   * https://cofea.readthedocs.io/en/latest/
-  * https://cofea.readthedocs.io/ja/latest/
+  * https://cofea-ja.readthedocs.io/ja/latest/
 
 ## How to setup a translated documentation project on RTD
 
