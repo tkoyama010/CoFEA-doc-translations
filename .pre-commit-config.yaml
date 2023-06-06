@@ -12,6 +12,6 @@ repos:
   - id: trailing-whitespace
     exclude: ^(|bin|doc)
 - repo: https://github.com/python-jsonschema/check-jsonschema
-  rev: 0.23.0
+  rev: 0.23.1
   hooks:
     - id: check-github-workflows
