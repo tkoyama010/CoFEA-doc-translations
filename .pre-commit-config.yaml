@@ -10,10 +10,6 @@ repos:
   - id: requirements-txt-fixer
   - id: trailing-whitespace
   - id: trailing-whitespace
-    exclude: |
-      (?x)(
-          ^locale
-      )
 - repo: https://github.com/python-jsonschema/check-jsonschema
   rev: 0.24.1
   hooks:
