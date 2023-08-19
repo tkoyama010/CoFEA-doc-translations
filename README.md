@@ -1,4 +1,4 @@
-# CoFEA on the Read The Docs.
+# CoFEA on the Read The Docs. 
 translated docs for CoFEA official document
 
 |           | :globe_with_meridians:                                                                                                                                     |
