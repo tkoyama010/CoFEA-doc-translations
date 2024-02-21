@@ -1,10 +1,11 @@
 # CoFEA on the Read The Docs.
+
 translated docs for CoFEA official document
 
-|           | :globe_with_meridians:                                                                                                                                     |
-| --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| English   | [![Documentation Status](https://readthedocs.org/projects/cofea/badge/?version=latest)](https://cofea.readthedocs.io/en/latest/?badge=latest)              |
-| 日本語     | [![Documentation Status](https://readthedocs.org/projects/cofea-ja/badge/?version=latest)](https://cofea-ja.readthedocs.io/ja/latest/?badge=latest)        |
+|         | :globe_with_meridians:                                                                                                                              |
+| ------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| English | [![Documentation Status](https://readthedocs.org/projects/cofea/badge/?version=latest)](https://cofea.readthedocs.io/en/latest/?badge=latest)       |
+| 日本語  | [![Documentation Status](https://readthedocs.org/projects/cofea-ja/badge/?version=latest)](https://cofea-ja.readthedocs.io/ja/latest/?badge=latest) |
 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
 
@@ -19,15 +20,15 @@ conf.py files for each languages have 'language' and 'locale_dirs' values withou
 
 ## URLs
 
-* RTD project pages for Sphinx:
+- RTD project pages for Sphinx:
 
-  * https://readthedocs.org/projects/cofea/  (Master)
-  * https://readthedocs.org/projects/cofea-ja/
+  - https://readthedocs.org/projects/cofea/ (Master)
+  - https://readthedocs.org/projects/cofea-ja/
 
-* Documentation pages for each languages:
+- Documentation pages for each languages:
 
-  * https://cofea.readthedocs.io/en/latest/
-  * https://cofea-ja.readthedocs.io/ja/latest/
+  - https://cofea.readthedocs.io/en/latest/
+  - https://cofea-ja.readthedocs.io/ja/latest/
 
 ## How to setup a translated documentation project on RTD
 
@@ -35,10 +36,9 @@ Detail is here: https://docs.readthedocs.org/en/latest/localization.html#project
 
 Points are:
 
-* We must have RTD projects for each languages.
-* Each projects must have correct Language setting on "Settings" page.
-* Master project has connections to each translated projects on "translations settings" page.
-
+- We must have RTD projects for each languages.
+- Each projects must have correct Language setting on "Settings" page.
+- Master project has connections to each translated projects on "translations settings" page.
 
 ## How to update po files
 
@@ -47,7 +47,6 @@ sh ./locale/update.sh
 ```
 
 After that, you should commit updated po files.
-
 
 ## How to add a language
 

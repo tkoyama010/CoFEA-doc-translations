@@ -11,8 +11,8 @@ submodules:
   recursive: true
 
 python:
-   install:
-   - requirements: ./requirements.txt
+  install:
+    - requirements: ./requirements.txt
 
 sphinx:
   configuration: ./conf.py
