@@ -19,12 +19,10 @@ conf.py files for each languages have 'language' and 'locale_dirs' values withou
 ## URLs
 
 - RTD project pages for Sphinx:
-
   - https://readthedocs.org/projects/cofea/ (Master)
   - https://readthedocs.org/projects/cofea-ja/
 
 - Documentation pages for each languages:
-
   - https://cofea.readthedocs.io/en/latest/
   - https://cofea-ja.readthedocs.io/ja/latest/
 
